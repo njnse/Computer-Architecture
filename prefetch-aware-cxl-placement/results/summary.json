@@ -1,0 +1,112 @@
+{
+  "model": "additive exposed residual wait; analytical synthetic experiment",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "command": "python3 experiment.py",
+  "rows": 7290,
+  "local_latency_ns": 100,
+  "compute_ns_per_demand": 50,
+  "train_demands": 2400,
+  "test_demands": 2400,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "pages": 16,
+  "remote_latency_ns": [
+    200,
+    300,
+    400
+  ],
+  "capacities_pages": [
+    2,
+    4,
+    8
+  ],
+  "sample_rates": [
+    0.01,
+    0.1,
+    1.0
+  ],
+  "migration_pair_ns": [
+    0,
+    5000,
+    20000
+  ],
+  "summary_slice": {
+    "capacity": 4,
+    "remote_ns": 300,
+    "sample_rate": 0.1,
+    "migration_pair_ns": 5000
+  },
+  "summary": {
+    "frequency-aligned": {
+      "frequency": {
+        "mean_speedup": 0.9802843458195423,
+        "min_speedup": 0.9602571595558154,
+        "max_speedup": 0.9893270085976875,
+        "seeds": 10
+      },
+      "residual": {
+        "mean_speedup": 0.9802843458195423,
+        "min_speedup": 0.9602571595558154,
+        "max_speedup": 0.9893270085976875,
+        "seeds": 10
+      },
+      "oracle": {
+        "mean_speedup": 0.9975514172336503,
+        "min_speedup": 0.9892569382273948,
+        "max_speedup": 1.0063157894736843,
+        "seeds": 10
+      }
+    },
+    "prefetch-hidden": {
+      "frequency": {
+        "mean_speedup": 0.9639542957427287,
+        "min_speedup": 0.9440147128163965,
+        "max_speedup": 0.9854848997097975,
+        "seeds": 10
+      },
+      "residual": {
+        "mean_speedup": 1.1182174518600982,
+        "min_speedup": 1.1045732087547568,
+        "max_speedup": 1.1264696103763312,
+        "seeds": 10
+      },
+      "oracle": {
+        "mean_speedup": 1.1435965692666272,
+        "min_speedup": 1.1308480592612586,
+        "max_speedup": 1.1554446201859137,
+        "seeds": 10
+      }
+    },
+    "phase-reversal": {
+      "frequency": {
+        "mean_speedup": 0.9738171042368835,
+        "min_speedup": 0.9465185748124617,
+        "max_speedup": 0.9912158193475371,
+        "seeds": 10
+      },
+      "residual": {
+        "mean_speedup": 0.713008526044513,
+        "min_speedup": 0.6975759543969262,
+        "max_speedup": 0.7218067659930287,
+        "seeds": 10
+      },
+      "oracle": {
+        "mean_speedup": 0.9953055503405311,
+        "min_speedup": 0.9898662818908484,
+        "max_speedup": 1.0025123886388798,
+        "seeds": 10
+      }
+    }
+  }
+}
