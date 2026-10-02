@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
+<rect width="960" height="460" fill="white"/>
+<text x="30" y="30" font-family="sans-serif" font-size="20">Static-placement speedup in the analytical model</text>
+<text x="30" y="55" font-family="sans-serif" font-size="13">Mean across 10 seeds; 4 local pages; 300 ns remote; 10% sampling; 5 us per migration pair</text>
+<text x="80" y="390" font-family="sans-serif" font-size="14">frequency-aligned</text>
+<rect x="80" y="202.96" width="55" height="147.04" fill="#63748a"/>
+<text x="80" y="192.96" font-family="sans-serif" font-size="13">0.980</text>
+<rect x="152" y="202.96" width="55" height="147.04" fill="#247cba"/>
+<text x="152" y="192.96" font-family="sans-serif" font-size="13">0.980</text>
+<rect x="224" y="200.37" width="55" height="149.63" fill="#d38427"/>
+<text x="224" y="190.37" font-family="sans-serif" font-size="13">0.998</text>
+<text x="380" y="390" font-family="sans-serif" font-size="14">prefetch-hidden</text>
+<rect x="380" y="205.41" width="55" height="144.59" fill="#63748a"/>
+<text x="380" y="195.41" font-family="sans-serif" font-size="13">0.964</text>
+<rect x="452" y="182.27" width="55" height="167.73" fill="#247cba"/>
+<text x="452" y="172.27" font-family="sans-serif" font-size="13">1.118</text>
+<rect x="524" y="178.46" width="55" height="171.54" fill="#d38427"/>
+<text x="524" y="168.46" font-family="sans-serif" font-size="13">1.144</text>
+<text x="680" y="390" font-family="sans-serif" font-size="14">phase-reversal</text>
+<rect x="680" y="203.93" width="55" height="146.07" fill="#63748a"/>
+<text x="680" y="193.93" font-family="sans-serif" font-size="13">0.974</text>
+<rect x="752" y="243.05" width="55" height="106.95" fill="#247cba"/>
+<text x="752" y="233.05" font-family="sans-serif" font-size="13">0.713</text>
+<rect x="824" y="200.70" width="55" height="149.30" fill="#d38427"/>
+<text x="824" y="190.70" font-family="sans-serif" font-size="13">0.995</text>
+<line x1="50" y1="200" x2="925" y2="200" stroke="#222" stroke-dasharray="5 5"/>
+<text x="5" y="205" font-family="sans-serif" font-size="12">1.0x</text>
+<rect x="70" y="420" width="15" height="15" fill="#63748a"/>
+<text x="95" y="433" font-family="sans-serif" font-size="14">Frequency</text>
+<rect x="350" y="420" width="15" height="15" fill="#247cba"/>
+<text x="375" y="433" font-family="sans-serif" font-size="14">Residual</text>
+<rect x="630" y="420" width="15" height="15" fill="#d38427"/>
+<text x="655" y="433" font-family="sans-serif" font-size="14">Static oracle</text>
+</svg>
