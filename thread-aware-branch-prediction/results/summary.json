@@ -1,0 +1,107 @@
+{
+  "model": "synthetic committed-branch predictor model; not a CPU simulator",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "command": "python3 reproduce.py",
+  "warmup_branches": 2048,
+  "measured_branches": 8192,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "threads": 4,
+  "entries": [
+    32,
+    128,
+    512
+  ],
+  "history_bits": [
+    0,
+    4,
+    8
+  ],
+  "scheduling_quanta": [
+    1,
+    16,
+    256
+  ],
+  "rows": 1620,
+  "summary_slice": {
+    "entries": 128,
+    "history_bits": 4,
+    "quantum": 1
+  },
+  "summary": {
+    "opposing-bias": {
+      "shared-global": {
+        "mean": 6.25,
+        "minimum": 5.87158203125,
+        "maximum": 6.70166015625
+      },
+      "shared-local": {
+        "mean": 6.25244140625,
+        "minimum": 5.9814453125,
+        "maximum": 6.787109375
+      },
+      "partitioned-local": {
+        "mean": 5.5517578125,
+        "minimum": 5.38330078125,
+        "maximum": 5.859375
+      }
+    },
+    "shared-bias": {
+      "shared-global": {
+        "mean": 5.34912109375,
+        "minimum": 5.09033203125,
+        "maximum": 5.65185546875
+      },
+      "shared-local": {
+        "mean": 5.3564453125,
+        "minimum": 5.126953125,
+        "maximum": 5.6396484375
+      },
+      "partitioned-local": {
+        "mean": 5.4443359375,
+        "minimum": 5.11474609375,
+        "maximum": 5.62744140625
+      }
+    },
+    "capacity-pressure": {
+      "shared-global": {
+        "mean": 14.3505859375,
+        "minimum": 13.95263671875,
+        "maximum": 14.70947265625
+      },
+      "shared-local": {
+        "mean": 16.30615234375,
+        "minimum": 15.6982421875,
+        "maximum": 16.61376953125
+      },
+      "partitioned-local": {
+        "mean": 16.5673828125,
+        "minimum": 16.17431640625,
+        "maximum": 16.71142578125
+      }
+    },
+    "thread-alternation": {
+      "shared-global": {
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "shared-local": {
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "partitioned-local": {
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      }
+    }
+  }
+}
