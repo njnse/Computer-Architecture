@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="480">
+<rect width="1100" height="480" fill="white"/>
+<text x="25" y="30" font-size="21" font-family="sans-serif">Thread sharing versus counter partitioning</text>
+<text x="25" y="55" font-size="13" font-family="sans-serif">Error percentage; 128 counters; 4 history bits; quantum 1; mean of 5 seeds</text>
+<line x1="45" y1="375" x2="1070" y2="375" stroke="#ddd"/>
+<text x="10" y="379" font-size="12" font-family="sans-serif">0</text>
+<line x1="45" y1="325" x2="1070" y2="325" stroke="#ddd"/>
+<text x="10" y="329" font-size="12" font-family="sans-serif">10</text>
+<line x1="45" y1="275" x2="1070" y2="275" stroke="#ddd"/>
+<text x="10" y="279" font-size="12" font-family="sans-serif">20</text>
+<line x1="45" y1="225" x2="1070" y2="225" stroke="#ddd"/>
+<text x="10" y="229" font-size="12" font-family="sans-serif">30</text>
+<line x1="45" y1="175" x2="1070" y2="175" stroke="#ddd"/>
+<text x="10" y="179" font-size="12" font-family="sans-serif">40</text>
+<line x1="45" y1="125" x2="1070" y2="125" stroke="#ddd"/>
+<text x="10" y="129" font-size="12" font-family="sans-serif">50</text>
+<rect x="70" y="343.75" width="50" height="31.25" fill="#536b85"/>
+<text x="70" y="333.75" font-size="12" font-family="sans-serif">6.25</text>
+<rect x="135" y="343.74" width="50" height="31.26" fill="#2883b5"/>
+<text x="135" y="333.74" font-size="12" font-family="sans-serif">6.25</text>
+<rect x="200" y="347.24" width="50" height="27.76" fill="#d88b28"/>
+<text x="200" y="337.24" font-size="12" font-family="sans-serif">5.55</text>
+<text x="70" y="405" font-size="13" font-family="sans-serif">opposing-bias</text>
+<rect x="330" y="348.25" width="50" height="26.75" fill="#536b85"/>
+<text x="330" y="338.25" font-size="12" font-family="sans-serif">5.35</text>
+<rect x="395" y="348.22" width="50" height="26.78" fill="#2883b5"/>
+<text x="395" y="338.22" font-size="12" font-family="sans-serif">5.36</text>
+<rect x="460" y="347.78" width="50" height="27.22" fill="#d88b28"/>
+<text x="460" y="337.78" font-size="12" font-family="sans-serif">5.44</text>
+<text x="330" y="405" font-size="13" font-family="sans-serif">shared-bias</text>
+<rect x="590" y="303.25" width="50" height="71.75" fill="#536b85"/>
+<text x="590" y="293.25" font-size="12" font-family="sans-serif">14.35</text>
+<rect x="655" y="293.47" width="50" height="81.53" fill="#2883b5"/>
+<text x="655" y="283.47" font-size="12" font-family="sans-serif">16.31</text>
+<rect x="720" y="292.16" width="50" height="82.84" fill="#d88b28"/>
+<text x="720" y="282.16" font-size="12" font-family="sans-serif">16.57</text>
+<text x="590" y="405" font-size="13" font-family="sans-serif">capacity-pressure</text>
+<rect x="850" y="375.00" width="50" height="0.00" fill="#536b85"/>
+<text x="850" y="365.00" font-size="12" font-family="sans-serif">0.00</text>
+<rect x="915" y="375.00" width="50" height="0.00" fill="#2883b5"/>
+<text x="915" y="365.00" font-size="12" font-family="sans-serif">0.00</text>
+<rect x="980" y="375.00" width="50" height="0.00" fill="#d88b28"/>
+<text x="980" y="365.00" font-size="12" font-family="sans-serif">0.00</text>
+<text x="850" y="405" font-size="13" font-family="sans-serif">thread-alternation</text>
+<rect x="70" y="440" width="15" height="15" fill="#536b85"/>
+<text x="95" y="453" font-size="14" font-family="sans-serif">shared-global</text>
+<rect x="410" y="440" width="15" height="15" fill="#2883b5"/>
+<text x="435" y="453" font-size="14" font-family="sans-serif">shared-local</text>
+<rect x="750" y="440" width="15" height="15" fill="#d88b28"/>
+<text x="775" y="453" font-size="14" font-family="sans-serif">partitioned-local</text>
+</svg>
