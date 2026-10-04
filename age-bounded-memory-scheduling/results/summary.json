@@ -1,0 +1,66 @@
+{
+  "model": "synthetic event-driven nonpreemptive single-bank model",
+  "units": "abstract time units; no hardware calibration",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "command": "python3 reproduce.py",
+  "rows": 240,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "localities": [
+    0.5,
+    0.95
+  ],
+  "intervals": [
+    8,
+    24,
+    64
+  ],
+  "requests_per_seed": 1200,
+  "hit_service": 12,
+  "miss_service": 36,
+  "summary_slice": {
+    "locality": 0.95,
+    "interval": 24
+  },
+  "summary": {
+    "fcfs": {
+      "throughput": 0.046603840470765774,
+      "hit_rate": 0.6075833333333334,
+      "sensitive_p95": 1626.5087072474507,
+      "sensitive_max": 1722.383125565104,
+      "mean_latency": 884.5728807066306
+    },
+    "row-first": {
+      "throughput": 0.049224151035117195,
+      "hit_rate": 0.6695,
+      "sensitive_p95": 202.0927142145597,
+      "sensitive_max": 282.364802649792,
+      "mean_latency": 64.9460740440898
+    },
+    "age-64": {
+      "throughput": 0.0466706172218427,
+      "hit_rate": 0.609,
+      "sensitive_p95": 1589.629725081176,
+      "sensitive_max": 1685.5041433988292,
+      "mean_latency": 849.5330068166033
+    },
+    "age-256": {
+      "throughput": 0.049224151035117195,
+      "hit_rate": 0.6695,
+      "sensitive_p95": 201.57692380969758,
+      "sensitive_max": 276.364802649792,
+      "mean_latency": 64.9860740440898
+    }
+  }
+}
