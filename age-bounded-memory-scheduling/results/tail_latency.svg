@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="430">
+<rect width="800" height="430" fill="white"/>
+<text x="30" y="30" font-family="sans-serif" font-size="20">Sensitive-client p95 latency</text>
+<text x="30" y="55" font-family="sans-serif" font-size="13">Locality 0.95; interarrival 24; ten-seed mean; abstract time units</text>
+<rect x="70" y="106.52" width="95" height="243.48" fill="#287caf"/>
+<text x="70" y="96.52" font-family="sans-serif" font-size="14">1626.5</text>
+<text x="70" y="380" font-family="sans-serif" font-size="14">fcfs</text>
+<rect x="250" y="319.75" width="95" height="30.25" fill="#287caf"/>
+<text x="250" y="309.75" font-family="sans-serif" font-size="14">202.1</text>
+<text x="250" y="380" font-family="sans-serif" font-size="14">row-first</text>
+<rect x="430" y="112.04" width="95" height="237.96" fill="#287caf"/>
+<text x="430" y="102.04" font-family="sans-serif" font-size="14">1589.6</text>
+<text x="430" y="380" font-family="sans-serif" font-size="14">age-64</text>
+<rect x="610" y="319.83" width="95" height="30.17" fill="#287caf"/>
+<text x="610" y="309.83" font-family="sans-serif" font-size="14">201.6</text>
+<text x="610" y="380" font-family="sans-serif" font-size="14">age-256</text>
+</svg>
