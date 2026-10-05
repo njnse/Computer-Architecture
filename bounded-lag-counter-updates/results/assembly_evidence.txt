@@ -1,0 +1,2 @@
+    18d0:	f0 49 01 7d 00       	lock add %rdi,0x0(%r13)
+    18f5:	f0 49 01 7d 00       	lock add %rdi,0x0(%r13)
