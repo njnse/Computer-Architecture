@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="450">
+<rect width="900" height="450" fill="white"/>
+<text x="25" y="30" font-family="sans-serif" font-size="20">Two-worker counter updates on the measured host</text>
+<text x="25" y="55" font-family="sans-serif" font-size="13">Zero arithmetic work; median ns/update; nine randomized repetitions</text>
+<rect x="60" y="116.52" width="90" height="243.48" fill="#297da9"/>
+<text x="60" y="106.52" font-family="sans-serif" font-size="14">15.24</text>
+<text x="60" y="395" font-family="sans-serif" font-size="14">packed</text>
+<rect x="225" y="274.55" width="90" height="85.45" fill="#297da9"/>
+<text x="225" y="264.55" font-family="sans-serif" font-size="14">5.35</text>
+<text x="225" y="395" font-family="sans-serif" font-size="14">padded</text>
+<rect x="390" y="121.35" width="90" height="238.65" fill="#297da9"/>
+<text x="390" y="111.35" font-family="sans-serif" font-size="14">14.94</text>
+<text x="390" y="395" font-family="sans-serif" font-size="14">shared</text>
+<rect x="555" y="333.79" width="90" height="26.21" fill="#297da9"/>
+<text x="555" y="323.79" font-family="sans-serif" font-size="14">1.64</text>
+<text x="555" y="395" font-family="sans-serif" font-size="14">batch-16</text>
+<rect x="720" y="345.31" width="90" height="14.69" fill="#297da9"/>
+<text x="720" y="335.31" font-family="sans-serif" font-size="14">0.92</text>
+<text x="720" y="395" font-family="sans-serif" font-size="14">batch-64</text>
+</svg>
