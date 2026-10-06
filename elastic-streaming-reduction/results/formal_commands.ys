@@ -1,0 +1,5 @@
+design -reset;
+read_verilog -formal -sv rtl/stream_sum.sv formal/properties.sv; chparam -set WIDTH 4 -set PIPE 1 formal_top; prep -top formal_top -flatten; async2sync; chformal -lower; opt_clean; sat -seq 16 -prove-asserts -verify -set-init-zero -set-at 1 rst 1; sat -seq 4 -set-init-zero -set-at 1 rst 1 -set-at 2 rst 0 -set-at 3 rst 0 -set-at 4 rst 0 -set-at 4 m_valid 1 -set-at 4 m_ready 0 -set-at 4 balance 1 -show-inputs
+
+design -reset;
+read_verilog -formal -sv rtl/stream_sum.sv formal/properties.sv; chparam -set WIDTH 4 -set PIPE 2 formal_top; prep -top formal_top -flatten; async2sync; chformal -lower; opt_clean; sat -seq 16 -prove-asserts -verify -set-init-zero -set-at 1 rst 1; sat -seq 4 -set-init-zero -set-at 1 rst 1 -set-at 2 rst 0 -set-at 3 rst 0 -set-at 4 rst 0 -set-at 4 m_valid 1 -set-at 4 m_ready 0 -set-at 4 balance 2 -show-inputs
