@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="440" viewBox="0 0 1050 440">
+<rect width="1050" height="440" fill="white"/>
+<text x="25" y="30" font-family="sans-serif" font-size="20">Elastic sum: mapped resource tradeoff</text>
+<text x="25" y="55" font-family="sans-serif" font-size="13">iCE40 synthesis counts; both variants have initiation interval one; no physical frequency claim</text>
+<text x="65" y="88" font-family="sans-serif" font-size="16">LUT4 primitives</text>
+<rect x="65" y="340.18" width="33" height="9.82" fill="#267daa"/>
+<text x="65" y="332.18" font-family="sans-serif" font-size="12">8</text>
+<rect x="108" y="334.05" width="33" height="15.95" fill="#dc8c32"/>
+<text x="108" y="326.05" font-family="sans-serif" font-size="12">13</text>
+<text x="65" y="375" font-family="sans-serif" font-size="13">W=1</text>
+<rect x="175" y="297.24" width="33" height="52.76" fill="#267daa"/>
+<text x="175" y="289.24" font-family="sans-serif" font-size="12">43</text>
+<rect x="218" y="311.96" width="33" height="38.04" fill="#dc8c32"/>
+<text x="218" y="303.96" font-family="sans-serif" font-size="12">31</text>
+<text x="175" y="375" font-family="sans-serif" font-size="13">W=8</text>
+<rect x="285" y="248.16" width="33" height="101.84" fill="#267daa"/>
+<text x="285" y="240.16" font-family="sans-serif" font-size="12">83</text>
+<rect x="328" y="282.52" width="33" height="67.48" fill="#dc8c32"/>
+<text x="328" y="274.52" font-family="sans-serif" font-size="12">55</text>
+<text x="285" y="375" font-family="sans-serif" font-size="13">W=16</text>
+<rect x="395" y="150.00" width="33" height="200.00" fill="#267daa"/>
+<text x="395" y="142.00" font-family="sans-serif" font-size="12">163</text>
+<rect x="438" y="223.62" width="33" height="126.38" fill="#dc8c32"/>
+<text x="438" y="215.62" font-family="sans-serif" font-size="12">103</text>
+<text x="395" y="375" font-family="sans-serif" font-size="13">W=32</text>
+<text x="580" y="88" font-family="sans-serif" font-size="16">Flip-flop primitives</text>
+<rect x="580" y="342.16" width="33" height="7.84" fill="#267daa"/>
+<text x="580" y="334.16" font-family="sans-serif" font-size="12">4</text>
+<rect x="623" y="332.35" width="33" height="17.65" fill="#dc8c32"/>
+<text x="623" y="324.35" font-family="sans-serif" font-size="12">9</text>
+<text x="580" y="375" font-family="sans-serif" font-size="13">W=1</text>
+<rect x="690" y="328.43" width="33" height="21.57" fill="#267daa"/>
+<text x="690" y="320.43" font-family="sans-serif" font-size="12">11</text>
+<rect x="733" y="291.18" width="33" height="58.82" fill="#dc8c32"/>
+<text x="733" y="283.18" font-family="sans-serif" font-size="12">30</text>
+<text x="690" y="375" font-family="sans-serif" font-size="13">W=8</text>
+<rect x="800" y="312.75" width="33" height="37.25" fill="#267daa"/>
+<text x="800" y="304.75" font-family="sans-serif" font-size="12">19</text>
+<rect x="843" y="244.12" width="33" height="105.88" fill="#dc8c32"/>
+<text x="843" y="236.12" font-family="sans-serif" font-size="12">54</text>
+<text x="800" y="375" font-family="sans-serif" font-size="13">W=16</text>
+<rect x="910" y="281.37" width="33" height="68.63" fill="#267daa"/>
+<text x="910" y="273.37" font-family="sans-serif" font-size="12">35</text>
+<rect x="953" y="150.00" width="33" height="200.00" fill="#dc8c32"/>
+<text x="953" y="142.00" font-family="sans-serif" font-size="12">102</text>
+<text x="910" y="375" font-family="sans-serif" font-size="13">W=32</text>
+<rect x="180" y="404" width="15" height="15" fill="#267daa"/>
+<text x="205" y="417" font-family="sans-serif" font-size="14">1-stage pipeline</text>
+<rect x="600" y="404" width="15" height="15" fill="#dc8c32"/>
+<text x="625" y="417" font-family="sans-serif" font-size="14">2-stage pipeline</text>
+</svg>
