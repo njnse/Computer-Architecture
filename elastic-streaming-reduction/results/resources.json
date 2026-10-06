@@ -1,0 +1,384 @@
+[
+  {
+    "width": 1,
+    "pipe": 1,
+    "generic": {
+      "num_wires": 25,
+      "num_wire_bits": 35,
+      "num_pub_wires": 14,
+      "num_pub_wire_bits": 18,
+      "num_ports": 11,
+      "num_port_bits": 13,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 18,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "$_ANDNOT_": 2,
+        "$_AND_": 3,
+        "$_DFFE_PP_": 3,
+        "$_NAND_": 3,
+        "$_NOT_": 1,
+        "$_ORNOT_": 1,
+        "$_SDFFE_PP0P_": 1,
+        "$_XNOR_": 2,
+        "$_XOR_": 2
+      }
+    },
+    "ice40": {
+      "num_wires": 21,
+      "num_wire_bits": 31,
+      "num_pub_wires": 21,
+      "num_pub_wire_bits": 31,
+      "num_ports": 11,
+      "num_port_bits": 13,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 14,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "SB_CARRY": 2,
+        "SB_DFFE": 3,
+        "SB_DFFESR": 1,
+        "SB_LUT4": 8
+      }
+    }
+  },
+  {
+    "width": 1,
+    "pipe": 2,
+    "generic": {
+      "num_wires": 34,
+      "num_wire_bits": 50,
+      "num_pub_wires": 18,
+      "num_pub_wire_bits": 24,
+      "num_ports": 11,
+      "num_port_bits": 13,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 29,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "$_ANDNOT_": 2,
+        "$_AND_": 6,
+        "$_DFFE_PP_": 7,
+        "$_NAND_": 3,
+        "$_NOT_": 2,
+        "$_ORNOT_": 1,
+        "$_OR_": 1,
+        "$_SDFFE_PP0P_": 2,
+        "$_XOR_": 5
+      }
+    },
+    "ice40": {
+      "num_wires": 29,
+      "num_wire_bits": 36,
+      "num_pub_wires": 29,
+      "num_pub_wire_bits": 36,
+      "num_ports": 11,
+      "num_port_bits": 13,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 24,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "SB_CARRY": 2,
+        "SB_DFFE": 7,
+        "SB_DFFESR": 2,
+        "SB_LUT4": 13
+      }
+    }
+  },
+  {
+    "width": 8,
+    "pipe": 1,
+    "generic": {
+      "num_wires": 126,
+      "num_wire_bits": 207,
+      "num_pub_wires": 14,
+      "num_pub_wire_bits": 60,
+      "num_ports": 11,
+      "num_port_bits": 48,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 132,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "$_ANDNOT_": 3,
+        "$_AND_": 15,
+        "$_DFFE_PP_": 10,
+        "$_NAND_": 44,
+        "$_NOT_": 1,
+        "$_ORNOT_": 1,
+        "$_OR_": 13,
+        "$_SDFFE_PP0P_": 1,
+        "$_XNOR_": 19,
+        "$_XOR_": 25
+      }
+    },
+    "ice40": {
+      "num_wires": 47,
+      "num_wire_bits": 131,
+      "num_pub_wires": 47,
+      "num_pub_wire_bits": 131,
+      "num_ports": 11,
+      "num_port_bits": 48,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 62,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "SB_CARRY": 8,
+        "SB_DFFE": 10,
+        "SB_DFFESR": 1,
+        "SB_LUT4": 43
+      }
+    }
+  },
+  {
+    "width": 8,
+    "pipe": 2,
+    "generic": {
+      "num_wires": 122,
+      "num_wire_bits": 259,
+      "num_pub_wires": 18,
+      "num_pub_wire_bits": 80,
+      "num_ports": 11,
+      "num_port_bits": 48,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 157,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "$_ANDNOT_": 2,
+        "$_AND_": 6,
+        "$_DFFE_PP_": 28,
+        "$_NAND_": 68,
+        "$_NOT_": 2,
+        "$_ORNOT_": 1,
+        "$_OR_": 3,
+        "$_SDFFE_PP0P_": 2,
+        "$_XNOR_": 2,
+        "$_XOR_": 43
+      }
+    },
+    "ice40": {
+      "num_wires": 70,
+      "num_wire_bits": 132,
+      "num_pub_wires": 70,
+      "num_pub_wire_bits": 132,
+      "num_ports": 11,
+      "num_port_bits": 48,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 86,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "SB_CARRY": 25,
+        "SB_DFFE": 28,
+        "SB_DFFESR": 2,
+        "SB_LUT4": 31
+      }
+    }
+  },
+  {
+    "width": 16,
+    "pipe": 1,
+    "generic": {
+      "num_wires": 239,
+      "num_wire_bits": 400,
+      "num_pub_wires": 14,
+      "num_pub_wire_bits": 108,
+      "num_ports": 11,
+      "num_port_bits": 88,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 261,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "$_ANDNOT_": 3,
+        "$_AND_": 31,
+        "$_DFFE_PP_": 18,
+        "$_NAND_": 86,
+        "$_NOT_": 1,
+        "$_ORNOT_": 1,
+        "$_OR_": 29,
+        "$_SDFFE_PP0P_": 1,
+        "$_XNOR_": 36,
+        "$_XOR_": 55
+      }
+    },
+    "ice40": {
+      "num_wires": 79,
+      "num_wire_bits": 251,
+      "num_pub_wires": 79,
+      "num_pub_wire_bits": 251,
+      "num_ports": 11,
+      "num_port_bits": 88,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 118,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "SB_CARRY": 16,
+        "SB_DFFE": 18,
+        "SB_DFFESR": 1,
+        "SB_LUT4": 83
+      }
+    }
+  },
+  {
+    "width": 16,
+    "pipe": 2,
+    "generic": {
+      "num_wires": 228,
+      "num_wire_bits": 501,
+      "num_pub_wires": 18,
+      "num_pub_wire_bits": 144,
+      "num_ports": 11,
+      "num_port_bits": 88,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 311,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "$_ANDNOT_": 2,
+        "$_AND_": 9,
+        "$_DFFE_PP_": 52,
+        "$_NAND_": 147,
+        "$_NOT_": 2,
+        "$_ORNOT_": 1,
+        "$_OR_": 13,
+        "$_SDFFE_PP0P_": 2,
+        "$_XNOR_": 12,
+        "$_XOR_": 71
+      }
+    },
+    "ice40": {
+      "num_wires": 118,
+      "num_wire_bits": 245,
+      "num_pub_wires": 118,
+      "num_pub_wire_bits": 245,
+      "num_ports": 11,
+      "num_port_bits": 88,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 158,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "SB_CARRY": 49,
+        "SB_DFFE": 52,
+        "SB_DFFESR": 2,
+        "SB_LUT4": 55
+      }
+    }
+  },
+  {
+    "width": 32,
+    "pipe": 1,
+    "generic": {
+      "num_wires": 474,
+      "num_wire_bits": 795,
+      "num_pub_wires": 14,
+      "num_pub_wire_bits": 204,
+      "num_ports": 11,
+      "num_port_bits": 168,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 528,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "$_ANDNOT_": 4,
+        "$_AND_": 69,
+        "$_DFFE_PP_": 34,
+        "$_NAND_": 179,
+        "$_NOT_": 1,
+        "$_ORNOT_": 1,
+        "$_OR_": 62,
+        "$_SDFFE_PP0P_": 1,
+        "$_XNOR_": 79,
+        "$_XOR_": 98
+      }
+    },
+    "ice40": {
+      "num_wires": 143,
+      "num_wire_bits": 491,
+      "num_pub_wires": 143,
+      "num_pub_wire_bits": 491,
+      "num_ports": 11,
+      "num_port_bits": 168,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 230,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "SB_CARRY": 32,
+        "SB_DFFE": 34,
+        "SB_DFFESR": 1,
+        "SB_LUT4": 163
+      }
+    }
+  },
+  {
+    "width": 32,
+    "pipe": 2,
+    "generic": {
+      "num_wires": 441,
+      "num_wire_bits": 986,
+      "num_pub_wires": 18,
+      "num_pub_wire_bits": 272,
+      "num_ports": 11,
+      "num_port_bits": 168,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 620,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "$_ANDNOT_": 2,
+        "$_AND_": 25,
+        "$_DFFE_PP_": 100,
+        "$_NAND_": 296,
+        "$_NOT_": 2,
+        "$_ORNOT_": 1,
+        "$_OR_": 33,
+        "$_SDFFE_PP0P_": 2,
+        "$_XNOR_": 32,
+        "$_XOR_": 127
+      }
+    },
+    "ice40": {
+      "num_wires": 214,
+      "num_wire_bits": 469,
+      "num_pub_wires": 214,
+      "num_pub_wire_bits": 469,
+      "num_ports": 11,
+      "num_port_bits": 168,
+      "num_memories": 0,
+      "num_memory_bits": 0,
+      "num_processes": 0,
+      "num_cells": 302,
+      "num_submodules": 0,
+      "num_cells_by_type": {
+        "SB_CARRY": 97,
+        "SB_DFFE": 100,
+        "SB_DFFESR": 2,
+        "SB_LUT4": 103
+      }
+    }
+  }
+]
