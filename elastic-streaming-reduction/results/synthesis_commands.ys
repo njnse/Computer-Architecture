@@ -1,0 +1,63 @@
+# generic WIDTH=1 PIPE=1
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 1 -set PIPE 1 stream_sum; synth -top stream_sum; check -assert; tee -o results/generic_1_1.json stat -json; ltp -noff; write_verilog -noattr build/generic_1_1.v
+
+# ice40 WIDTH=1 PIPE=1
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 1 -set PIPE 1 stream_sum; synth_ice40 -top stream_sum; check -assert; tee -o results/ice40_1_1.json stat -json
+
+# generic WIDTH=1 PIPE=2
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 1 -set PIPE 2 stream_sum; synth -top stream_sum; check -assert; tee -o results/generic_1_2.json stat -json; ltp -noff; write_verilog -noattr build/generic_1_2.v
+
+# ice40 WIDTH=1 PIPE=2
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 1 -set PIPE 2 stream_sum; synth_ice40 -top stream_sum; check -assert; tee -o results/ice40_1_2.json stat -json
+
+# generic WIDTH=8 PIPE=1
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 8 -set PIPE 1 stream_sum; synth -top stream_sum; check -assert; tee -o results/generic_8_1.json stat -json; ltp -noff; write_verilog -noattr build/generic_8_1.v
+
+# ice40 WIDTH=8 PIPE=1
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 8 -set PIPE 1 stream_sum; synth_ice40 -top stream_sum; check -assert; tee -o results/ice40_8_1.json stat -json
+
+# generic WIDTH=8 PIPE=2
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 8 -set PIPE 2 stream_sum; synth -top stream_sum; check -assert; tee -o results/generic_8_2.json stat -json; ltp -noff; write_verilog -noattr build/generic_8_2.v
+
+# ice40 WIDTH=8 PIPE=2
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 8 -set PIPE 2 stream_sum; synth_ice40 -top stream_sum; check -assert; tee -o results/ice40_8_2.json stat -json
+
+# generic WIDTH=16 PIPE=1
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 16 -set PIPE 1 stream_sum; synth -top stream_sum; check -assert; tee -o results/generic_16_1.json stat -json; ltp -noff; write_verilog -noattr build/generic_16_1.v
+
+# ice40 WIDTH=16 PIPE=1
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 16 -set PIPE 1 stream_sum; synth_ice40 -top stream_sum; check -assert; tee -o results/ice40_16_1.json stat -json
+
+# generic WIDTH=16 PIPE=2
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 16 -set PIPE 2 stream_sum; synth -top stream_sum; check -assert; tee -o results/generic_16_2.json stat -json; ltp -noff; write_verilog -noattr build/generic_16_2.v
+
+# ice40 WIDTH=16 PIPE=2
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 16 -set PIPE 2 stream_sum; synth_ice40 -top stream_sum; check -assert; tee -o results/ice40_16_2.json stat -json
+
+# generic WIDTH=32 PIPE=1
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 32 -set PIPE 1 stream_sum; synth -top stream_sum; check -assert; tee -o results/generic_32_1.json stat -json; ltp -noff; write_verilog -noattr build/generic_32_1.v
+
+# ice40 WIDTH=32 PIPE=1
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 32 -set PIPE 1 stream_sum; synth_ice40 -top stream_sum; check -assert; tee -o results/ice40_32_1.json stat -json
+
+# generic WIDTH=32 PIPE=2
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 32 -set PIPE 2 stream_sum; synth -top stream_sum; check -assert; tee -o results/generic_32_2.json stat -json; ltp -noff; write_verilog -noattr build/generic_32_2.v
+
+# ice40 WIDTH=32 PIPE=2
+design -reset;
+read_verilog -sv rtl/stream_sum.sv; chparam -set WIDTH 32 -set PIPE 2 stream_sum; synth_ice40 -top stream_sum; check -assert; tee -o results/ice40_32_2.json stat -json
