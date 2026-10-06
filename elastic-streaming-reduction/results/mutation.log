@@ -1,0 +1,2 @@
+FATAL: tb/tb.sv:72: scoreboard mismatch got 001 expected 000
+       Time: 45000  Scope: tb
