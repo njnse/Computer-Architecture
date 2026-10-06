@@ -1,0 +1,1197 @@
+=== PIPE=1, WIDTH=4, BOUND=16 ===
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.69 (git sha1 9f75ca1f9, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)
+
+-- Running command `read_verilog -formal -sv rtl/stream_sum.sv formal/properties.sv; chparam -set WIDTH 4 -set PIPE 1 formal_top; prep -top formal_top -flatten; async2sync; chformal -lower; opt_clean; sat -seq 16 -prove-asserts -verify -set-init-zero -set-at 1 rst 1; sat -seq 4 -set-init-zero -set-at 1 rst 1 -set-at 2 rst 0 -set-at 3 rst 0 -set-at 4 rst 0 -set-at 4 m_valid 1 -set-at 4 m_ready 0 -set-at 4 balance 1 -show-inputs' --
+
+1. Executing Verilog-2005 frontend: rtl/stream_sum.sv
+Parsing formal SystemVerilog input from `rtl/stream_sum.sv' to AST representation.
+Generating RTLIL representation for module `\stream_sum'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: formal/properties.sv
+Parsing formal SystemVerilog input from `formal/properties.sv' to AST representation.
+Generating RTLIL representation for module `\formal_top'.
+Successfully finished Verilog frontend.
+Parameter \WIDTH = 4
+Parameter \PIPE = 1
+
+3. Executing AST frontend in derive mode using pre-parsed AST for module `\formal_top'.
+Parameter \WIDTH = 4
+Parameter \PIPE = 1
+Generating RTLIL representation for module `$paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\formal_top'.
+
+4. Executing PREP pass.
+
+4.1. Executing HIERARCHY pass (managing design hierarchy).
+
+4.1.1. Analyzing design hierarchy..
+Top module:  \formal_top
+Used module:     \stream_sum
+Parameter \WIDTH = 4
+Parameter \PIPE = 1
+
+4.1.2. Executing AST frontend in derive mode using pre-parsed AST for module `\stream_sum'.
+Parameter \WIDTH = 4
+Parameter \PIPE = 1
+Generating RTLIL representation for module `$paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum'.
+
+4.1.3. Analyzing design hierarchy..
+Top module:  \formal_top
+Used module:     $paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum
+
+4.1.4. Analyzing design hierarchy..
+Top module:  \formal_top
+Used module:     $paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum
+Removing unused module `\stream_sum'.
+Removed 1 unused modules.
+Module formal_top directly or indirectly contains formal properties -> setting "keep" attribute.
+
+4.2. Executing PROC pass (convert processes to netlists).
+
+4.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+4.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$formal/properties.sv:15$42 in module formal_top.
+Marked 1 switch rules as full_case in process $proc$rtl/stream_sum.sv:21$75 in module $paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum.
+Removed a total of 0 dead cases.
+
+4.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 4 assignments to connections.
+
+4.2.4. Executing PROC_INIT pass (extract init attributes).
+
+4.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+4.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~9 debug messages>
+
+4.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\formal_top.$proc$formal/properties.sv:15$42'.
+     1/7: $assert$formal/properties.sv:32$63_EN
+     2/7: $assert$formal/properties.sv:32$61_EN
+     3/7: $assert$formal/properties.sv:29$59_EN
+     4/7: $assert$formal/properties.sv:28$58_EN
+     5/7: $assert$formal/properties.sv:26$54_EN
+     6/7: $assert$formal/properties.sv:25$52_EN
+     7/7: $0\balance[2:0]
+Creating decoders for process `$paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum.$proc$rtl/stream_sum.sv:21$75'.
+     1/2: $0\single.value[5:0]
+     2/2: $0\single.valid[0:0]
+
+4.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+4.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\formal_top.\balance' using process `\formal_top.$proc$formal/properties.sv:15$42'.
+  created $dff cell `$procdff$113' with positive edge clock.
+Creating register for signal `\formal_top.\started' using process `\formal_top.$proc$formal/properties.sv:15$42'.
+  created $dff cell `$procdff$114' with positive edge clock.
+Creating register for signal `\formal_top.$past$formal/properties.sv:27$39$0' using process `\formal_top.$proc$formal/properties.sv:15$42'.
+  created $dff cell `$procdff$115' with positive edge clock.
+Creating register for signal `\formal_top.$past$formal/properties.sv:27$40$0' using process `\formal_top.$proc$formal/properties.sv:15$42'.
+  created $dff cell `$procdff$116' with positive edge clock.
+Creating register for signal `\formal_top.$past$formal/properties.sv:29$41$0' using process `\formal_top.$proc$formal/properties.sv:15$42'.
+  created $dff cell `$procdff$117' with positive edge clock.
+Creating register for signal `$paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum.\single.valid' using process `$paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum.$proc$rtl/stream_sum.sv:21$75'.
+  created $dff cell `$procdff$118' with positive edge clock.
+Creating register for signal `$paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum.\single.value' using process `$paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum.$proc$rtl/stream_sum.sv:21$75'.
+  created $dff cell `$procdff$119' with positive edge clock.
+
+4.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+4.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 6 empty switches in `\formal_top.$proc$formal/properties.sv:15$42'.
+Removing empty process `formal_top.$proc$formal/properties.sv:15$42'.
+Found and cleaned up 3 empty switches in `$paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum.$proc$rtl/stream_sum.sv:21$75'.
+Removing empty process `$paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum.$proc$rtl/stream_sum.sv:21$75'.
+Cleaned up 9 empty switches.
+
+4.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module formal_top.
+Optimizing module $paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum.
+
+4.3. Executing FLATTEN pass (flatten design).
+Deleting now unused module $paramod$809fbb018b7678e0577f9e5bb277edd9441e0482\stream_sum.
+<suppressed ~1 debug messages>
+
+4.4. Executing FUTURE pass.
+
+4.5. Executing OPT_EXPR pass (perform const folding).
+Optimizing module formal_top.
+
+4.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \formal_top..
+Removed 0 unused cells and 33 unused wires.
+<suppressed ~1 debug messages>
+
+4.7. Executing CHECK pass (checking for obvious problems).
+Checking module formal_top...
+Found and reported 0 problems.
+
+4.8. Executing OPT pass (performing simple optimizations).
+
+4.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module formal_top.
+
+4.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\formal_top'.
+Computing hashes of 56 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+Computing hashes of 54 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+<suppressed ~6 debug messages>
+Removed a total of 2 cells.
+
+4.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \formal_top..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~25 debug messages>
+
+4.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \formal_top.
+Performed a total of 0 changes.
+
+4.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\formal_top'.
+Computing hashes of 54 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+Computing hashes of 52 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+Computing hashes of 51 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+<suppressed ~9 debug messages>
+Removed a total of 3 cells.
+
+4.8.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \formal_top..
+Removed 0 unused cells and 5 unused wires.
+<suppressed ~1 debug messages>
+
+4.8.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module formal_top.
+
+4.8.8. Rerunning OPT passes. (Maybe there is more to do..)
+
+4.8.9. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \formal_top..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~20 debug messages>
+
+4.8.10. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \formal_top.
+Performed a total of 0 changes.
+
+4.8.11. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\formal_top'.
+Computing hashes of 51 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+Removed a total of 0 cells.
+
+4.8.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \formal_top..
+
+4.8.13. Executing OPT_EXPR pass (perform const folding).
+Optimizing module formal_top.
+
+4.8.14. Finished fast OPT passes. (There is nothing left to do.)
+
+4.9. Executing WREDUCE pass (reducing word size of cells).
+Removed top 31 bits (of 32) from port B of cell formal_top.$add$formal/properties.sv:20$48 ($add).
+Removed top 29 bits (of 32) from port Y of cell formal_top.$add$formal/properties.sv:20$48 ($add).
+Removed top 31 bits (of 32) from port B of cell formal_top.$sub$formal/properties.sv:21$49 ($sub).
+Removed top 29 bits (of 32) from port Y of cell formal_top.$sub$formal/properties.sv:21$49 ($sub).
+Removed top 31 bits (of 32) from port B of cell formal_top.$le$formal/properties.sv:25$53 ($le).
+Removed top 31 bits (of 32) from port B of cell formal_top.$gt$formal/properties.sv:26$55 ($gt).
+Removed top 1 bits (of 2) from port B of cell formal_top.$procmux$96_CMP0 ($eq).
+Removed top 1 bits (of 6) from port A of cell formal_top.$flatten\dut.$add$rtl/stream_sum.sv:25$76 ($add).
+Removed top 1 bits (of 6) from port B of cell formal_top.$flatten\dut.$add$rtl/stream_sum.sv:25$76 ($add).
+Removed top 1 bits (of 5) from port A of cell formal_top.$flatten\dut.$add$rtl/stream_sum.sv:17$70 ($add).
+Removed top 1 bits (of 5) from port B of cell formal_top.$flatten\dut.$add$rtl/stream_sum.sv:17$70 ($add).
+Removed top 1 bits (of 5) from port A of cell formal_top.$flatten\dut.$add$rtl/stream_sum.sv:16$69 ($add).
+Removed top 1 bits (of 5) from port B of cell formal_top.$flatten\dut.$add$rtl/stream_sum.sv:16$69 ($add).
+Removed top 29 bits (of 32) from wire formal_top.$add$formal/properties.sv:20$48_Y.
+Removed top 29 bits (of 32) from wire formal_top.$sub$formal/properties.sv:21$49_Y.
+
+4.10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \formal_top..
+Removed 0 unused cells and 2 unused wires.
+<suppressed ~1 debug messages>
+
+4.11. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+4.12. Executing OPT pass (performing simple optimizations).
+
+4.12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module formal_top.
+
+4.12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\formal_top'.
+Computing hashes of 51 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+Removed a total of 0 cells.
+
+4.12.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \formal_top..
+
+4.12.4. Finished fast OPT passes.
+
+4.13. Executing SORT pass.
+
+4.14. Printing statistics.
+
+=== formal_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       64 wires
+      175 wire bits
+       29 public wires
+       78 public wire bits
+        8 ports
+       20 port bits
+       51 cells
+        4   $add
+        6   $check
+        7   $dff
+        3   $eq
+        1   $gt
+        1   $le
+        7   $logic_and
+        6   $logic_not
+        1   $logic_or
+       12   $mux
+        1   $pmux
+        1   $scopeinfo
+        1   $sub
+
+4.15. Executing CHECK pass (checking for obvious problems).
+Checking module formal_top...
+Found and reported 0 problems.
+
+5. Executing ASYNC2SYNC pass.
+
+6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \formal_top..
+Removed 18 unused cells and 18 unused wires.
+<suppressed ~19 debug messages>
+
+7. Executing SAT pass (solving SAT problems in the circuit).
+Using SAT solver `minisat`.
+
+Setting up time step 1:
+Import set-constraint for this timestep: \rst = 1'1
+Final constraint equation: \rst = 1'1
+Imported 63 cells to SAT database.
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$145 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$153 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$141 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$139 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$151 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$135 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$133 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$157 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$129 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$127 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$147 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$123 = 1'0
+Final init constraint equation: { $past$formal/properties.sv:29$41$0 $past$formal/properties.sv:27$40$0 $past$formal/properties.sv:27$39$0 \started \balance \dut.single.value \dut.single.valid $auto$async2sync.cc:107:execute$123 $auto$async2sync.cc:107:execute$147 $auto$async2sync.cc:116:execute$127 $auto$async2sync.cc:107:execute$129 $auto$async2sync.cc:116:execute$157 $auto$async2sync.cc:116:execute$133 $auto$async2sync.cc:107:execute$135 $auto$async2sync.cc:116:execute$151 $auto$async2sync.cc:116:execute$139 $auto$async2sync.cc:107:execute$141 $auto$async2sync.cc:107:execute$153 $auto$async2sync.cc:116:execute$145 } = 31'0000000000000000000001011011001
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 2:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 3:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 4:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 5:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 6:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 7:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 8:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 9:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 10:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 11:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 12:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 13:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 14:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 15:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Setting up time step 16:
+Final constraint equation: { } = { }
+Imported 63 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$127 when $auto$async2sync.cc:107:execute$123.
+Import proof for assert: $auto$async2sync.cc:116:execute$133 when $auto$async2sync.cc:107:execute$129.
+Import proof for assert: $auto$async2sync.cc:116:execute$139 when $auto$async2sync.cc:107:execute$135.
+Import proof for assert: $auto$async2sync.cc:116:execute$145 when $auto$async2sync.cc:107:execute$141.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+
+Solving problem with 11523 variables and 30484 clauses..
+SAT proof finished - no model found: SUCCESS!
+
+                  /$$$$$$      /$$$$$$$$     /$$$$$$$    
+                 /$$__  $$    | $$_____/    | $$__  $$   
+                | $$  \ $$    | $$          | $$  \ $$   
+                | $$  | $$    | $$$$$       | $$  | $$   
+                | $$  | $$    | $$__/       | $$  | $$   
+                | $$/$$ $$    | $$          | $$  | $$   
+                |  $$$$$$/ /$$| $$$$$$$$ /$$| $$$$$$$//$$
+                 \____ $$$|__/|________/|__/|_______/|__/
+                       \__/                              
+
+8. Executing SAT pass (solving SAT problems in the circuit).
+Using SAT solver `minisat`.
+
+Setting up time step 1:
+Import set-constraint for this timestep: \rst = 1'1
+Final constraint equation: \rst = 1'1
+Imported 63 cells to SAT database.
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$145 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$153 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$141 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$139 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$151 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$135 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$133 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$157 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$129 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$127 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$147 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$123 = 1'0
+Final init constraint equation: { $past$formal/properties.sv:29$41$0 $past$formal/properties.sv:27$40$0 $past$formal/properties.sv:27$39$0 \started \balance \dut.single.value \dut.single.valid $auto$async2sync.cc:107:execute$123 $auto$async2sync.cc:107:execute$147 $auto$async2sync.cc:116:execute$127 $auto$async2sync.cc:107:execute$129 $auto$async2sync.cc:116:execute$157 $auto$async2sync.cc:116:execute$133 $auto$async2sync.cc:107:execute$135 $auto$async2sync.cc:116:execute$151 $auto$async2sync.cc:116:execute$139 $auto$async2sync.cc:107:execute$141 $auto$async2sync.cc:107:execute$153 $auto$async2sync.cc:116:execute$145 } = 31'0000000000000000000001011011001
+
+Setting up time step 2:
+Import set-constraint for this timestep: \rst = 1'0
+Final constraint equation: \rst = 1'0
+Imported 63 cells to SAT database.
+
+Setting up time step 3:
+Import set-constraint for this timestep: \rst = 1'0
+Final constraint equation: \rst = 1'0
+Imported 63 cells to SAT database.
+
+Setting up time step 4:
+Import set-constraint for this timestep: \rst = 1'0
+Import set-constraint for this timestep: \m_valid = 1'1
+Import set-constraint for this timestep: \m_ready = 1'0
+Import set-constraint for this timestep: \balance = 3'001
+Final constraint equation: { \balance \m_ready \m_valid \rst } = 6'001010
+Imported 63 cells to SAT database.
+Import show expression: \a
+Import show expression: \b
+Import show expression: \c
+Import show expression: \clk
+Import show expression: \d
+Import show expression: \m_ready
+Import show expression: \rst
+Import show expression: \s_valid
+
+Solving problem with 2842 variables and 7475 clauses..
+SAT solving finished - model found:
+
+  Time Signal Name                                      Dec       Hex           Bin
+  ---- ---------------------------------------- ----------- --------- -------------
+  init $auto$async2sync.cc:107:execute$123                0         0             0
+  init $auto$async2sync.cc:107:execute$129                0         0             0
+  init $auto$async2sync.cc:107:execute$135                0         0             0
+  init $auto$async2sync.cc:107:execute$141                0         0             0
+  init $auto$async2sync.cc:107:execute$147                0         0             0
+  init $auto$async2sync.cc:107:execute$153                0         0             0
+  init $auto$async2sync.cc:116:execute$127                1         1             1
+  init $auto$async2sync.cc:116:execute$133                1         1             1
+  init $auto$async2sync.cc:116:execute$139                1         1             1
+  init $auto$async2sync.cc:116:execute$145                1         1             1
+  init $auto$async2sync.cc:116:execute$151                1         1             1
+  init $auto$async2sync.cc:116:execute$157                1         1             1
+  init $past$formal/properties.sv:27$39$0                 0         0             0
+  init $past$formal/properties.sv:27$40$0                 0         0             0
+  init $past$formal/properties.sv:29$41$0                 0         0        000000
+  init \balance                                           0         0           000
+  init \dut.single.valid                                  0         0             0
+  init \dut.single.value                                  0         0        000000
+  init \started                                           0         0             0
+  ---- ---------------------------------------- ----------- --------- -------------
+     1 \a                                                 0         0          0000
+     1 \b                                                 0         0          0000
+     1 \c                                                 0         0          0000
+     1 \clk                                               0         0             0
+     1 \d                                                 0         0          0000
+     1 \m_ready                                           1         1             1
+     1 \rst                                               1         1             1
+     1 \s_valid                                           0         0             0
+  ---- ---------------------------------------- ----------- --------- -------------
+     2 \a                                                15         f          1111
+     2 \b                                                15         f          1111
+     2 \c                                                14         e          1110
+     2 \clk                                               0         0             0
+     2 \d                                                14         e          1110
+     2 \m_ready                                           1         1             1
+     2 \rst                                               0         0             0
+     2 \s_valid                                           1         1             1
+  ---- ---------------------------------------- ----------- --------- -------------
+     3 \a                                                 0         0          0000
+     3 \b                                                 0         0          0000
+     3 \c                                                 0         0          0000
+     3 \clk                                               0         0             0
+     3 \d                                                 0         0          0000
+     3 \m_ready                                           1         1             1
+     3 \rst                                               0         0             0
+     3 \s_valid                                           1         1             1
+  ---- ---------------------------------------- ----------- --------- -------------
+     4 \a                                                 0         0          0000
+     4 \b                                                 0         0          0000
+     4 \c                                                 0         0          0000
+     4 \clk                                               0         0             0
+     4 \d                                                 0         0          0000
+     4 \m_ready                                           0         0             0
+     4 \rst                                               0         0             0
+     4 \s_valid                                           0         0             0
+
+End of script. Logfile hash: 34f6c34d3a, time: 0.17s, user: 0.18s, system: 0.00s
+Yosys 0.69 (git sha1 9f75ca1f9, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)
+Time spent: 85% 2x sat (0 sec), 3% 3x read_verilog (0 sec), ...
+
+=== PIPE=2, WIDTH=4, BOUND=16 ===
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.69 (git sha1 9f75ca1f9, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)
+
+-- Running command `read_verilog -formal -sv rtl/stream_sum.sv formal/properties.sv; chparam -set WIDTH 4 -set PIPE 2 formal_top; prep -top formal_top -flatten; async2sync; chformal -lower; opt_clean; sat -seq 16 -prove-asserts -verify -set-init-zero -set-at 1 rst 1; sat -seq 4 -set-init-zero -set-at 1 rst 1 -set-at 2 rst 0 -set-at 3 rst 0 -set-at 4 rst 0 -set-at 4 m_valid 1 -set-at 4 m_ready 0 -set-at 4 balance 2 -show-inputs' --
+
+1. Executing Verilog-2005 frontend: rtl/stream_sum.sv
+Parsing formal SystemVerilog input from `rtl/stream_sum.sv' to AST representation.
+Generating RTLIL representation for module `\stream_sum'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: formal/properties.sv
+Parsing formal SystemVerilog input from `formal/properties.sv' to AST representation.
+Generating RTLIL representation for module `\formal_top'.
+Successfully finished Verilog frontend.
+Parameter \WIDTH = 4
+Parameter \PIPE = 2
+
+3. Executing AST frontend in derive mode using pre-parsed AST for module `\formal_top'.
+Parameter \WIDTH = 4
+Parameter \PIPE = 2
+Generating RTLIL representation for module `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\formal_top'.
+
+4. Executing PREP pass.
+
+4.1. Executing HIERARCHY pass (managing design hierarchy).
+
+4.1.1. Analyzing design hierarchy..
+Top module:  \formal_top
+Used module:     \stream_sum
+Parameter \WIDTH = 4
+Parameter \PIPE = 2
+
+4.1.2. Executing AST frontend in derive mode using pre-parsed AST for module `\stream_sum'.
+Parameter \WIDTH = 4
+Parameter \PIPE = 2
+Generating RTLIL representation for module `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum'.
+
+4.1.3. Analyzing design hierarchy..
+Top module:  \formal_top
+Used module:     $paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum
+
+4.1.4. Analyzing design hierarchy..
+Top module:  \formal_top
+Used module:     $paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum
+Removing unused module `\stream_sum'.
+Removed 1 unused modules.
+Module formal_top directly or indirectly contains formal properties -> setting "keep" attribute.
+
+4.2. Executing PROC pass (convert processes to netlists).
+
+4.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+4.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 1 switch rules as full_case in process $proc$formal/properties.sv:15$42 in module formal_top.
+Marked 1 switch rules as full_case in process $proc$rtl/stream_sum.sv:37$75 in module $paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.
+Removed a total of 0 dead cases.
+
+4.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 4 assignments to connections.
+
+4.2.4. Executing PROC_INIT pass (extract init attributes).
+
+4.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+4.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~11 debug messages>
+
+4.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\formal_top.$proc$formal/properties.sv:15$42'.
+     1/7: $assert$formal/properties.sv:32$63_EN
+     2/7: $assert$formal/properties.sv:32$61_EN
+     3/7: $assert$formal/properties.sv:29$59_EN
+     4/7: $assert$formal/properties.sv:28$58_EN
+     5/7: $assert$formal/properties.sv:26$54_EN
+     6/7: $assert$formal/properties.sv:25$52_EN
+     7/7: $0\balance[2:0]
+Creating decoders for process `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.$proc$rtl/stream_sum.sv:37$75'.
+     1/5: $0\split.value[5:0]
+     2/5: $0\split.cd[4:0]
+     3/5: $0\split.ab[4:0]
+     4/5: $0\split.v1[0:0]
+     5/5: $0\split.v0[0:0]
+
+4.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+4.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\formal_top.\balance' using process `\formal_top.$proc$formal/properties.sv:15$42'.
+  created $dff cell `$procdff$134' with positive edge clock.
+Creating register for signal `\formal_top.\started' using process `\formal_top.$proc$formal/properties.sv:15$42'.
+  created $dff cell `$procdff$135' with positive edge clock.
+Creating register for signal `\formal_top.$past$formal/properties.sv:27$39$0' using process `\formal_top.$proc$formal/properties.sv:15$42'.
+  created $dff cell `$procdff$136' with positive edge clock.
+Creating register for signal `\formal_top.$past$formal/properties.sv:27$40$0' using process `\formal_top.$proc$formal/properties.sv:15$42'.
+  created $dff cell `$procdff$137' with positive edge clock.
+Creating register for signal `\formal_top.$past$formal/properties.sv:29$41$0' using process `\formal_top.$proc$formal/properties.sv:15$42'.
+  created $dff cell `$procdff$138' with positive edge clock.
+Creating register for signal `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.\split.v0' using process `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.$proc$rtl/stream_sum.sv:37$75'.
+  created $dff cell `$procdff$139' with positive edge clock.
+Creating register for signal `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.\split.v1' using process `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.$proc$rtl/stream_sum.sv:37$75'.
+  created $dff cell `$procdff$140' with positive edge clock.
+Creating register for signal `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.\split.ab' using process `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.$proc$rtl/stream_sum.sv:37$75'.
+  created $dff cell `$procdff$141' with positive edge clock.
+Creating register for signal `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.\split.cd' using process `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.$proc$rtl/stream_sum.sv:37$75'.
+  created $dff cell `$procdff$142' with positive edge clock.
+Creating register for signal `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.\split.value' using process `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.$proc$rtl/stream_sum.sv:37$75'.
+  created $dff cell `$procdff$143' with positive edge clock.
+
+4.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+4.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 6 empty switches in `\formal_top.$proc$formal/properties.sv:15$42'.
+Removing empty process `formal_top.$proc$formal/properties.sv:15$42'.
+Found and cleaned up 5 empty switches in `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.$proc$rtl/stream_sum.sv:37$75'.
+Removing empty process `$paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.$proc$rtl/stream_sum.sv:37$75'.
+Cleaned up 11 empty switches.
+
+4.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module formal_top.
+Optimizing module $paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.
+
+4.3. Executing FLATTEN pass (flatten design).
+Deleting now unused module $paramod$da6ff28f1ae0ae517a30042dd1b305a4c6c68b90\stream_sum.
+<suppressed ~1 debug messages>
+
+4.4. Executing FUTURE pass.
+
+4.5. Executing OPT_EXPR pass (perform const folding).
+Optimizing module formal_top.
+
+4.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \formal_top..
+Removed 0 unused cells and 43 unused wires.
+<suppressed ~1 debug messages>
+
+4.7. Executing CHECK pass (checking for obvious problems).
+Checking module formal_top...
+Found and reported 0 problems.
+
+4.8. Executing OPT pass (performing simple optimizations).
+
+4.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module formal_top.
+
+4.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\formal_top'.
+Computing hashes of 69 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+Computing hashes of 67 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+<suppressed ~6 debug messages>
+Removed a total of 2 cells.
+
+4.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \formal_top..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~36 debug messages>
+
+4.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \formal_top.
+Performed a total of 0 changes.
+
+4.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\formal_top'.
+Computing hashes of 67 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+Computing hashes of 65 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+Computing hashes of 64 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+<suppressed ~9 debug messages>
+Removed a total of 3 cells.
+
+4.8.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \formal_top..
+Removed 0 unused cells and 5 unused wires.
+<suppressed ~1 debug messages>
+
+4.8.7. Executing OPT_EXPR pass (perform const folding).
+Optimizing module formal_top.
+
+4.8.8. Rerunning OPT passes. (Maybe there is more to do..)
+
+4.8.9. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \formal_top..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~31 debug messages>
+
+4.8.10. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \formal_top.
+Performed a total of 0 changes.
+
+4.8.11. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\formal_top'.
+Computing hashes of 64 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+Removed a total of 0 cells.
+
+4.8.12. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \formal_top..
+
+4.8.13. Executing OPT_EXPR pass (perform const folding).
+Optimizing module formal_top.
+
+4.8.14. Finished fast OPT passes. (There is nothing left to do.)
+
+4.9. Executing WREDUCE pass (reducing word size of cells).
+Removed top 31 bits (of 32) from port B of cell formal_top.$add$formal/properties.sv:20$48 ($add).
+Removed top 29 bits (of 32) from port Y of cell formal_top.$add$formal/properties.sv:20$48 ($add).
+Removed top 31 bits (of 32) from port B of cell formal_top.$sub$formal/properties.sv:21$49 ($sub).
+Removed top 29 bits (of 32) from port Y of cell formal_top.$sub$formal/properties.sv:21$49 ($sub).
+Removed top 30 bits (of 32) from port B of cell formal_top.$le$formal/properties.sv:25$53 ($le).
+Removed top 31 bits (of 32) from port B of cell formal_top.$gt$formal/properties.sv:26$55 ($gt).
+Removed top 1 bits (of 2) from port B of cell formal_top.$procmux$98_CMP0 ($eq).
+Removed top 1 bits (of 6) from port A of cell formal_top.$flatten\dut.$add$rtl/stream_sum.sv:49$78 ($add).
+Removed top 1 bits (of 6) from port B of cell formal_top.$flatten\dut.$add$rtl/stream_sum.sv:49$78 ($add).
+Removed top 1 bits (of 5) from port A of cell formal_top.$flatten\dut.$add$rtl/stream_sum.sv:44$77 ($add).
+Removed top 1 bits (of 5) from port B of cell formal_top.$flatten\dut.$add$rtl/stream_sum.sv:44$77 ($add).
+Removed top 1 bits (of 5) from port A of cell formal_top.$flatten\dut.$add$rtl/stream_sum.sv:43$76 ($add).
+Removed top 1 bits (of 5) from port B of cell formal_top.$flatten\dut.$add$rtl/stream_sum.sv:43$76 ($add).
+Removed top 29 bits (of 32) from wire formal_top.$add$formal/properties.sv:20$48_Y.
+Removed top 29 bits (of 32) from wire formal_top.$sub$formal/properties.sv:21$49_Y.
+
+4.10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \formal_top..
+Removed 0 unused cells and 2 unused wires.
+<suppressed ~1 debug messages>
+
+4.11. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+4.12. Executing OPT pass (performing simple optimizations).
+
+4.12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module formal_top.
+
+4.12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\formal_top'.
+Computing hashes of 64 cells of `\formal_top'.
+Finding duplicate cells in `\formal_top'.
+Removed a total of 0 cells.
+
+4.12.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \formal_top..
+
+4.12.4. Finished fast OPT passes.
+
+4.13. Executing SORT pass.
+
+4.14. Printing statistics.
+
+=== formal_top ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       77 wires
+      220 wire bits
+       31 public wires
+       80 public wire bits
+        8 ports
+       20 port bits
+       64 cells
+        4   $add
+        6   $check
+       10   $dff
+        3   $eq
+        1   $gt
+        1   $le
+        7   $logic_and
+        7   $logic_not
+        2   $logic_or
+       20   $mux
+        1   $pmux
+        1   $scopeinfo
+        1   $sub
+
+4.15. Executing CHECK pass (checking for obvious problems).
+Checking module formal_top...
+Found and reported 0 problems.
+
+5. Executing ASYNC2SYNC pass.
+
+6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \formal_top..
+Removed 18 unused cells and 18 unused wires.
+<suppressed ~19 debug messages>
+
+7. Executing SAT pass (solving SAT problems in the circuit).
+Using SAT solver `minisat`.
+
+Setting up time step 1:
+Import set-constraint for this timestep: \rst = 1'1
+Final constraint equation: \rst = 1'1
+Imported 76 cells to SAT database.
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$169 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$177 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$165 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$163 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$175 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$159 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$157 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$181 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$153 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$151 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$171 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$147 = 1'0
+Final init constraint equation: { $past$formal/properties.sv:29$41$0 $past$formal/properties.sv:27$40$0 $past$formal/properties.sv:27$39$0 \started \balance \dut.split.value \dut.split.cd \dut.split.ab \dut.split.v1 \dut.split.v0 $auto$async2sync.cc:107:execute$147 $auto$async2sync.cc:107:execute$171 $auto$async2sync.cc:116:execute$151 $auto$async2sync.cc:107:execute$153 $auto$async2sync.cc:116:execute$181 $auto$async2sync.cc:116:execute$157 $auto$async2sync.cc:107:execute$159 $auto$async2sync.cc:116:execute$175 $auto$async2sync.cc:116:execute$163 $auto$async2sync.cc:107:execute$165 $auto$async2sync.cc:107:execute$177 $auto$async2sync.cc:116:execute$169 } = 42'000000000000000000000000000000001011011001
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 2:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 3:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 4:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 5:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 6:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 7:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 8:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 9:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 10:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 11:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 12:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 13:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 14:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 15:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Setting up time step 16:
+Final constraint equation: { } = { }
+Imported 76 cells to SAT database.
+Import proof for assert: $auto$async2sync.cc:116:execute$151 when $auto$async2sync.cc:107:execute$147.
+Import proof for assert: $auto$async2sync.cc:116:execute$157 when $auto$async2sync.cc:107:execute$153.
+Import proof for assert: $auto$async2sync.cc:116:execute$163 when $auto$async2sync.cc:107:execute$159.
+Import proof for assert: $auto$async2sync.cc:116:execute$169 when $auto$async2sync.cc:107:execute$165.
+Import proof for assert: $auto$async2sync.cc:116:execute$175 when $auto$async2sync.cc:107:execute$171.
+Import proof for assert: $auto$async2sync.cc:116:execute$181 when $auto$async2sync.cc:107:execute$177.
+
+Solving problem with 16040 variables and 42595 clauses..
+SAT proof finished - no model found: SUCCESS!
+
+                  /$$$$$$      /$$$$$$$$     /$$$$$$$    
+                 /$$__  $$    | $$_____/    | $$__  $$   
+                | $$  \ $$    | $$          | $$  \ $$   
+                | $$  | $$    | $$$$$       | $$  | $$   
+                | $$  | $$    | $$__/       | $$  | $$   
+                | $$/$$ $$    | $$          | $$  | $$   
+                |  $$$$$$/ /$$| $$$$$$$$ /$$| $$$$$$$//$$
+                 \____ $$$|__/|________/|__/|_______/|__/
+                       \__/                              
+
+8. Executing SAT pass (solving SAT problems in the circuit).
+Using SAT solver `minisat`.
+
+Setting up time step 1:
+Import set-constraint for this timestep: \rst = 1'1
+Final constraint equation: \rst = 1'1
+Imported 76 cells to SAT database.
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$169 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$177 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$165 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$163 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$175 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$159 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$157 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$181 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$153 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:116:execute$151 = 1'1
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$171 = 1'0
+Import set-constraint from init attribute: $auto$async2sync.cc:107:execute$147 = 1'0
+Final init constraint equation: { $past$formal/properties.sv:29$41$0 $past$formal/properties.sv:27$40$0 $past$formal/properties.sv:27$39$0 \started \balance \dut.split.value \dut.split.cd \dut.split.ab \dut.split.v1 \dut.split.v0 $auto$async2sync.cc:107:execute$147 $auto$async2sync.cc:107:execute$171 $auto$async2sync.cc:116:execute$151 $auto$async2sync.cc:107:execute$153 $auto$async2sync.cc:116:execute$181 $auto$async2sync.cc:116:execute$157 $auto$async2sync.cc:107:execute$159 $auto$async2sync.cc:116:execute$175 $auto$async2sync.cc:116:execute$163 $auto$async2sync.cc:107:execute$165 $auto$async2sync.cc:107:execute$177 $auto$async2sync.cc:116:execute$169 } = 42'000000000000000000000000000000001011011001
+
+Setting up time step 2:
+Import set-constraint for this timestep: \rst = 1'0
+Final constraint equation: \rst = 1'0
+Imported 76 cells to SAT database.
+
+Setting up time step 3:
+Import set-constraint for this timestep: \rst = 1'0
+Final constraint equation: \rst = 1'0
+Imported 76 cells to SAT database.
+
+Setting up time step 4:
+Import set-constraint for this timestep: \rst = 1'0
+Import set-constraint for this timestep: \m_valid = 1'1
+Import set-constraint for this timestep: \m_ready = 1'0
+Import set-constraint for this timestep: \balance = 3'010
+Final constraint equation: { \balance \m_ready \m_valid \rst } = 6'010010
+Imported 76 cells to SAT database.
+Import show expression: \a
+Import show expression: \b
+Import show expression: \c
+Import show expression: \clk
+Import show expression: \d
+Import show expression: \m_ready
+Import show expression: \rst
+Import show expression: \s_valid
+
+Solving problem with 3965 variables and 10484 clauses..
+SAT solving finished - model found:
+
+  Time Signal Name                                      Dec       Hex           Bin
+  ---- ---------------------------------------- ----------- --------- -------------
+  init $auto$async2sync.cc:107:execute$147                0         0             0
+  init $auto$async2sync.cc:107:execute$153                0         0             0
+  init $auto$async2sync.cc:107:execute$159                0         0             0
+  init $auto$async2sync.cc:107:execute$165                0         0             0
+  init $auto$async2sync.cc:107:execute$171                0         0             0
+  init $auto$async2sync.cc:107:execute$177                0         0             0
+  init $auto$async2sync.cc:116:execute$151                1         1             1
+  init $auto$async2sync.cc:116:execute$157                1         1             1
+  init $auto$async2sync.cc:116:execute$163                1         1             1
+  init $auto$async2sync.cc:116:execute$169                1         1             1
+  init $auto$async2sync.cc:116:execute$175                1         1             1
+  init $auto$async2sync.cc:116:execute$181                1         1             1
+  init $past$formal/properties.sv:27$39$0                 0         0             0
+  init $past$formal/properties.sv:27$40$0                 0         0             0
+  init $past$formal/properties.sv:29$41$0                 0         0        000000
+  init \balance                                           0         0           000
+  init \dut.split.ab                                      0         0         00000
+  init \dut.split.cd                                      0         0         00000
+  init \dut.split.v0                                      0         0             0
+  init \dut.split.v1                                      0         0             0
+  init \dut.split.value                                   0         0        000000
+  init \started                                           0         0             0
+  ---- ---------------------------------------- ----------- --------- -------------
+     1 \a                                                 0         0          0000
+     1 \b                                                 0         0          0000
+     1 \c                                                 0         0          0000
+     1 \clk                                               0         0             0
+     1 \d                                                 0         0          0000
+     1 \m_ready                                           1         1             1
+     1 \rst                                               1         1             1
+     1 \s_valid                                           0         0             0
+  ---- ---------------------------------------- ----------- --------- -------------
+     2 \a                                                 0         0          0000
+     2 \b                                                 0         0          0000
+     2 \c                                                 0         0          0000
+     2 \clk                                               0         0             0
+     2 \d                                                 0         0          0000
+     2 \m_ready                                           1         1             1
+     2 \rst                                               0         0             0
+     2 \s_valid                                           1         1             1
+  ---- ---------------------------------------- ----------- --------- -------------
+     3 \a                                                 0         0          0000
+     3 \b                                                 0         0          0000
+     3 \c                                                 0         0          0000
+     3 \clk                                               0         0             0
+     3 \d                                                 0         0          0000
+     3 \m_ready                                           1         1             1
+     3 \rst                                               0         0             0
+     3 \s_valid                                           1         1             1
+  ---- ---------------------------------------- ----------- --------- -------------
+     4 \a                                                 0         0          0000
+     4 \b                                                 0         0          0000
+     4 \c                                                 0         0          0000
+     4 \clk                                               0         0             0
+     4 \d                                                 0         0          0000
+     4 \m_ready                                           0         0             0
+     4 \rst                                               0         0             0
+     4 \s_valid                                           0         0             0
+
+End of script. Logfile hash: e047263349, time: 0.42s, user: 0.42s, system: 0.00s
+Yosys 0.69 (git sha1 9f75ca1f9, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)
+Time spent: 78% 2x sat (0 sec), 4% 3x read_verilog (0 sec), ...
