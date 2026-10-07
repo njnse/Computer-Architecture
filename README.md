@@ -9,5 +9,6 @@ Reproducible experimental projects with implementations, correctness tests, raw 
 | [Age-bounded memory scheduling](age-bounded-memory-scheduling/README.md) | Event-driven single-bank experiment; 240 records | Strict request aging can reduce row locality and substantially increase tail latency |
 | [Bounded-lag counter updates](bounded-lag-counter-updates/README.md) | Hardware microbenchmark; 270 evaluation runs and 45 duration checks | Batching beats padded counters for update-heavy tasks, but loses clear benefit with substantial work and changes visibility |
 | [Elastic streaming reduction](elastic-streaming-reduction/README.md) | SystemVerilog RTL; 96 simulations, bounded formal checks, and iCE40 synthesis | Both pipelines sustain one beat per cycle; splitting changes latency and LUT/FF/carry costs |
+| [Quota-coalesced streaming arbitration](quota-coalesced-stream-arbitration/README.md) | SystemVerilog RTL; 897 simulations, 46 synthesis flows, and bounded formal checks | Grouping reduces source changes but increases minority latency; mapped resource gains reverse across configurations |
 
 Each report distinguishes model findings from simulation or hardware evidence. Thesis and conference directions are research objectives, not claims of completed publication-level validation.

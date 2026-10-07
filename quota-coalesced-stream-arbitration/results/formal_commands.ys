@@ -1,0 +1,8 @@
+design -reset;
+read_verilog -formal -sv rtl/stream_arbiter.sv formal/properties.sv; chparam -set N 3 -set WIDTH 2 -set QUOTA 1 -set FIXED 0 formal_top; prep -top formal_top -flatten; async2sync; chformal -lower; opt_clean; sat -seq 20 -prove-asserts -verify -set-assumes -set-init-zero -set-at 1 rst 1; sat -seq 4 -set-assumes -set-init-zero -set-at 1 rst 1 -set-at 2 rst 0 -set-at 3 rst 0 -set-at 4 rst 0 -set-at 4 m_valid 1 -set-at 4 m_ready 0 -show-inputs
+
+design -reset;
+read_verilog -formal -sv rtl/stream_arbiter.sv formal/properties.sv; chparam -set N 3 -set WIDTH 2 -set QUOTA 4 -set FIXED 0 formal_top; prep -top formal_top -flatten; async2sync; chformal -lower; opt_clean; sat -seq 20 -prove-asserts -verify -set-assumes -set-init-zero -set-at 1 rst 1; sat -seq 4 -set-assumes -set-init-zero -set-at 1 rst 1 -set-at 2 rst 0 -set-at 3 rst 0 -set-at 4 rst 0 -set-at 4 m_valid 1 -set-at 4 m_ready 0 -show-inputs
+
+design -reset;
+read_verilog -formal -sv rtl/stream_arbiter.sv formal/properties.sv; chparam -set N 3 -set WIDTH 2 -set QUOTA 1 -set FIXED 1 formal_top; prep -top formal_top -flatten; async2sync; chformal -lower; opt_clean; sat -seq 20 -prove-asserts -verify -set-assumes -set-init-zero -set-at 1 rst 1; sat -seq 4 -set-assumes -set-init-zero -set-at 1 rst 1 -set-at 2 rst 0 -set-at 3 rst 0 -set-at 4 rst 0 -set-at 4 m_valid 1 -set-at 4 m_ready 0 -show-inputs

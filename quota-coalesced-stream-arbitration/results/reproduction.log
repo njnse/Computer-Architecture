@@ -1,0 +1,60 @@
+Evaluating n1_w16_fixed
+Evaluating n1_w16_q1
+Evaluating n1_w16_q4
+Evaluating n1_w16_q8
+Evaluating n3_w16_fixed
+Evaluating n3_w16_q1
+Evaluating n3_w16_q4
+Evaluating n3_w16_q8
+Evaluating n4_w16_fixed
+Evaluating n4_w16_q1
+Evaluating n4_w16_q4
+Evaluating n4_w16_q8
+Evaluating n8_w16_fixed
+Evaluating n8_w16_q1
+Evaluating n8_w16_q4
+Evaluating n8_w16_q8
+Evaluating n4_w1_q1
+Evaluating n4_w1_q4
+Evaluating n4_w8_q1
+Evaluating n4_w8_q4
+Evaluating n4_w32_q1
+Evaluating n4_w32_q4
+Evaluating n4_w16_q2
+Proving bounded properties 1 0
+Proving bounded properties 4 0
+Proving bounded properties 1 1
+Completed 897 simulation records and 46 synthesis records
+{
+  "passed": true,
+  "rtl_runs": 828,
+  "generic_netlist_runs": 69,
+  "observed_cycles": 3491584,
+  "observed_transfers": 2535117,
+  "synthesis_runs": 46,
+  "bounded_proofs": 3,
+  "mutation_detections": 2,
+  "functional_coverage": {
+    "reset_while_pending": 1771,
+    "late_arrival_during_stall": 76,
+    "all_idle": 599016,
+    "single_pending": 1369356,
+    "concurrent_pending": 1628420,
+    "sink_stall": 379577,
+    "pointer_wrap": 564045,
+    "quota_runs": 1805662
+  },
+  "checks": [
+    "cycle-exact independent reference",
+    "source and sink hold rules",
+    "one-hot conservation",
+    "work conservation",
+    "RTL/netlist equality",
+    "resource latch check",
+    "source hashes",
+    "saturated closed form",
+    "bounded safety/fairness",
+    "mutation sensitivity"
+  ]
+}
+

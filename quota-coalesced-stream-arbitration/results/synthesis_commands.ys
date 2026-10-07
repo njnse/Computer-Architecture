@@ -1,0 +1,183 @@
+# generic n1_w16_fixed
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 1 -set WIDTH 16 -set QUOTA 1 -set FIXED 1 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n1_w16_fixed.json stat -json; write_verilog -noattr build/n1_w16_fixed_netlist.v
+
+# ice40 n1_w16_fixed
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 1 -set WIDTH 16 -set QUOTA 1 -set FIXED 1 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n1_w16_fixed.json stat -json
+
+# generic n1_w16_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 1 -set WIDTH 16 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n1_w16_q1.json stat -json; write_verilog -noattr build/n1_w16_q1_netlist.v
+
+# ice40 n1_w16_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 1 -set WIDTH 16 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n1_w16_q1.json stat -json
+
+# generic n1_w16_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 1 -set WIDTH 16 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n1_w16_q4.json stat -json; write_verilog -noattr build/n1_w16_q4_netlist.v
+
+# ice40 n1_w16_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 1 -set WIDTH 16 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n1_w16_q4.json stat -json
+
+# generic n1_w16_q8
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 1 -set WIDTH 16 -set QUOTA 8 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n1_w16_q8.json stat -json; write_verilog -noattr build/n1_w16_q8_netlist.v
+
+# ice40 n1_w16_q8
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 1 -set WIDTH 16 -set QUOTA 8 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n1_w16_q8.json stat -json
+
+# generic n3_w16_fixed
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 3 -set WIDTH 16 -set QUOTA 1 -set FIXED 1 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n3_w16_fixed.json stat -json; write_verilog -noattr build/n3_w16_fixed_netlist.v
+
+# ice40 n3_w16_fixed
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 3 -set WIDTH 16 -set QUOTA 1 -set FIXED 1 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n3_w16_fixed.json stat -json
+
+# generic n3_w16_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 3 -set WIDTH 16 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n3_w16_q1.json stat -json; write_verilog -noattr build/n3_w16_q1_netlist.v
+
+# ice40 n3_w16_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 3 -set WIDTH 16 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n3_w16_q1.json stat -json
+
+# generic n3_w16_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 3 -set WIDTH 16 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n3_w16_q4.json stat -json; write_verilog -noattr build/n3_w16_q4_netlist.v
+
+# ice40 n3_w16_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 3 -set WIDTH 16 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n3_w16_q4.json stat -json
+
+# generic n3_w16_q8
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 3 -set WIDTH 16 -set QUOTA 8 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n3_w16_q8.json stat -json; write_verilog -noattr build/n3_w16_q8_netlist.v
+
+# ice40 n3_w16_q8
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 3 -set WIDTH 16 -set QUOTA 8 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n3_w16_q8.json stat -json
+
+# generic n4_w16_fixed
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 16 -set QUOTA 1 -set FIXED 1 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n4_w16_fixed.json stat -json; write_verilog -noattr build/n4_w16_fixed_netlist.v
+
+# ice40 n4_w16_fixed
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 16 -set QUOTA 1 -set FIXED 1 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n4_w16_fixed.json stat -json
+
+# generic n4_w16_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 16 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n4_w16_q1.json stat -json; write_verilog -noattr build/n4_w16_q1_netlist.v
+
+# ice40 n4_w16_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 16 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n4_w16_q1.json stat -json
+
+# generic n4_w16_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 16 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n4_w16_q4.json stat -json; write_verilog -noattr build/n4_w16_q4_netlist.v
+
+# ice40 n4_w16_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 16 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n4_w16_q4.json stat -json
+
+# generic n4_w16_q8
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 16 -set QUOTA 8 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n4_w16_q8.json stat -json; write_verilog -noattr build/n4_w16_q8_netlist.v
+
+# ice40 n4_w16_q8
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 16 -set QUOTA 8 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n4_w16_q8.json stat -json
+
+# generic n8_w16_fixed
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 8 -set WIDTH 16 -set QUOTA 1 -set FIXED 1 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n8_w16_fixed.json stat -json; write_verilog -noattr build/n8_w16_fixed_netlist.v
+
+# ice40 n8_w16_fixed
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 8 -set WIDTH 16 -set QUOTA 1 -set FIXED 1 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n8_w16_fixed.json stat -json
+
+# generic n8_w16_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 8 -set WIDTH 16 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n8_w16_q1.json stat -json; write_verilog -noattr build/n8_w16_q1_netlist.v
+
+# ice40 n8_w16_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 8 -set WIDTH 16 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n8_w16_q1.json stat -json
+
+# generic n8_w16_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 8 -set WIDTH 16 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n8_w16_q4.json stat -json; write_verilog -noattr build/n8_w16_q4_netlist.v
+
+# ice40 n8_w16_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 8 -set WIDTH 16 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n8_w16_q4.json stat -json
+
+# generic n8_w16_q8
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 8 -set WIDTH 16 -set QUOTA 8 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n8_w16_q8.json stat -json; write_verilog -noattr build/n8_w16_q8_netlist.v
+
+# ice40 n8_w16_q8
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 8 -set WIDTH 16 -set QUOTA 8 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n8_w16_q8.json stat -json
+
+# generic n4_w1_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 1 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n4_w1_q1.json stat -json; write_verilog -noattr build/n4_w1_q1_netlist.v
+
+# ice40 n4_w1_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 1 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n4_w1_q1.json stat -json
+
+# generic n4_w1_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 1 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n4_w1_q4.json stat -json; write_verilog -noattr build/n4_w1_q4_netlist.v
+
+# ice40 n4_w1_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 1 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n4_w1_q4.json stat -json
+
+# generic n4_w8_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 8 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n4_w8_q1.json stat -json; write_verilog -noattr build/n4_w8_q1_netlist.v
+
+# ice40 n4_w8_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 8 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n4_w8_q1.json stat -json
+
+# generic n4_w8_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 8 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n4_w8_q4.json stat -json; write_verilog -noattr build/n4_w8_q4_netlist.v
+
+# ice40 n4_w8_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 8 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n4_w8_q4.json stat -json
+
+# generic n4_w32_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 32 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n4_w32_q1.json stat -json; write_verilog -noattr build/n4_w32_q1_netlist.v
+
+# ice40 n4_w32_q1
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 32 -set QUOTA 1 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n4_w32_q1.json stat -json
+
+# generic n4_w32_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 32 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n4_w32_q4.json stat -json; write_verilog -noattr build/n4_w32_q4_netlist.v
+
+# ice40 n4_w32_q4
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 32 -set QUOTA 4 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n4_w32_q4.json stat -json
+
+# generic n4_w16_q2
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 16 -set QUOTA 2 -set FIXED 0 stream_arbiter; synth -top stream_arbiter; check -assert; tee -o build/generic_n4_w16_q2.json stat -json; write_verilog -noattr build/n4_w16_q2_netlist.v
+
+# ice40 n4_w16_q2
+design -reset;
+read_verilog -sv rtl/stream_arbiter.sv; chparam -set N 4 -set WIDTH 16 -set QUOTA 2 -set FIXED 0 stream_arbiter; synth_ice40 -device hx -top stream_arbiter; check -assert; tee -o build/ice40_n4_w16_q2.json stat -json

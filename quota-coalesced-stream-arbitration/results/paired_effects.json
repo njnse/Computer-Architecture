@@ -1,0 +1,394 @@
+[
+  {
+    "scenario": "asymmetric",
+    "metric": "throughput",
+    "delta_mean": 0.0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "asymmetric",
+    "metric": "switches_per_transfer",
+    "delta_mean": -0.031640625,
+    "paired_seed_t95_low": -0.039519019030157386,
+    "paired_seed_t95_high": -0.02376223096984261,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "asymmetric",
+    "metric": "serviced_wait_max",
+    "delta_mean": 3,
+    "paired_seed_t95_low": 2.122151721537258,
+    "paired_seed_t95_high": 3.877848278462742,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "asymmetric",
+    "metric": "jain",
+    "delta_mean": 0.0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "asymmetric",
+    "metric": "queue_latency_p99",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "asymmetric",
+    "metric": "max_pending_age",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "asymmetric",
+    "metric": "unserved_ports",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "bursty",
+    "metric": "throughput",
+    "delta_mean": 0.0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "bursty",
+    "metric": "switches_per_transfer",
+    "delta_mean": 0.0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "bursty",
+    "metric": "serviced_wait_max",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "bursty",
+    "metric": "jain",
+    "delta_mean": 0.0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "bursty",
+    "metric": "queue_latency_p99",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "bursty",
+    "metric": "max_pending_age",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "bursty",
+    "metric": "unserved_ports",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "light",
+    "metric": "throughput",
+    "delta_mean": 0.0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "light",
+    "metric": "switches_per_transfer",
+    "delta_mean": -0.13339615663965487,
+    "paired_seed_t95_low": -0.13995681061867024,
+    "paired_seed_t95_high": -0.1268355026606395,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "light",
+    "metric": "serviced_wait_max",
+    "delta_mean": 5.2,
+    "paired_seed_t95_low": 3.581327753990945,
+    "paired_seed_t95_high": 6.818672246009055,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "light",
+    "metric": "jain",
+    "delta_mean": -2.1554186761174597e-05,
+    "paired_seed_t95_low": -8.264428747375394e-05,
+    "paired_seed_t95_high": 3.953591395140474e-05,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "light",
+    "metric": "queue_latency_p99",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "light",
+    "metric": "max_pending_age",
+    "delta_mean": -0.2,
+    "paired_seed_t95_low": -1.5599567051932202,
+    "paired_seed_t95_high": 1.1599567051932202,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "light",
+    "metric": "unserved_ports",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "phase_change",
+    "metric": "throughput",
+    "delta_mean": 0.0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "phase_change",
+    "metric": "switches_per_transfer",
+    "delta_mean": -0.017198337609723547,
+    "paired_seed_t95_low": -0.020402009596268877,
+    "paired_seed_t95_high": -0.013994665623178217,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "phase_change",
+    "metric": "serviced_wait_max",
+    "delta_mean": 4.2,
+    "paired_seed_t95_low": 1.6557539741605178,
+    "paired_seed_t95_high": 6.744246025839482,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "phase_change",
+    "metric": "jain",
+    "delta_mean": -0.00017196343496139743,
+    "paired_seed_t95_low": -0.0004924837818949949,
+    "paired_seed_t95_high": 0.0001485569119722,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "phase_change",
+    "metric": "queue_latency_p99",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "phase_change",
+    "metric": "max_pending_age",
+    "delta_mean": 0.2,
+    "paired_seed_t95_low": -1.4186722460090553,
+    "paired_seed_t95_high": 1.8186722460090552,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "phase_change",
+    "metric": "unserved_ports",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "reset_stress",
+    "metric": "throughput",
+    "delta_mean": 0.0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "reset_stress",
+    "metric": "switches_per_transfer",
+    "delta_mean": -0.7473219969578582,
+    "paired_seed_t95_low": -0.7481162358960356,
+    "paired_seed_t95_high": -0.7465277580196807,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "reset_stress",
+    "metric": "serviced_wait_max",
+    "delta_mean": 9,
+    "paired_seed_t95_low": 9.0,
+    "paired_seed_t95_high": 9.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "reset_stress",
+    "metric": "jain",
+    "delta_mean": -0.0006840204709953168,
+    "paired_seed_t95_low": -0.001010915009647463,
+    "paired_seed_t95_high": -0.0003571259323431705,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "reset_stress",
+    "metric": "queue_latency_p99",
+    "delta_mean": 0.2,
+    "paired_seed_t95_low": -0.3551999999999999,
+    "paired_seed_t95_high": 0.7551999999999999,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "reset_stress",
+    "metric": "max_pending_age",
+    "delta_mean": 1,
+    "paired_seed_t95_low": 0.12215172153725795,
+    "paired_seed_t95_high": 1.877848278462742,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "reset_stress",
+    "metric": "unserved_ports",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "saturated",
+    "metric": "throughput",
+    "delta_mean": 0.0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "saturated",
+    "metric": "switches_per_transfer",
+    "delta_mean": -0.7497209821428571,
+    "paired_seed_t95_low": -0.7497209821428571,
+    "paired_seed_t95_high": -0.7497209821428571,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "saturated",
+    "metric": "serviced_wait_max",
+    "delta_mean": 9,
+    "paired_seed_t95_low": 9.0,
+    "paired_seed_t95_high": 9.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "saturated",
+    "metric": "jain",
+    "delta_mean": 0.0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "saturated",
+    "metric": "queue_latency_p99",
+    "delta_mean": 1,
+    "paired_seed_t95_low": 1.0,
+    "paired_seed_t95_high": 1.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "saturated",
+    "metric": "max_pending_age",
+    "delta_mean": 2,
+    "paired_seed_t95_low": 2.0,
+    "paired_seed_t95_high": 2.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "saturated",
+    "metric": "unserved_ports",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "sink_stalls",
+    "metric": "throughput",
+    "delta_mean": 0.0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "sink_stalls",
+    "metric": "switches_per_transfer",
+    "delta_mean": -0.7496131337513986,
+    "paired_seed_t95_low": -0.7499187599315861,
+    "paired_seed_t95_high": -0.7493075075712111,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "sink_stalls",
+    "metric": "serviced_wait_max",
+    "delta_mean": 9,
+    "paired_seed_t95_low": 9.0,
+    "paired_seed_t95_high": 9.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "sink_stalls",
+    "metric": "jain",
+    "delta_mean": -1.5002535083352698e-06,
+    "paired_seed_t95_low": -4.723978853204083e-06,
+    "paired_seed_t95_high": 1.7234718365335427e-06,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "sink_stalls",
+    "metric": "queue_latency_p99",
+    "delta_mean": 0.4,
+    "paired_seed_t95_low": -2.020060693453782,
+    "paired_seed_t95_high": 2.8200606934537817,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "sink_stalls",
+    "metric": "max_pending_age",
+    "delta_mean": 0.4,
+    "paired_seed_t95_low": -0.2799783525966101,
+    "paired_seed_t95_high": 1.0799783525966102,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  },
+  {
+    "scenario": "sink_stalls",
+    "metric": "unserved_ports",
+    "delta_mean": 0,
+    "paired_seed_t95_low": 0.0,
+    "paired_seed_t95_high": 0.0,
+    "interpretation": "Seed variability only; saturated workload duplicates are not independent evidence"
+  }
+]

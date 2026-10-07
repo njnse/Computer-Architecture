@@ -1,0 +1,234 @@
+{
+  "python": "3.12.14",
+  "os": "Linux",
+  "machine": "x86_64",
+  "configured_tools": {
+    "iverilog": "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+    "vvp": "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+    "yosys": "/workspace/rtl-tools/venv/bin/yowasp-yosys",
+    "ivl_base": [
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl"
+    ]
+  },
+  "plotting_dependencies": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "contourpy": "1.3.3",
+    "cycler": "0.12.1",
+    "fonttools": "4.61.1",
+    "kiwisolver": "1.4.9",
+    "packaging": "26.3",
+    "pillow": "12.3.0",
+    "pyparsing": "3.3.2",
+    "python-dateutil": "2.9.0.post0",
+    "six": "1.17.0"
+  },
+  "optional_tools_on_path": {
+    "verilator": null,
+    "nextpnr-ice40": null,
+    "vivado": null,
+    "vsim": null,
+    "vcs": null
+  },
+  "iverilog": "Icarus Verilog version 12.0 (stable) ()",
+  "yosys": "Yosys 0.69 (git sha1 9f75ca1f9, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+  "evaluation_seeds": [
+    11,
+    29,
+    47,
+    101,
+    211
+  ],
+  "diagnostic_seed": 7,
+  "configurations": [
+    [
+      1,
+      16,
+      1,
+      1
+    ],
+    [
+      1,
+      16,
+      1,
+      0
+    ],
+    [
+      1,
+      16,
+      4,
+      0
+    ],
+    [
+      1,
+      16,
+      8,
+      0
+    ],
+    [
+      3,
+      16,
+      1,
+      1
+    ],
+    [
+      3,
+      16,
+      1,
+      0
+    ],
+    [
+      3,
+      16,
+      4,
+      0
+    ],
+    [
+      3,
+      16,
+      8,
+      0
+    ],
+    [
+      4,
+      16,
+      1,
+      1
+    ],
+    [
+      4,
+      16,
+      1,
+      0
+    ],
+    [
+      4,
+      16,
+      4,
+      0
+    ],
+    [
+      4,
+      16,
+      8,
+      0
+    ],
+    [
+      8,
+      16,
+      1,
+      1
+    ],
+    [
+      8,
+      16,
+      1,
+      0
+    ],
+    [
+      8,
+      16,
+      4,
+      0
+    ],
+    [
+      8,
+      16,
+      8,
+      0
+    ],
+    [
+      4,
+      1,
+      1,
+      0
+    ],
+    [
+      4,
+      1,
+      4,
+      0
+    ],
+    [
+      4,
+      8,
+      1,
+      0
+    ],
+    [
+      4,
+      8,
+      4,
+      0
+    ],
+    [
+      4,
+      32,
+      1,
+      0
+    ],
+    [
+      4,
+      32,
+      4,
+      0
+    ],
+    [
+      4,
+      16,
+      2,
+      0
+    ]
+  ],
+  "traffic": "Generated open-loop arrivals in reference.py; no downloaded traces or third-party RTL",
+  "simulation_records": 897,
+  "convergence_records": 24,
+  "reference_self_tests": 17,
+  "mutations_detected": [
+    "data_corruption",
+    "missing_stall_lock"
+  ],
+  "formal": {
+    "n": 3,
+    "width": 2,
+    "bound": 20,
+    "initial_state": "zero; first step reset",
+    "cases": [
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "uvm_executed": false,
+  "place_route_executed": false,
+  "physical_board": false,
+  "synthesis_target": {
+    "family": "iCE40 HX",
+    "device_capacity": null,
+    "clock_constraint": null,
+    "mapping": "Yosys synth_ice40 -device hx; bundled primitive library; no place-and-route"
+  },
+  "source_sha256": {
+    "rtl/stream_arbiter.sv": "a38734744b833171abb3657999b60fba8dafee9c236e85054a654c9dd57e7af9",
+    "tb/check_vectors.sv": "e92a7a614bae97605bd6119760a58732dd349712f2477e35df04968cc3552608",
+    "formal/properties.sv": "e885a6ed482ed7de839790ac1ff49c0c1e55e0ae698880543dcbdf063d0e465b",
+    "reference.py": "e32f1223b7639a662e9a9f75ff7ce1ed676bf2c136a008037e66c3cb1b28d2c1",
+    "reproduce.py": "d60b8dd0941193b7331c148980b28c7e43475981f4431194eb5d3789c0e3067d",
+    "analyze_results.py": "0c8913f32e321e870e46165b2d4e7f639dc61a583c6cc7d0a8fc40370523e6a6",
+    "verify_results.py": "34f2e71aeafd0f9fb7350fcda41ceffbd407dc1950a6c1eeaf6b4bf9069c9cc3",
+    "run_project.py": "a95abbb7bc1641fbcf5acbceabf403a9a33155d411f93c03e5f2fe5079db583a",
+    "analysis-requirements.txt": "b6d0222aa5b1eb625d2751c81324b1e4b6d0f86cbee46d63202c0491091bc55c",
+    "tools/setup.py": "56bc40421a1a76676f364329d6eea130ac616e0577e03e6a2a8e7d709314f867",
+    "tools/requirements.txt": "eb86ec1260d94bd12de2e4d11384890d83b1a55cbca792000b9859f7a278641a"
+  }
+}

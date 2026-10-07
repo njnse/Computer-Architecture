@@ -1,0 +1,9 @@
+# Experiment history and decision record
+
+The specification fixed the hypotheses, workload families, quotas, dimensions, and seeds before the evaluation. No design parameter was selected by held-out results. Q=4 is a predeclared candidate; Q=2/Q=8 expose sensitivity rather than optimize a headline result. Fixed priority and Q=1 remain in the dataset even when unfavorable or competitive.
+
+The first full pipeline attempt completed RTL/vector checks, matched generic-netlist checks, and all synthesis configurations. Its final formal stage stopped because Yosys could not lower edge-triggered `$check` cells directly with `chformal -lower`. The command was corrected to run `async2sync` first. A standalone Q=4 bounded proof passed with that preprocessing. The full reproduction pipeline was then rerun so the final archived records and hashes refer to one successful executable revision.
+
+This was a formal-tool setup correction; no candidate behavior, arrivals, seed, quota, width, or policy was changed in response to measurements. Only final completed run records enter the comparison files. Deliberate fault-injection failures remain separately labeled in `mutation.log`. Deterministic reruns establish reproduction, not additional independent samples.
+
+The next execution completed all 897 main simulation records, 46 synthesis flows, and three bounded proofs. A final evidence-parser check incorrectly counted the substring “model found” inside both a successful proof's “no model found” and a reachability witness. It was corrected to match the complete SAT status lines. The result figure was also moved to pinned Matplotlib. These changes affect evidence validation/presentation, not RTL or the experiment policy; the final entrypoint was executed again with the corrected artifact checks.

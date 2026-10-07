@@ -1,0 +1,7 @@
+=== Expected failure: data_corruption ===
+FATAL: tb/check_vectors.sv:49: scoreboard mismatch row=2 got=1,3,0,01c4 expected=1,3,0,01c5
+       Time: 35  Scope: tb
+
+=== Expected failure: missing_stall_lock ===
+FATAL: tb/check_vectors.sv:49: scoreboard mismatch row=4 got=1,0,0,0000 expected=1,3,0,01c5
+       Time: 55  Scope: tb
