@@ -1,0 +1,655 @@
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_2_0.json
+write_verilog -noattr build/generic_2_0.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_2_0.json
+write_verilog -noattr build/xcup_lut_2_0.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_2_0.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_2_1.json
+write_verilog -noattr build/generic_2_1.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_2_1.json
+write_verilog -noattr build/xcup_lut_2_1.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_2_1.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+chparam -set CHECK_META 0 sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_unchecked_2_1.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_2_2.json
+write_verilog -noattr build/generic_2_2.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_2_2.json
+write_verilog -noattr build/xcup_lut_2_2.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_2_2.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+chparam -set CHECK_META 0 sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_unchecked_2_2.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_2_3.json
+write_verilog -noattr build/generic_2_3.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_2_3.json
+write_verilog -noattr build/xcup_lut_2_3.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_2_3.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_2_4.json
+write_verilog -noattr build/generic_2_4.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_2_4.json
+write_verilog -noattr build/xcup_lut_2_4.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 2 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_2_4.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_4_0.json
+write_verilog -noattr build/generic_4_0.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_4_0.json
+write_verilog -noattr build/xcup_lut_4_0.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_4_0.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_4_1.json
+write_verilog -noattr build/generic_4_1.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_4_1.json
+write_verilog -noattr build/xcup_lut_4_1.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_4_1.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+chparam -set CHECK_META 0 sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_unchecked_4_1.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_4_2.json
+write_verilog -noattr build/generic_4_2.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_4_2.json
+write_verilog -noattr build/xcup_lut_4_2.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_4_2.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+chparam -set CHECK_META 0 sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_unchecked_4_2.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_4_3.json
+write_verilog -noattr build/generic_4_3.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_4_3.json
+write_verilog -noattr build/xcup_lut_4_3.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_4_3.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_4_4.json
+write_verilog -noattr build/generic_4_4.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_4_4.json
+write_verilog -noattr build/xcup_lut_4_4.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 4 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_4_4.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_6_0.json
+write_verilog -noattr build/generic_6_0.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_6_0.json
+write_verilog -noattr build/xcup_lut_6_0.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_6_0.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_6_1.json
+write_verilog -noattr build/generic_6_1.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_6_1.json
+write_verilog -noattr build/xcup_lut_6_1.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_6_1.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+chparam -set CHECK_META 0 sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_unchecked_6_1.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_6_2.json
+write_verilog -noattr build/generic_6_2.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_6_2.json
+write_verilog -noattr build/xcup_lut_6_2.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_6_2.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+chparam -set CHECK_META 0 sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_unchecked_6_2.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_6_3.json
+write_verilog -noattr build/generic_6_3.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_6_3.json
+write_verilog -noattr build/xcup_lut_6_3.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_6_3.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_6_4.json
+write_verilog -noattr build/generic_6_4.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_6_4.json
+write_verilog -noattr build/xcup_lut_6_4.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 6 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_6_4.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_8_0.json
+write_verilog -noattr build/generic_8_0.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_8_0.json
+write_verilog -noattr build/xcup_lut_8_0.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_8_0.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_8_1.json
+write_verilog -noattr build/generic_8_1.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_8_1.json
+write_verilog -noattr build/xcup_lut_8_1.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_8_1.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+chparam -set CHECK_META 0 sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_unchecked_8_1.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_8_2.json
+write_verilog -noattr build/generic_8_2.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_8_2.json
+write_verilog -noattr build/xcup_lut_8_2.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_8_2.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+chparam -set CHECK_META 0 sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_unchecked_8_2.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_8_3.json
+write_verilog -noattr build/generic_8_3.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_8_3.json
+write_verilog -noattr build/xcup_lut_8_3.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_8_3.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_8_4.json
+write_verilog -noattr build/generic_8_4.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_8_4.json
+write_verilog -noattr build/xcup_lut_8_4.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 8 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_8_4.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_12_0.json
+write_verilog -noattr build/generic_12_0.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_12_0.json
+write_verilog -noattr build/xcup_lut_12_0.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 0 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_12_0.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_12_1.json
+write_verilog -noattr build/generic_12_1.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_12_1.json
+write_verilog -noattr build/xcup_lut_12_1.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_12_1.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 1 sparse_dot
+hierarchy -check -top sparse_dot
+chparam -set CHECK_META 0 sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_unchecked_12_1.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_12_2.json
+write_verilog -noattr build/generic_12_2.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_12_2.json
+write_verilog -noattr build/xcup_lut_12_2.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_12_2.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 2 sparse_dot
+hierarchy -check -top sparse_dot
+chparam -set CHECK_META 0 sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_unchecked_12_2.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_12_3.json
+write_verilog -noattr build/generic_12_3.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_12_3.json
+write_verilog -noattr build/xcup_lut_12_3.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 3 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_12_3.json
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth -top sparse_dot
+check -assert
+write_json build/generic_12_4.json
+write_verilog -noattr build/generic_12_4.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf -nodsp -top sparse_dot
+check -assert
+write_json build/xcup_lut_12_4.json
+write_verilog -noattr build/xcup_lut_12_4.v
+design -reset
+read_verilog -sv rtl/sparse_dot.sv
+chparam -set WIDTH 12 -set MODE 4 sparse_dot
+hierarchy -check -top sparse_dot
+synth_xilinx -family xcup -noiopad -noclkbuf  -top sparse_dot
+check -assert
+write_json build/xcup_dsp_12_4.json

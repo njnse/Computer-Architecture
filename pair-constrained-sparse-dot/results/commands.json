@@ -1,0 +1,3906 @@
+[
+  {
+    "argv": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_2_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_2_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_2_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_2_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_2_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_2_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_2_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_2_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_2_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_2_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_2_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_2_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_2_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_2_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_2_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_2_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_2_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_2_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_2_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_2_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_2_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_2_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_2_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_2_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_2_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_4_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_4_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_4_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_4_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_4_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_4_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_4_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_4_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_4_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_4_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_4_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_4_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt",
+      "+wave=PROJECT/results/protocol.vcd"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_4_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_4_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_4_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_4_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_6_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_6_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_6_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_6_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_6_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_6_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_6_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_6_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_6_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_6_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_6_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_6_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_6_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_6_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_6_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_6_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_6_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_6_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_6_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_6_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_8_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_8_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_8_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_8_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_8_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_8_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_8_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_8_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_8_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_8_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_8_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_8_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_8_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_8_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_8_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_8_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_8_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_8_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_8_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_8_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_12_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_12_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_12_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_12_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_12_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_12_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_12_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_12_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_12_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_12_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_12_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_12_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_12_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_12_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_12_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_12_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_12_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_12_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_12_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_12_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/venv/bin/yowasp-yosys",
+      "-Q",
+      "-T",
+      "-s",
+      "PROJECT/results/synthesis_commands.ys"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=0",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_2_0_gate.vvp",
+      "PROJECT/build/generic_2_0.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_0_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=1",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_2_1_gate.vvp",
+      "PROJECT/build/generic_2_1.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_1_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=2",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_2_2_gate.vvp",
+      "PROJECT/build/generic_2_2.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_2_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=3",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_2_3_gate.vvp",
+      "PROJECT/build/generic_2_3.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_3_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=2",
+      "-DMODE=4",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_2_4_gate.vvp",
+      "PROJECT/build/generic_2_4.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_2_4_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=0",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_4_0_gate.vvp",
+      "PROJECT/build/generic_4_0.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_0_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=1",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_4_1_gate.vvp",
+      "PROJECT/build/generic_4_1.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_1_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=2",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_4_2_gate.vvp",
+      "PROJECT/build/generic_4_2.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_2_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=3",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_4_3_gate.vvp",
+      "PROJECT/build/generic_4_3.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_3_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=4",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_4_4_gate.vvp",
+      "PROJECT/build/generic_4_4.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_4_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=0",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_6_0_gate.vvp",
+      "PROJECT/build/generic_6_0.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_0_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=1",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_6_1_gate.vvp",
+      "PROJECT/build/generic_6_1.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_1_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=2",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_6_2_gate.vvp",
+      "PROJECT/build/generic_6_2.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_2_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=3",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_6_3_gate.vvp",
+      "PROJECT/build/generic_6_3.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_3_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=6",
+      "-DMODE=4",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_6_4_gate.vvp",
+      "PROJECT/build/generic_6_4.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_6_4_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=0",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_8_0_gate.vvp",
+      "PROJECT/build/generic_8_0.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_0_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=1",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_8_1_gate.vvp",
+      "PROJECT/build/generic_8_1.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_1_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=2",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_8_2_gate.vvp",
+      "PROJECT/build/generic_8_2.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_2_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=3",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_8_3_gate.vvp",
+      "PROJECT/build/generic_8_3.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_3_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=4",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_8_4_gate.vvp",
+      "PROJECT/build/generic_8_4.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_4_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=0",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_12_0_gate.vvp",
+      "PROJECT/build/generic_12_0.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_0_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=1",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_12_1_gate.vvp",
+      "PROJECT/build/generic_12_1.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_1_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=2",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_12_2_gate.vvp",
+      "PROJECT/build/generic_12_2.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_2_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=3",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_12_3_gate.vvp",
+      "PROJECT/build/generic_12_3.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_3_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=12",
+      "-DMODE=4",
+      "-DNETLIST",
+      "-o",
+      "PROJECT/build/dot_12_4_gate.vvp",
+      "PROJECT/build/generic_12_4.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_12_4_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=0",
+      "-DNETLIST",
+      "/workspace/rtl-tools/venv/lib/python3.12/site-packages/yowasp_yosys/share/xilinx/cells_sim.v",
+      "-o",
+      "PROJECT/build/dot_4_0_gate.vvp",
+      "PROJECT/build/xcup_lut_4_0.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_0_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=1",
+      "-DNETLIST",
+      "/workspace/rtl-tools/venv/lib/python3.12/site-packages/yowasp_yosys/share/xilinx/cells_sim.v",
+      "-o",
+      "PROJECT/build/dot_4_1_gate.vvp",
+      "PROJECT/build/xcup_lut_4_1.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_1_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=2",
+      "-DNETLIST",
+      "/workspace/rtl-tools/venv/lib/python3.12/site-packages/yowasp_yosys/share/xilinx/cells_sim.v",
+      "-o",
+      "PROJECT/build/dot_4_2_gate.vvp",
+      "PROJECT/build/xcup_lut_4_2.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_2_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=3",
+      "-DNETLIST",
+      "/workspace/rtl-tools/venv/lib/python3.12/site-packages/yowasp_yosys/share/xilinx/cells_sim.v",
+      "-o",
+      "PROJECT/build/dot_4_3_gate.vvp",
+      "PROJECT/build/xcup_lut_4_3.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_3_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=4",
+      "-DNETLIST",
+      "/workspace/rtl-tools/venv/lib/python3.12/site-packages/yowasp_yosys/share/xilinx/cells_sim.v",
+      "-o",
+      "PROJECT/build/dot_4_4_gate.vvp",
+      "PROJECT/build/xcup_lut_4_4.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_4_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=0",
+      "-DNETLIST",
+      "/workspace/rtl-tools/venv/lib/python3.12/site-packages/yowasp_yosys/share/xilinx/cells_sim.v",
+      "-o",
+      "PROJECT/build/dot_8_0_gate.vvp",
+      "PROJECT/build/xcup_lut_8_0.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_0_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=1",
+      "-DNETLIST",
+      "/workspace/rtl-tools/venv/lib/python3.12/site-packages/yowasp_yosys/share/xilinx/cells_sim.v",
+      "-o",
+      "PROJECT/build/dot_8_1_gate.vvp",
+      "PROJECT/build/xcup_lut_8_1.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_1_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=2",
+      "-DNETLIST",
+      "/workspace/rtl-tools/venv/lib/python3.12/site-packages/yowasp_yosys/share/xilinx/cells_sim.v",
+      "-o",
+      "PROJECT/build/dot_8_2_gate.vvp",
+      "PROJECT/build/xcup_lut_8_2.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_2_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=3",
+      "-DNETLIST",
+      "/workspace/rtl-tools/venv/lib/python3.12/site-packages/yowasp_yosys/share/xilinx/cells_sim.v",
+      "-o",
+      "PROJECT/build/dot_8_3_gate.vvp",
+      "PROJECT/build/xcup_lut_8_3.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_3_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=4",
+      "-DNETLIST",
+      "/workspace/rtl-tools/venv/lib/python3.12/site-packages/yowasp_yosys/share/xilinx/cells_sim.v",
+      "-o",
+      "PROJECT/build/dot_8_4_gate.vvp",
+      "PROJECT/build/xcup_lut_8_4.v",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_4_gate.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/venv/bin/yowasp-yosys",
+      "-Q",
+      "-T",
+      "-s",
+      "PROJECT/results/formal_commands.ys"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_4_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt",
+      "+outputs=PROJECT/build/outputs.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_4_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt",
+      "+outputs=PROJECT/build/outputs.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_4_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt",
+      "+outputs=PROJECT/build/outputs.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt",
+      "+outputs=PROJECT/build/outputs.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_4_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt",
+      "+outputs=PROJECT/build/outputs.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=0",
+      "-o",
+      "PROJECT/build/dot_8_0_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_0_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt",
+      "+outputs=PROJECT/build/outputs.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=1",
+      "-o",
+      "PROJECT/build/dot_8_1_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_1_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt",
+      "+outputs=PROJECT/build/outputs.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=2",
+      "-o",
+      "PROJECT/build/dot_8_2_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_2_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt",
+      "+outputs=PROJECT/build/outputs.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_8_3_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt",
+      "+outputs=PROJECT/build/outputs.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=8",
+      "-DMODE=4",
+      "-o",
+      "PROJECT/build/dot_8_4_rtl.vvp",
+      "PROJECT/rtl/sparse_dot.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_8_4_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt",
+      "+outputs=PROJECT/build/outputs.txt"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "PROJECT/build/wrong_pair.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "tb",
+      "-DWIDTH=4",
+      "-DMODE=3",
+      "-o",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "PROJECT/build/unstable_output.sv",
+      "PROJECT/tb/check_vectors.sv"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/vvp",
+      "PROJECT/build/dot_4_3_rtl.vvp",
+      "+vectors=PROJECT/build/vectors.txt"
+    ],
+    "returncode": 1
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/iverilog/usr/bin/iverilog",
+      "-B",
+      "/workspace/rtl-tools/iverilog/usr/lib/x86_64-linux-gnu/ivl",
+      "-V"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "/workspace/rtl-tools/venv/bin/yowasp-yosys",
+      "-V"
+    ],
+    "returncode": 0
+  }
+]

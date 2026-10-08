@@ -1,0 +1,12 @@
+test_dense_signed_extremes (test_reference.ReferenceTests.test_dense_signed_extremes) ... ok
+test_encode_roundtrip (test_reference.ReferenceTests.test_encode_roundtrip) ... ok
+test_invalid_metadata (test_reference.ReferenceTests.test_invalid_metadata) ... ok
+test_mask_energy_optimum_and_pair_penalty (test_reference.ReferenceTests.test_mask_energy_optimum_and_pair_penalty) ... ok
+test_pair_all_patterns (test_reference.ReferenceTests.test_pair_all_patterns) ... ok
+test_quantization_bounds_and_zero_rows (test_reference.ReferenceTests.test_quantization_bounds_and_zero_rows) ... ok
+test_sparse_indices (test_reference.ReferenceTests.test_sparse_indices) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

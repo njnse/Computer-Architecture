@@ -1,0 +1,4838 @@
+CASE exhaustive WIDTH 2 MODE 0
+PASS cycles=65540 accepted=65536 emitted=65536 canceled=0 stalls=0 errors=0 simultaneous=65535 negative=20928 min=65536 max=65536 reset_busy=0
+META 0 65536
+META 1 0
+META 2 0
+META 3 0
+META 4 0
+META 5 0
+META 6 0
+META 7 0
+META 8 0
+META 9 0
+META 10 0
+META 11 0
+META 12 0
+META 13 0
+META 14 0
+META 15 0
+LATENCY 1 65536
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 655400 (1s)
+
+CASE exhaustive WIDTH 2 MODE 1
+PASS cycles=65540 accepted=65536 emitted=65536 canceled=0 stalls=0 errors=40960 simultaneous=65535 negative=7680 min=65536 max=65536 reset_busy=0
+META 0 4096
+META 1 4096
+META 2 4096
+META 3 4096
+META 4 4096
+META 5 4096
+META 6 4096
+META 7 4096
+META 8 4096
+META 9 4096
+META 10 4096
+META 11 4096
+META 12 4096
+META 13 4096
+META 14 4096
+META 15 4096
+LATENCY 1 65536
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 655400 (1s)
+
+CASE exhaustive WIDTH 2 MODE 2
+PASS cycles=32772 accepted=32768 emitted=32768 canceled=0 stalls=0 errors=8192 simultaneous=32767 negative=7680 min=32768 max=32768 reset_busy=0
+META 0 4096
+META 1 4096
+META 2 4096
+META 3 4096
+META 4 4096
+META 5 4096
+META 6 4096
+META 7 4096
+META 8 0
+META 9 0
+META 10 0
+META 11 0
+META 12 0
+META 13 0
+META 14 0
+META 15 0
+LATENCY 1 32768
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 327720 (1s)
+
+CASE exhaustive WIDTH 2 MODE 3
+PASS cycles=16388 accepted=16384 emitted=16384 canceled=0 stalls=0 errors=0 simultaneous=16383 negative=5120 min=16384 max=16384 reset_busy=0
+META 0 4096
+META 1 4096
+META 2 4096
+META 3 4096
+META 4 0
+META 5 0
+META 6 0
+META 7 0
+META 8 0
+META 9 0
+META 10 0
+META 11 0
+META 12 0
+META 13 0
+META 14 0
+META 15 0
+LATENCY 1 16384
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 163880 (1s)
+
+CASE exhaustive WIDTH 2 MODE 4
+PASS cycles=4100 accepted=4096 emitted=4096 canceled=0 stalls=0 errors=0 simultaneous=4095 negative=1280 min=4096 max=4096 reset_busy=0
+META 0 4096
+META 1 0
+META 2 0
+META 3 0
+META 4 0
+META 5 0
+META 6 0
+META 7 0
+META 8 0
+META 9 0
+META 10 0
+META 11 0
+META 12 0
+META 13 0
+META 14 0
+META 15 0
+LATENCY 1 4096
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41000 (1s)
+
+CASE random WIDTH 2 MODE 0
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=577 min=1457 max=1896 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 2 MODE 0
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=593 min=1477 max=1966 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 2 MODE 0
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=530 min=1475 max=1947 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 2 MODE 0
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=697 min=1914 max=2356 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 2 MODE 1
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=998 simultaneous=1323 negative=215 min=1457 max=1896 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 2 MODE 1
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=998 simultaneous=1325 negative=212 min=1477 max=1966 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 2 MODE 1
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=997 simultaneous=1331 negative=201 min=1475 max=1947 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 2 MODE 1
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=1250 simultaneous=1999 negative=249 min=1914 max=2356 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 2 MODE 2
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=400 simultaneous=1323 negative=422 min=1457 max=1896 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 2 MODE 2
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=398 simultaneous=1325 negative=428 min=1477 max=1966 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 2 MODE 2
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=399 simultaneous=1331 negative=416 min=1475 max=1947 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 2 MODE 2
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=500 simultaneous=1999 negative=525 min=1914 max=2356 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 2 MODE 3
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=572 min=1457 max=1896 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 2 MODE 3
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=554 min=1477 max=1966 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 2 MODE 3
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=498 min=1475 max=1947 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 2 MODE 3
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=670 min=1914 max=2356 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 2 MODE 4
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=529 min=1457 max=1896 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 2 MODE 4
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=541 min=1477 max=1966 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 2 MODE 4
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=514 min=1475 max=1947 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 2 MODE 4
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=690 min=1914 max=2356 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 4 MODE 0
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=770 min=682 max=676 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 4 MODE 0
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=796 min=662 max=698 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 4 MODE 0
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=737 min=662 max=711 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 4 MODE 0
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=949 min=902 max=834 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 4 MODE 1
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=998 simultaneous=1323 negative=295 min=682 max=676 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 4 MODE 1
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=998 simultaneous=1325 negative=275 min=662 max=698 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 4 MODE 1
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=997 simultaneous=1331 negative=270 min=662 max=711 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 4 MODE 1
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=1250 simultaneous=1999 negative=346 min=902 max=834 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 4 MODE 2
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=400 simultaneous=1323 negative=557 min=682 max=676 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 4 MODE 2
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=398 simultaneous=1325 negative=578 min=662 max=698 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 4 MODE 2
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=399 simultaneous=1331 negative=565 min=662 max=711 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 4 MODE 2
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=500 simultaneous=1999 negative=716 min=902 max=834 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 4 MODE 3
+VCD info: dumpfile /workspace/computer-architecture-research/pair-constrained-sparse-dot/results/protocol.vcd opened for output.
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=761 min=682 max=676 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 4 MODE 3
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=738 min=662 max=698 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 4 MODE 3
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=694 min=662 max=711 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 4 MODE 3
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=913 min=902 max=834 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 4 MODE 4
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=722 min=682 max=676 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 4 MODE 4
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=733 min=662 max=698 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 4 MODE 4
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=732 min=662 max=711 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 4 MODE 4
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=928 min=902 max=834 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 6 MODE 0
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=788 min=509 max=494 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 6 MODE 0
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=800 min=473 max=474 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 6 MODE 0
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=744 min=473 max=502 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 6 MODE 0
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=952 min=647 max=589 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 6 MODE 1
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=998 simultaneous=1323 negative=301 min=509 max=494 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 6 MODE 1
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=998 simultaneous=1325 negative=283 min=473 max=474 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 6 MODE 1
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=997 simultaneous=1331 negative=271 min=473 max=502 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 6 MODE 1
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=1250 simultaneous=1999 negative=355 min=647 max=589 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 6 MODE 2
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=400 simultaneous=1323 negative=573 min=509 max=494 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 6 MODE 2
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=398 simultaneous=1325 negative=590 min=473 max=474 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 6 MODE 2
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=399 simultaneous=1331 negative=582 min=473 max=502 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 6 MODE 2
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=500 simultaneous=1999 negative=735 min=647 max=589 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 6 MODE 3
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=782 min=509 max=494 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 6 MODE 3
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=746 min=473 max=474 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 6 MODE 3
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=712 min=473 max=502 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 6 MODE 3
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=938 min=647 max=589 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 6 MODE 4
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=740 min=509 max=494 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 6 MODE 4
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=755 min=473 max=474 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 6 MODE 4
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=748 min=473 max=502 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 6 MODE 4
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=945 min=647 max=589 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 8 MODE 0
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=785 min=464 max=431 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 8 MODE 0
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=799 min=431 max=418 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 8 MODE 0
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=749 min=423 max=451 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 8 MODE 0
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=951 min=574 max=524 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 8 MODE 1
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=998 simultaneous=1323 negative=300 min=464 max=431 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 8 MODE 1
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=998 simultaneous=1325 negative=282 min=431 max=418 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 8 MODE 1
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=997 simultaneous=1331 negative=273 min=423 max=451 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 8 MODE 1
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=1250 simultaneous=1999 negative=358 min=574 max=524 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 8 MODE 2
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=400 simultaneous=1323 negative=574 min=464 max=431 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 8 MODE 2
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=398 simultaneous=1325 negative=591 min=431 max=418 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 8 MODE 2
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=399 simultaneous=1331 negative=583 min=423 max=451 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 8 MODE 2
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=500 simultaneous=1999 negative=738 min=574 max=524 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 8 MODE 3
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=785 min=464 max=431 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 8 MODE 3
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=745 min=431 max=418 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 8 MODE 3
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=715 min=423 max=451 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 8 MODE 3
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=944 min=574 max=524 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 8 MODE 4
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=745 min=464 max=431 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 8 MODE 4
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=759 min=431 max=418 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 8 MODE 4
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=744 min=423 max=451 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 8 MODE 4
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=948 min=574 max=524 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 12 MODE 0
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=783 min=441 max=414 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 12 MODE 0
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=798 min=414 max=405 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 12 MODE 0
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=750 min=412 max=438 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 12 MODE 0
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=953 min=561 max=505 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 12 MODE 1
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=998 simultaneous=1323 negative=301 min=441 max=414 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 12 MODE 1
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=998 simultaneous=1325 negative=282 min=414 max=405 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 12 MODE 1
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=997 simultaneous=1331 negative=274 min=412 max=438 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 12 MODE 1
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=1250 simultaneous=1999 negative=358 min=561 max=505 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 12 MODE 2
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=400 simultaneous=1323 negative=576 min=441 max=414 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 12 MODE 2
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=398 simultaneous=1325 negative=592 min=414 max=405 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 12 MODE 2
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=399 simultaneous=1331 negative=583 min=412 max=438 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 12 MODE 2
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=500 simultaneous=1999 negative=736 min=561 max=505 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 12 MODE 3
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=783 min=441 max=414 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 12 MODE 3
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=746 min=414 max=405 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 12 MODE 3
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=713 min=412 max=438 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 12 MODE 3
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=945 min=561 max=505 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE random WIDTH 12 MODE 4
+PASS cycles=4188 accepted=1600 emitted=1598 canceled=2 stalls=2049 errors=0 simultaneous=1323 negative=747 min=441 max=414 reset_busy=2
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 978
+LATENCY 2 373
+LATENCY 3 112
+LATENCY 4 38
+LATENCY 5 11
+LATENCY 6 3
+LATENCY 7 4
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 7
+LATENCY 18 28
+LATENCY 19 19
+LATENCY 20 13
+LATENCY 21 3
+LATENCY 22 6
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 12 MODE 4
+PASS cycles=4188 accepted=1600 emitted=1597 canceled=3 stalls=2050 errors=0 simultaneous=1325 negative=760 min=414 max=405 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 989
+LATENCY 2 338
+LATENCY 3 129
+LATENCY 4 42
+LATENCY 5 11
+LATENCY 6 8
+LATENCY 8 1
+LATENCY 9 1
+LATENCY 15 2
+LATENCY 17 3
+LATENCY 18 25
+LATENCY 19 29
+LATENCY 20 11
+LATENCY 21 5
+LATENCY 22 2
+LATENCY 23 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41880 (1s)
+
+CASE random WIDTH 12 MODE 4
+PASS cycles=4137 accepted=1600 emitted=1597 canceled=3 stalls=1994 errors=0 simultaneous=1331 negative=745 min=412 max=438 reset_busy=3
+META 0 100
+META 1 100
+META 2 100
+META 3 100
+META 4 100
+META 5 100
+META 6 100
+META 7 100
+META 8 100
+META 9 100
+META 10 100
+META 11 100
+META 12 100
+META 13 100
+META 14 100
+META 15 100
+LATENCY 1 998
+LATENCY 2 335
+LATENCY 3 135
+LATENCY 4 33
+LATENCY 5 10
+LATENCY 6 5
+LATENCY 7 1
+LATENCY 8 2
+LATENCY 9 1
+LATENCY 14 1
+LATENCY 16 1
+LATENCY 17 4
+LATENCY 18 33
+LATENCY 19 23
+LATENCY 20 10
+LATENCY 21 3
+LATENCY 24 1
+LATENCY 25 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 41370 (1s)
+
+CASE saturation WIDTH 12 MODE 4
+PASS cycles=2004 accepted=2000 emitted=2000 canceled=0 stalls=0 errors=0 simultaneous=1999 negative=949 min=561 max=505 reset_busy=0
+META 0 125
+META 1 125
+META 2 125
+META 3 125
+META 4 125
+META 5 125
+META 6 125
+META 7 125
+META 8 125
+META 9 125
+META 10 125
+META 11 125
+META 12 125
+META 13 125
+META 14 125
+META 15 125
+LATENCY 1 2000
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20040 (1s)
+
+CASE netlist_random WIDTH 2 MODE 0
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=273 min=726 max=966 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 2 MODE 1
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=497 simultaneous=660 negative=98 min=726 max=966 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 2 MODE 2
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=199 simultaneous=660 negative=208 min=726 max=966 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 2 MODE 3
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=277 min=726 max=966 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 2 MODE 4
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=276 min=726 max=966 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 4 MODE 0
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=373 min=336 max=340 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 4 MODE 1
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=497 simultaneous=660 negative=141 min=336 max=340 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 4 MODE 2
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=199 simultaneous=660 negative=282 min=336 max=340 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 4 MODE 3
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=384 min=336 max=340 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 4 MODE 4
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=380 min=336 max=340 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 6 MODE 0
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=388 min=246 max=247 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 6 MODE 1
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=497 simultaneous=660 negative=138 min=246 max=247 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 6 MODE 2
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=199 simultaneous=660 negative=294 min=246 max=247 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 6 MODE 3
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=390 min=246 max=247 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 6 MODE 4
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=384 min=246 max=247 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 8 MODE 0
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=389 min=222 max=221 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 8 MODE 1
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=497 simultaneous=660 negative=141 min=222 max=221 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 8 MODE 2
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=199 simultaneous=660 negative=294 min=222 max=221 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 8 MODE 3
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=389 min=222 max=221 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 8 MODE 4
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=386 min=222 max=221 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 12 MODE 0
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=389 min=213 max=215 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 12 MODE 1
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=497 simultaneous=660 negative=141 min=213 max=215 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 12 MODE 2
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=199 simultaneous=660 negative=294 min=213 max=215 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 12 MODE 3
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=389 min=213 max=215 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE netlist_random WIDTH 12 MODE 4
+PASS cycles=2087 accepted=800 emitted=797 canceled=3 stalls=1012 errors=0 simultaneous=660 negative=386 min=213 max=215 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 510
+LATENCY 2 159
+LATENCY 3 61
+LATENCY 4 22
+LATENCY 5 4
+LATENCY 7 1
+LATENCY 8 1
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 13
+LATENCY 20 2
+LATENCY 21 4
+LATENCY 22 2
+LATENCY 28 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20870 (1s)
+
+CASE mapped_random WIDTH 4 MODE 0
+PASS cycles=2044 accepted=800 emitted=797 canceled=3 stalls=1000 errors=0 simultaneous=688 negative=367 min=369 max=349 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 491
+LATENCY 2 180
+LATENCY 3 62
+LATENCY 4 15
+LATENCY 5 7
+LATENCY 6 2
+LATENCY 8 2
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 12
+LATENCY 20 8
+LATENCY 22 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20440 (1s)
+
+CASE mapped_random WIDTH 4 MODE 1
+PASS cycles=2044 accepted=800 emitted=797 canceled=3 stalls=1000 errors=498 simultaneous=688 negative=137 min=369 max=349 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 491
+LATENCY 2 180
+LATENCY 3 62
+LATENCY 4 15
+LATENCY 5 7
+LATENCY 6 2
+LATENCY 8 2
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 12
+LATENCY 20 8
+LATENCY 22 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20440 (1s)
+
+CASE mapped_random WIDTH 4 MODE 2
+PASS cycles=2044 accepted=800 emitted=797 canceled=3 stalls=1000 errors=200 simultaneous=688 negative=271 min=369 max=349 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 491
+LATENCY 2 180
+LATENCY 3 62
+LATENCY 4 15
+LATENCY 5 7
+LATENCY 6 2
+LATENCY 8 2
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 12
+LATENCY 20 8
+LATENCY 22 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20440 (1s)
+
+CASE mapped_random WIDTH 4 MODE 3
+PASS cycles=2044 accepted=800 emitted=797 canceled=3 stalls=1000 errors=0 simultaneous=688 negative=356 min=369 max=349 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 491
+LATENCY 2 180
+LATENCY 3 62
+LATENCY 4 15
+LATENCY 5 7
+LATENCY 6 2
+LATENCY 8 2
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 12
+LATENCY 20 8
+LATENCY 22 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20440 (1s)
+
+CASE mapped_random WIDTH 4 MODE 4
+PASS cycles=2044 accepted=800 emitted=797 canceled=3 stalls=1000 errors=0 simultaneous=688 negative=360 min=369 max=349 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 491
+LATENCY 2 180
+LATENCY 3 62
+LATENCY 4 15
+LATENCY 5 7
+LATENCY 6 2
+LATENCY 8 2
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 12
+LATENCY 20 8
+LATENCY 22 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20440 (1s)
+
+CASE mapped_random WIDTH 8 MODE 0
+PASS cycles=2044 accepted=800 emitted=797 canceled=3 stalls=1000 errors=0 simultaneous=688 negative=367 min=234 max=222 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 491
+LATENCY 2 180
+LATENCY 3 62
+LATENCY 4 15
+LATENCY 5 7
+LATENCY 6 2
+LATENCY 8 2
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 12
+LATENCY 20 8
+LATENCY 22 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20440 (1s)
+
+CASE mapped_random WIDTH 8 MODE 1
+PASS cycles=2044 accepted=800 emitted=797 canceled=3 stalls=1000 errors=498 simultaneous=688 negative=147 min=234 max=222 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 491
+LATENCY 2 180
+LATENCY 3 62
+LATENCY 4 15
+LATENCY 5 7
+LATENCY 6 2
+LATENCY 8 2
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 12
+LATENCY 20 8
+LATENCY 22 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20440 (1s)
+
+CASE mapped_random WIDTH 8 MODE 2
+PASS cycles=2044 accepted=800 emitted=797 canceled=3 stalls=1000 errors=200 simultaneous=688 negative=277 min=234 max=222 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 491
+LATENCY 2 180
+LATENCY 3 62
+LATENCY 4 15
+LATENCY 5 7
+LATENCY 6 2
+LATENCY 8 2
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 12
+LATENCY 20 8
+LATENCY 22 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20440 (1s)
+
+CASE mapped_random WIDTH 8 MODE 3
+PASS cycles=2044 accepted=800 emitted=797 canceled=3 stalls=1000 errors=0 simultaneous=688 negative=371 min=234 max=222 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 491
+LATENCY 2 180
+LATENCY 3 62
+LATENCY 4 15
+LATENCY 5 7
+LATENCY 6 2
+LATENCY 8 2
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 12
+LATENCY 20 8
+LATENCY 22 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20440 (1s)
+
+CASE mapped_random WIDTH 8 MODE 4
+PASS cycles=2044 accepted=800 emitted=797 canceled=3 stalls=1000 errors=0 simultaneous=688 negative=372 min=234 max=222 reset_busy=3
+META 0 50
+META 1 50
+META 2 50
+META 3 50
+META 4 50
+META 5 50
+META 6 50
+META 7 50
+META 8 50
+META 9 50
+META 10 50
+META 11 50
+META 12 50
+META 13 50
+META 14 50
+META 15 50
+LATENCY 1 491
+LATENCY 2 180
+LATENCY 3 62
+LATENCY 4 15
+LATENCY 5 7
+LATENCY 6 2
+LATENCY 8 2
+LATENCY 15 1
+LATENCY 16 1
+LATENCY 17 2
+LATENCY 18 13
+LATENCY 19 12
+LATENCY 20 8
+LATENCY 22 1
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 20440 (1s)
+
+CASE digits_replay WIDTH 4 MODE 0
+PASS cycles=57604 accepted=57600 emitted=57600 canceled=0 stalls=0 errors=0 simultaneous=57599 negative=23317 min=0 max=29630 reset_busy=0
+META 0 57600
+META 1 0
+META 2 0
+META 3 0
+META 4 0
+META 5 0
+META 6 0
+META 7 0
+META 8 0
+META 9 0
+META 10 0
+META 11 0
+META 12 0
+META 13 0
+META 14 0
+META 15 0
+LATENCY 1 57600
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 576040 (1s)
+
+CASE digits_replay WIDTH 4 MODE 1
+PASS cycles=57604 accepted=57600 emitted=57600 canceled=0 stalls=0 errors=0 simultaneous=57599 negative=23135 min=0 max=29630 reset_busy=0
+META 0 0
+META 1 0
+META 2 0
+META 3 0
+META 4 11520
+META 5 0
+META 6 0
+META 7 0
+META 8 6840
+META 9 16560
+META 10 0
+META 11 0
+META 12 360
+META 13 1800
+META 14 20520
+META 15 0
+LATENCY 1 57600
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 576040 (1s)
+
+CASE digits_replay WIDTH 4 MODE 2
+PASS cycles=57604 accepted=57600 emitted=57600 canceled=0 stalls=0 errors=0 simultaneous=57599 negative=23135 min=0 max=29630 reset_busy=0
+META 0 11520
+META 1 6840
+META 2 360
+META 3 16560
+META 4 1800
+META 5 20520
+META 6 0
+META 7 0
+META 8 0
+META 9 0
+META 10 0
+META 11 0
+META 12 0
+META 13 0
+META 14 0
+META 15 0
+LATENCY 1 57600
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 576040 (1s)
+
+CASE digits_replay WIDTH 4 MODE 3
+PASS cycles=57604 accepted=57600 emitted=57600 canceled=0 stalls=0 errors=0 simultaneous=57599 negative=21809 min=0 max=29630 reset_busy=0
+META 0 11160
+META 1 32760
+META 2 1080
+META 3 12600
+META 4 0
+META 5 0
+META 6 0
+META 7 0
+META 8 0
+META 9 0
+META 10 0
+META 11 0
+META 12 0
+META 13 0
+META 14 0
+META 15 0
+LATENCY 1 57600
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 576040 (1s)
+
+CASE digits_replay WIDTH 4 MODE 4
+PASS cycles=57604 accepted=57600 emitted=57600 canceled=0 stalls=0 errors=0 simultaneous=57599 negative=19844 min=0 max=29630 reset_busy=0
+META 0 57600
+META 1 0
+META 2 0
+META 3 0
+META 4 0
+META 5 0
+META 6 0
+META 7 0
+META 8 0
+META 9 0
+META 10 0
+META 11 0
+META 12 0
+META 13 0
+META 14 0
+META 15 0
+LATENCY 1 57600
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 576040 (1s)
+
+CASE digits_replay WIDTH 8 MODE 0
+PASS cycles=57604 accepted=57600 emitted=57600 canceled=0 stalls=0 errors=0 simultaneous=57599 negative=24371 min=0 max=20630 reset_busy=0
+META 0 57600
+META 1 0
+META 2 0
+META 3 0
+META 4 0
+META 5 0
+META 6 0
+META 7 0
+META 8 0
+META 9 0
+META 10 0
+META 11 0
+META 12 0
+META 13 0
+META 14 0
+META 15 0
+LATENCY 1 57600
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 576040 (1s)
+
+CASE digits_replay WIDTH 8 MODE 1
+PASS cycles=57604 accepted=57600 emitted=57600 canceled=0 stalls=0 errors=0 simultaneous=57599 negative=23993 min=0 max=20630 reset_busy=0
+META 0 0
+META 1 0
+META 2 0
+META 3 0
+META 4 11520
+META 5 0
+META 6 0
+META 7 0
+META 8 6840
+META 9 16560
+META 10 0
+META 11 0
+META 12 360
+META 13 1800
+META 14 20520
+META 15 0
+LATENCY 1 57600
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 576040 (1s)
+
+CASE digits_replay WIDTH 8 MODE 2
+PASS cycles=57604 accepted=57600 emitted=57600 canceled=0 stalls=0 errors=0 simultaneous=57599 negative=23993 min=0 max=20630 reset_busy=0
+META 0 11520
+META 1 6840
+META 2 360
+META 3 16560
+META 4 1800
+META 5 20520
+META 6 0
+META 7 0
+META 8 0
+META 9 0
+META 10 0
+META 11 0
+META 12 0
+META 13 0
+META 14 0
+META 15 0
+LATENCY 1 57600
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 576040 (1s)
+
+CASE digits_replay WIDTH 8 MODE 3
+PASS cycles=57604 accepted=57600 emitted=57600 canceled=0 stalls=0 errors=0 simultaneous=57599 negative=23831 min=0 max=20630 reset_busy=0
+META 0 11160
+META 1 32760
+META 2 1080
+META 3 12600
+META 4 0
+META 5 0
+META 6 0
+META 7 0
+META 8 0
+META 9 0
+META 10 0
+META 11 0
+META 12 0
+META 13 0
+META 14 0
+META 15 0
+LATENCY 1 57600
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 576040 (1s)
+
+CASE digits_replay WIDTH 8 MODE 4
+PASS cycles=57604 accepted=57600 emitted=57600 canceled=0 stalls=0 errors=0 simultaneous=57599 negative=23589 min=0 max=20630 reset_busy=0
+META 0 57600
+META 1 0
+META 2 0
+META 3 0
+META 4 0
+META 5 0
+META 6 0
+META 7 0
+META 8 0
+META 9 0
+META 10 0
+META 11 0
+META 12 0
+META 13 0
+META 14 0
+META 15 0
+LATENCY 1 57600
+/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:79: $finish called at 576040 (1s)
+
+CASE wrong_pair WIDTH 4 MODE 3
+FATAL: /workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:44: Arithmetic mismatch cycle 18 got -14 expected 10
+       Time: 185  Scope: tb
+
+CASE unstable_output WIDTH 4 MODE 3
+FATAL: /workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:44: Arithmetic mismatch cycle 4 got 10 expected 7
+       Time: 45  Scope: tb

@@ -1,0 +1,6 @@
+build/
+tools/venv/
+tools/iverilog/
+tools/*.deb
+__pycache__/
+build-run.log

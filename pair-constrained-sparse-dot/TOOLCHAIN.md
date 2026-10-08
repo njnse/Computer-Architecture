@@ -1,0 +1,11 @@
+# Executed toolchain and implementation boundary
+
+The archived run uses Debian GNU/Linux 13.6 (trixie), x86-64, glibc 2.41, and Python 3.12.14. Training is CPU-only and limits BLAS to one thread. Dependency versions are pinned in requirements files. Tool output, platform information, commands, seeds, workload hashes, and source SHA256 values are recorded in `results/environment.json` and `results/commands.json`.
+
+Icarus 12.0 comes from the SHA256-pinned Debian package in `tools/setup.py`. The executable's dynamic dependency inspection resolved libc without missing libraries in this environment. The package is extracted into a local directory; no system package mutation is required. YoWASP Yosys uses the pinned Python/WASM toolchain and reports Yosys 0.69 revision `9f75ca1f9`. The native compiler revision is not guessed from its package name.
+
+Generic synthesis and `synth_xilinx -family xcup` use the actual tested RTL. DSP-disabled and DSP-enabled mapping share widths, pipeline/reset behavior, and tool settings except for the stated DSP option. The malformed-metadata ablation explicitly uses CHECK_META=0 and changes its error behavior. Default verification keeps CHECK_META=1. IO pads and clock buffers are omitted in every mapped flow because this is a standalone kernel.
+
+Counts are emitted logical primitives, not final physical FPGA sites. In particular, this Yosys flow emits CARRY4 cells even with requested family xcup; it must not be presented as a device-ready K26 netlist. Carry/DSP types and counts are retained explicitly. DSP-disabled functional mapped replay uses Yosys's `xilinx/cells_sim.v`; its path is recorded in the actual commands. No proprietary vendor timing model, constrained timing analysis, or DSP-enabled equivalence claim is made.
+
+No Vivado executable/license, nextpnr target flow, validated UVM-capable simulator/library, GPU, remote HiPerGator session, or physical FPGA board is attached here. The user's reported Windows Vivado installation and KV260 boards remain separate resources. Therefore the executed completion boundary is specification, RTL verification, generic/family synthesis, mapped functional checking, cycle/resource analysis, and public-workload arithmetic replay. K26 implementation, clock constraints and routing, board deployment, measured power, and production UVM remain unexecuted.

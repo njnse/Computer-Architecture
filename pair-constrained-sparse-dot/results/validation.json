@@ -1,0 +1,35 @@
+{
+  "unit_tests": 7,
+  "rtl_and_netlist_runs": 150,
+  "cycles": 1195920,
+  "accepted": 958320,
+  "emitted": 958015,
+  "reset_canceled": 305,
+  "synthesis_configurations": 85,
+  "latches": 0,
+  "formal": {
+    "proved_configurations": 5,
+    "width": 2,
+    "steps": 10,
+    "unbounded_proof": false
+  },
+  "mutations": [
+    {
+      "mutation": "wrong_pair",
+      "detected": true,
+      "returncode": 1,
+      "diagnostic": "/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:44: Arithmetic mismatch cycle 18 got -14 expected 10\n       Time: 185  Scope: tb"
+    },
+    {
+      "mutation": "unstable_output",
+      "detected": true,
+      "returncode": 1,
+      "diagnostic": "/workspace/computer-architecture-research/pair-constrained-sparse-dot/tb/check_vectors.sv:44: Arithmetic mismatch cycle 4 got 10 expected 7\n       Time: 45  Scope: tb"
+    }
+  ],
+  "public_workload_replays": 10,
+  "uvm_executed": false,
+  "vivado_executed": false,
+  "placed_timing_executed": false,
+  "board_executed": false
+}

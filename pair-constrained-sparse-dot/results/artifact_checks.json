@@ -1,0 +1,8 @@
+{
+  "cross_artifact_checks": "PASS",
+  "checked_simulations": 150,
+  "checked_synthesis": 85,
+  "checked_classification_rows": 72,
+  "checked_replays": 10,
+  "source_hashes_verified": 13
+}

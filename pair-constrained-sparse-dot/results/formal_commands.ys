@@ -1,0 +1,35 @@
+design -reset
+read_verilog -formal -sv rtl/sparse_dot.sv formal/properties.sv
+chparam -set WIDTH 2 -set MODE 0 formal_top
+prep -top formal_top -flatten
+async2sync
+dffunmap
+sat -seq 10 -prove-asserts -set-assumes -verify
+design -reset
+read_verilog -formal -sv rtl/sparse_dot.sv formal/properties.sv
+chparam -set WIDTH 2 -set MODE 1 formal_top
+prep -top formal_top -flatten
+async2sync
+dffunmap
+sat -seq 10 -prove-asserts -set-assumes -verify
+design -reset
+read_verilog -formal -sv rtl/sparse_dot.sv formal/properties.sv
+chparam -set WIDTH 2 -set MODE 2 formal_top
+prep -top formal_top -flatten
+async2sync
+dffunmap
+sat -seq 10 -prove-asserts -set-assumes -verify
+design -reset
+read_verilog -formal -sv rtl/sparse_dot.sv formal/properties.sv
+chparam -set WIDTH 2 -set MODE 3 formal_top
+prep -top formal_top -flatten
+async2sync
+dffunmap
+sat -seq 10 -prove-asserts -set-assumes -verify
+design -reset
+read_verilog -formal -sv rtl/sparse_dot.sv formal/properties.sv
+chparam -set WIDTH 2 -set MODE 4 formal_top
+prep -top formal_top -flatten
+async2sync
+dffunmap
+sat -seq 10 -prove-asserts -set-assumes -verify

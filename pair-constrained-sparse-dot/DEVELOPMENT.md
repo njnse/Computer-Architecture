@@ -1,0 +1,11 @@
+# Development and evidence history
+
+The initial protocol fixed the mask policies, precisions, data split, training seeds, optimization budgets, validation selection, synthesis widths, and workload replay before measurements. A compliant-stream `CHECK_META=0` synthesis ablation was added before synthesis results were inspected, to avoid conflating invalid-metadata validation with activation-selection cost. No mask policy, dataset split, seed, precision, or learning rate was changed in response to held-out accuracy.
+
+The first integrated run stopped before an RTL cycle check because the Python stimulus writer serialized reset booleans as the words `True`/`False` while the SystemVerilog reader required integer fields. The writer was corrected to serialize reset as 0/1. The complete pipeline was rerun. This was an integration correction, not an experimental-performance optimization; no successful result from the stopped run is counted as independent evidence.
+
+Validation-selected checkpoints can lie at the last available epoch. That is a bounded equal-budget evaluation, not proof of optimizer convergence. Raw training/validation histories are retained. The comparison does not include alternative sparse trainers, input permutations, or a hyperparameter search; these remain limitations rather than silently excluded baselines.
+
+After successful hardware/workload checks, figure generation initially rejected a tiny negative floating-point error-bar extent for identical seed accuracies. The renderer was changed to clamp numerical roundoff at zero; recorded accuracies were unchanged. Review also corrected generic FF categorization to count DFF cell types, rather than applying only Xilinx FD primitive names. Both fixes change artifact processing, not RTL or learning outcomes. The final complete pipeline was rerun, including ten additional mapped-functional-model stress checks. Repeated deterministic runs are not counted as independent statistical samples.
+
+The public workload is intentionally small so that all test-group arithmetic can be executed in RTL within the available environment. The resulting artifact supplies exact implementation/verification evidence and a measured restrictive-pattern counterexample. It does not fulfill the broader large-model, board-level, or submission-level evidence requirements without subsequent work.

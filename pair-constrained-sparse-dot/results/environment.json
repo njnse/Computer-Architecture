@@ -1,0 +1,36 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "machine": "x86_64",
+  "iverilog": "Icarus Verilog version 12.0 (stable) ()",
+  "yosys": "Yosys 0.69 (git sha1 9f75ca1f9, Release, Clang /workspace/YoWASP/yosys/wasi-sdk-33.0-x86_64-linux/share/cmake/../..//bin/clang++ 22.1.0)",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0"
+  },
+  "source_sha256": {
+    "run_project.py": "c7d2198a0511bfed3066e75e522cefc92d3cbb1bda3566cd6b65ed4d0d7f296e",
+    "reproduce.py": "636e3ffc1ad55e4181a7c0d3cd4d016cea760bf0eefd57ffab39e81ce5a98d5e",
+    "reference.py": "57c460e293ca6221017615db5a3c15263d9fe702aa036e57367518151306f31a",
+    "verify_results.py": "4e20f8d6774561851583d4039708c4dd3382661085bfcc61bc9a9fc6661cfda2",
+    "workload.py": "f5eed74de1796f04365003ae18cd8dc2b7b79e1bfcb4db6ef50a18c15cd7f06c",
+    "analyze.py": "c9c7fb6da61b976dc24c2d6d16ea4436e43f1b42c1edcf0b80a30b8f1d19ed74",
+    "tools/setup.py": "56bc40421a1a76676f364329d6eea130ac616e0577e03e6a2a8e7d709314f867",
+    "tests/test_reference.py": "26d37ce686508730c616ea55e40803d04a4eacf5909218707ce48e59d741ac96",
+    "formal/properties.sv": "c015545212adbc0116f221b0934fbad34782ec6ea619178a1c79cbfda1ef34ab",
+    "rtl/sparse_dot.sv": "9068623412e0f31a1b635d48d36120bf88981690e08b93a77c5007e250355420",
+    "tb/check_vectors.sv": "72b58c20c0af3ebba17030f9d2c4bf0aa2d40bc6b5a6f584c8a48d72b1a1b447",
+    "requirements.txt": "1b0d31763e1d22155bd850d14969733758208d806d15dc5ac6e2a542a138b0a6",
+    "tools/requirements.txt": "eb86ec1260d94bd12de2e4d11384890d83b1a55cbca792000b9859f7a278641a"
+  },
+  "runtime": "Python 3.12 on Linux x86-64",
+  "simulation_timescale": "Cycle checks use arbitrary testbench delays, not physical clock timing.",
+  "family_mapping": "Yosys synth_xilinx -family xcup; no exact-device implementation, placement, or timing.",
+  "threads": "NumPy training uses threadpoolctl limits=1; no GPU training.",
+  "commands": "python3 run_project.py with optional explicit tool paths",
+  "available_remote_resources": "User-reported KV260 and HiPerGator are not attached to this execution environment."
+}

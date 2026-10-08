@@ -1,0 +1,112 @@
+[
+  {
+    "width": 4,
+    "mode": "dense",
+    "images": 360,
+    "group_outputs": 57600,
+    "test_correct": 348,
+    "rtl_equals_independent_integer_matmul": true,
+    "prediction_matches_classification_csv": true,
+    "output_i64le_sha256": "6227052787b9b02d9a7e91e93335ece7e1f25383ec64ea1f7aec54ae420b82a2",
+    "vector_sha256": "a79f6a4c159fa2cc1f91972f95ebb3bd3a2c0fcea78460dfa47400374b0a3e2f"
+  },
+  {
+    "width": 4,
+    "mode": "index",
+    "images": 360,
+    "group_outputs": 57600,
+    "test_correct": 346,
+    "rtl_equals_independent_integer_matmul": true,
+    "prediction_matches_classification_csv": true,
+    "output_i64le_sha256": "6f3f63e92d5abbfa120212fa6edff295bd0caf33b880c2a456be7c8e291cc4fb",
+    "vector_sha256": "f9859ce339dec207e7a51969acf0e43fc23c2c0111a5524e04330b96889b06aa"
+  },
+  {
+    "width": 4,
+    "mode": "code",
+    "images": 360,
+    "group_outputs": 57600,
+    "test_correct": 346,
+    "rtl_equals_independent_integer_matmul": true,
+    "prediction_matches_classification_csv": true,
+    "output_i64le_sha256": "6f3f63e92d5abbfa120212fa6edff295bd0caf33b880c2a456be7c8e291cc4fb",
+    "vector_sha256": "0deeaf8d1db16a2dec46e445b973c7d85dd1011bc7db3042f80e9c0a94c8b8be"
+  },
+  {
+    "width": 4,
+    "mode": "pair",
+    "images": 360,
+    "group_outputs": 57600,
+    "test_correct": 334,
+    "rtl_equals_independent_integer_matmul": true,
+    "prediction_matches_classification_csv": true,
+    "output_i64le_sha256": "8ba97a372edc6c14f3baef6d0cc7e457af654d12b356d23b6c731e1ce60572f1",
+    "vector_sha256": "64e3bb0b4a66c2d43922673862da357c7f241522eb56a07956fefd35d9f9ce2f"
+  },
+  {
+    "width": 4,
+    "mode": "fixed",
+    "images": 360,
+    "group_outputs": 57600,
+    "test_correct": 314,
+    "rtl_equals_independent_integer_matmul": true,
+    "prediction_matches_classification_csv": true,
+    "output_i64le_sha256": "71203a5163262d5493fdb1d66d6362d3e45638250f3ce508832540149de2dedb",
+    "vector_sha256": "6b18ceac79a54adef85e1fb3fa0b7e3c5bcbe9230039fda409c6a8aefba9d7d2"
+  },
+  {
+    "width": 8,
+    "mode": "dense",
+    "images": 360,
+    "group_outputs": 57600,
+    "test_correct": 343,
+    "rtl_equals_independent_integer_matmul": true,
+    "prediction_matches_classification_csv": true,
+    "output_i64le_sha256": "83d960337c8f2e4c51473f291c909bce7622d4952c84ccb609648a056b6058ba",
+    "vector_sha256": "a1ea491dd98271928a29c3b0c446b0fa6cfeb90400be15df70b880275afc6b13"
+  },
+  {
+    "width": 8,
+    "mode": "index",
+    "images": 360,
+    "group_outputs": 57600,
+    "test_correct": 343,
+    "rtl_equals_independent_integer_matmul": true,
+    "prediction_matches_classification_csv": true,
+    "output_i64le_sha256": "1beb5fafc7d8ad6cbec8d2d47d694409580855f0dfe0573fa992b9fe482fa74a",
+    "vector_sha256": "64514c5dc64b5adb3515c0448cde6e0ff6bd3390b9a304324678451660a6af93"
+  },
+  {
+    "width": 8,
+    "mode": "code",
+    "images": 360,
+    "group_outputs": 57600,
+    "test_correct": 343,
+    "rtl_equals_independent_integer_matmul": true,
+    "prediction_matches_classification_csv": true,
+    "output_i64le_sha256": "1beb5fafc7d8ad6cbec8d2d47d694409580855f0dfe0573fa992b9fe482fa74a",
+    "vector_sha256": "b0fefa2647eb947ded7235023dca83e55d4166a4669538f8e715c805c1fdc5b0"
+  },
+  {
+    "width": 8,
+    "mode": "pair",
+    "images": 360,
+    "group_outputs": 57600,
+    "test_correct": 337,
+    "rtl_equals_independent_integer_matmul": true,
+    "prediction_matches_classification_csv": true,
+    "output_i64le_sha256": "98681396af99d0e64510174e714b4973569ff85450c7141f363262f6781b2ee3",
+    "vector_sha256": "8ea8d1b29d6e7df8f628fe4e6255418c28ce06978146e644c2f268a282e67c0e"
+  },
+  {
+    "width": 8,
+    "mode": "fixed",
+    "images": 360,
+    "group_outputs": 57600,
+    "test_correct": 311,
+    "rtl_equals_independent_integer_matmul": true,
+    "prediction_matches_classification_csv": true,
+    "output_i64le_sha256": "1601b3e532c1daccea0c71ca087b49c36db6f301910cd930a5a1cd494cbd5656",
+    "vector_sha256": "61aef5398375f2da79dafbf378a47dd70c6ac118a305b2b72b969187c1712b11"
+  }
+]
