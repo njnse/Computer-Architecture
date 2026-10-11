@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 163, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 157, in main
+    if mode in ['all','sim']:simulations()
+                             ^^^^^^^^^^^^^
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 116, in simulations
+    public_replay()
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 83, in public_replay
+    counts=[planes(row[g:g+lanes],width,mode) for row in qx for g in range(0,64,lanes)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reference.py", line 8, in planes
+    return 0 if mode==0 else width if mode==1 else u.bit_length() if mode==2 else u.bit_count()
+                                                   ^^^^^^^^^^^^
+AttributeError: 'numpy.int64' object has no attribute 'bit_length'

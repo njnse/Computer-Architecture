@@ -1,0 +1,122 @@
+[
+  {
+    "configuration": "w4_n4_m1_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 1 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json ./build/w4_n4_m1_generic.json\nwrite_verilog -noattr ./build/w4_n4_m1_generic.v\n"
+  },
+  {
+    "configuration": "w4_n4_m1_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 1 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -nodsp -noiopad\ncheck -assert\nstat\nwrite_json ./build/w4_n4_m1_xcup_nodsp.json\nwrite_verilog -noattr ./build/w4_n4_m1_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w4_n4_m2_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 2 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json ./build/w4_n4_m2_generic.json\nwrite_verilog -noattr ./build/w4_n4_m2_generic.v\n"
+  },
+  {
+    "configuration": "w4_n4_m2_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 2 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -nodsp -noiopad\ncheck -assert\nstat\nwrite_json ./build/w4_n4_m2_xcup_nodsp.json\nwrite_verilog -noattr ./build/w4_n4_m2_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w4_n4_m3_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 3 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json ./build/w4_n4_m3_generic.json\nwrite_verilog -noattr ./build/w4_n4_m3_generic.v\n"
+  },
+  {
+    "configuration": "w4_n4_m3_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 3 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -nodsp -noiopad\ncheck -assert\nstat\nwrite_json ./build/w4_n4_m3_xcup_nodsp.json\nwrite_verilog -noattr ./build/w4_n4_m3_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w4_n4_m4_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 4 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json ./build/w4_n4_m4_generic.json\nwrite_verilog -noattr ./build/w4_n4_m4_generic.v\n"
+  },
+  {
+    "configuration": "w4_n4_m4_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 4 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -nodsp -noiopad\ncheck -assert\nstat\nwrite_json ./build/w4_n4_m4_xcup_nodsp.json\nwrite_verilog -noattr ./build/w4_n4_m4_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_m1_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 1 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m1_generic.json\nwrite_verilog -noattr ./build/w8_n4_m1_generic.v\n"
+  },
+  {
+    "configuration": "w8_n4_m1_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 1 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -nodsp -noiopad\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m1_xcup_nodsp.json\nwrite_verilog -noattr ./build/w8_n4_m1_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_m2_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 2 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m2_generic.json\nwrite_verilog -noattr ./build/w8_n4_m2_generic.v\n"
+  },
+  {
+    "configuration": "w8_n4_m2_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 2 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -nodsp -noiopad\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m2_xcup_nodsp.json\nwrite_verilog -noattr ./build/w8_n4_m2_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_m3_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 3 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m3_generic.json\nwrite_verilog -noattr ./build/w8_n4_m3_generic.v\n"
+  },
+  {
+    "configuration": "w8_n4_m3_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 3 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -nodsp -noiopad\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m3_xcup_nodsp.json\nwrite_verilog -noattr ./build/w8_n4_m3_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_m4_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 4 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m4_generic.json\nwrite_verilog -noattr ./build/w8_n4_m4_generic.v\n"
+  },
+  {
+    "configuration": "w8_n4_m4_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 4 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -nodsp -noiopad\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m4_xcup_nodsp.json\nwrite_verilog -noattr ./build/w8_n4_m4_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_m1_xcup_dsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 1 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m1_xcup_dsp.json\n"
+  },
+  {
+    "configuration": "w8_n4_m2_xcup_dsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 2 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m2_xcup_dsp.json\n"
+  },
+  {
+    "configuration": "w8_n4_m3_xcup_dsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 3 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m3_xcup_dsp.json\n"
+  },
+  {
+    "configuration": "w8_n4_m4_xcup_dsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 4 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m4_xcup_dsp.json\n"
+  },
+  {
+    "configuration": "w4_n4_m5_generic",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 4 -set N 4 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json ./build/w4_n4_m5_generic.json\nwrite_verilog -noattr ./build/w4_n4_m5_generic.v\n"
+  },
+  {
+    "configuration": "w4_n4_m5_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 4 -set N 4 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json ./build/w4_n4_m5_xcup_nodsp.json\nwrite_verilog -noattr ./build/w4_n4_m5_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_m5_generic",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 8 -set N 4 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m5_generic.json\nwrite_verilog -noattr ./build/w8_n4_m5_generic.v\n"
+  },
+  {
+    "configuration": "w8_n4_m5_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 8 -set N 4 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m5_xcup_nodsp.json\nwrite_verilog -noattr ./build/w8_n4_m5_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_m5_xcup_dsp",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 8 -set N 4 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad \ncheck -assert\nstat\nwrite_json ./build/w8_n4_m5_xcup_dsp.json\nwrite_verilog -noattr ./build/w8_n4_m5_xcup_dsp.v\n"
+  },
+  {
+    "configuration": "w4_n4_m0_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 0 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json ./build/w4_n4_m0_generic.json\nwrite_verilog -noattr ./build/w4_n4_m0_generic.v\n"
+  },
+  {
+    "configuration": "w4_n4_m0_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json ./build/w4_n4_m0_xcup_nodsp.json\nwrite_verilog -noattr ./build/w4_n4_m0_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_m0_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 0 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m0_generic.json\nwrite_verilog -noattr ./build/w8_n4_m0_generic.v\n"
+  },
+  {
+    "configuration": "w8_n4_m0_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json ./build/w8_n4_m0_xcup_nodsp.json\nwrite_verilog -noattr ./build/w8_n4_m0_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_m0_xcup_dsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad \ncheck -assert\nstat\nwrite_json ./build/w8_n4_m0_xcup_dsp.json\nwrite_verilog -noattr ./build/w8_n4_m0_xcup_dsp.v\n"
+  }
+]

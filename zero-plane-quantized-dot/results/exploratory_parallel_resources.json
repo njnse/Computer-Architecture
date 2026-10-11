@@ -1,0 +1,121 @@
+[
+  {
+    "width": 4,
+    "lanes": 4,
+    "mode": 0,
+    "flow": "generic",
+    "cells": 621,
+    "types": {
+      "$_NOT_": 6,
+      "$_AND_": 99,
+      "$_NAND_": 230,
+      "$_OR_": 28,
+      "$_ANDNOT_": 15,
+      "$_XOR_": 143,
+      "$_XNOR_": 33,
+      "$_MUX_": 27,
+      "$_ORNOT_": 15,
+      "$_NOR_": 2,
+      "$_SDFFE_PP0P_": 8,
+      "$_SDFF_PP0_": 15
+    },
+    "latches": 0,
+    "netlist_sha256": "264afa83c22f2014fce317f2047f4539194dd6dd2c92bd0f648bda8d708265e3",
+    "lut": null,
+    "ff": null,
+    "dsp": null
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "mode": 0,
+    "flow": "xcup_nodsp",
+    "cells": 246,
+    "types": {
+      "LUT2": 30,
+      "LUT6": 38,
+      "LUT4": 51,
+      "LUT5": 59,
+      "LUT3": 28,
+      "BUFG": 1,
+      "FDRE": 36,
+      "CARRY4": 3
+    },
+    "latches": 0,
+    "netlist_sha256": "80cacad591d5807356a56e871c50f006d2afc1c2fbe685c5f9e7850379dd2e05",
+    "lut": 206,
+    "ff": 36,
+    "dsp": 0
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 0,
+    "flow": "generic",
+    "cells": 2140,
+    "types": {
+      "$_NOR_": 2,
+      "$_ANDNOT_": 36,
+      "$_NOT_": 3,
+      "$_NAND_": 924,
+      "$_AND_": 325,
+      "$_XOR_": 625,
+      "$_MUX_": 45,
+      "$_ORNOT_": 34,
+      "$_OR_": 34,
+      "$_XNOR_": 83,
+      "$_SDFF_PP0_": 13,
+      "$_SDFFE_PP0P_": 16
+    },
+    "latches": 0,
+    "netlist_sha256": "3447acdfd3f7cabc9f851809bdce6aabdbd555f4102d557ff5efb1167020d2b1",
+    "lut": null,
+    "ff": null,
+    "dsp": null
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 0,
+    "flow": "xcup_nodsp",
+    "cells": 829,
+    "types": {
+      "LUT5": 248,
+      "LUT2": 137,
+      "LUT6": 75,
+      "LUT3": 156,
+      "LUT4": 151,
+      "BUFG": 1,
+      "FDRE": 56,
+      "CARRY4": 5
+    },
+    "latches": 0,
+    "netlist_sha256": "4ba4e6733bf9a84d42c25925338900e194bd1488dc3a0c90dc2f19a7a094fcb8",
+    "lut": 767,
+    "ff": 56,
+    "dsp": 0
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 0,
+    "flow": "xcup_dsp",
+    "cells": 163,
+    "types": {
+      "LUT5": 39,
+      "LUT3": 11,
+      "LUT6": 10,
+      "LUT4": 20,
+      "LUT2": 17,
+      "BUFG": 1,
+      "FDRE": 56,
+      "CARRY4": 5,
+      "DSP48E2": 4
+    },
+    "latches": 0,
+    "netlist_sha256": "97790ee924d27ae0ca5d291ba6753342b65c084cbf63a2ea829a79934d368091",
+    "lut": 97,
+    "ff": 56,
+    "dsp": 4
+  }
+]

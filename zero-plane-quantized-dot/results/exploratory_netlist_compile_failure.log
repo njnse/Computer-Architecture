@@ -1,0 +1,32 @@
+Simulation complete 630 1480786
+Synthesis w4_n4_m0_generic
+Traceback (most recent call last):
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 168, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 165, in main
+    if mode in ['all','synth']:synthesis()
+                               ^^^^^^^^^^^
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 148, in synthesis
+    if flow=='generic':execute(synthetic(width,4,'stress',97),width,4,mode,f'gate_{width}_{mode}',2,1,97,ver,'gate')
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 34, in execute
+    args=[VVP,binary(width,lanes,mode,rtl,suffix),f'+input={stimulus}',f'+output={out}',f'+seed={seed}',f'+traffic={traffic}',f'+resets={resets}']
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 27, in binary
+    LOG.append(run([IV,'-B',BASE,'-g2012','-s','check',f'-Pcheck.W={width}',f'-Pcheck.N={lanes}',f'-Pcheck.MODE={mode}','-o',name,rtl or ROOT/'rtl/dot_engine.sv',ROOT/'tb/check.sv']))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 20, in run
+    if result.returncode:raise RuntimeError(result.stdout[-5000:])
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: /workspace/computer-architecture-research/zero-plane-quantized-dot/tb/check.sv:7: error: parameter `MODE` not found in `check.dut`.
+/workspace/computer-architecture-research/zero-plane-quantized-dot/tb/check.sv:7: error: parameter `N` not found in `check.dut`.
+/workspace/computer-architecture-research/zero-plane-quantized-dot/tb/check.sv:7: error: parameter `W` not found in `check.dut`.
+4 error(s) during elaboration.
+
+Traceback (most recent call last):
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/run_project.py", line 17, in <module>
+    subprocess.run([python,root/'reproduce.py'],check=True,cwd=root)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3', PosixPath('/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py')]' returned non-zero exit status 1.

@@ -1,0 +1,12 @@
+[
+  {
+    "mutation": "wrong_sign",
+    "detected": true,
+    "diagnostic": "FATAL: /workspace/computer-architecture-research/zero-plane-quantized-dot/tb/check.sv:55: score mismatch ordinal 1 got -65536 expected 65536 tag 1\n       Time: 165  Scope: check\n"
+  },
+  {
+    "mutation": "stalled_overwrite",
+    "detected": true,
+    "diagnostic": "FATAL: /workspace/computer-architecture-research/zero-plane-quantized-dot/tb/check.sv:50: stalled output changed at 5\n       Time: 55  Scope: check\n"
+  }
+]

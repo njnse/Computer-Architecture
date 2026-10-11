@@ -1,0 +1,392 @@
+[
+  {
+    "width": 4,
+    "lanes": 1,
+    "baseline": 0,
+    "mean_speedup_at_equal_clock": 0.5270260996866207,
+    "bootstrap_image_95_percent_interval": [
+      0.5237670078000187,
+      0.5301551635835257
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "baseline": 1,
+    "mean_speedup_at_equal_clock": 2.635130498433104,
+    "bootstrap_image_95_percent_interval": [
+      2.6188350390000936,
+      2.650775817917629
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "baseline": 2,
+    "mean_speedup_at_equal_clock": 1.1731363085298625,
+    "bootstrap_image_95_percent_interval": [
+      1.168568743075572,
+      1.1775793939585202
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "baseline": 4,
+    "mean_speedup_at_equal_clock": 1.0291877301736165,
+    "bootstrap_image_95_percent_interval": [
+      1.027616574919386,
+      1.0308719936723814
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "baseline": 5,
+    "mean_speedup_at_equal_clock": 1.0291877301736165,
+    "bootstrap_image_95_percent_interval": [
+      1.027616574919386,
+      1.0308719936723814
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "baseline": 0,
+    "mean_speedup_at_equal_clock": 0.30012505210504375,
+    "bootstrap_image_95_percent_interval": [
+      0.2978433504468496,
+      0.30255278915852507
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "baseline": 1,
+    "mean_speedup_at_equal_clock": 1.5006252605252188,
+    "bootstrap_image_95_percent_interval": [
+      1.4892167522342479,
+      1.5127639457926252
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "baseline": 2,
+    "mean_speedup_at_equal_clock": 1.1059816590245937,
+    "bootstrap_image_95_percent_interval": [
+      1.100817843721255,
+      1.1112689783373435
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "baseline": 4,
+    "mean_speedup_at_equal_clock": 1.0284493538974573,
+    "bootstrap_image_95_percent_interval": [
+      1.0260385179177989,
+      1.0309504238743543
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "baseline": 5,
+    "mean_speedup_at_equal_clock": 1.0284493538974573,
+    "bootstrap_image_95_percent_interval": [
+      1.0260385179177989,
+      1.0309504238743543
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "baseline": 0,
+    "mean_speedup_at_equal_clock": 0.2581801882563873,
+    "bootstrap_image_95_percent_interval": [
+      0.2573036719378183,
+      0.25903997810464285
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "baseline": 1,
+    "mean_speedup_at_equal_clock": 1.2909009412819363,
+    "bootstrap_image_95_percent_interval": [
+      1.2865183596890915,
+      1.2951998905232143
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "baseline": 2,
+    "mean_speedup_at_equal_clock": 1.0323621694307485,
+    "bootstrap_image_95_percent_interval": [
+      1.0288675733643353,
+      1.035804246131702
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "baseline": 4,
+    "mean_speedup_at_equal_clock": 1.0111160914388166,
+    "bootstrap_image_95_percent_interval": [
+      1.009193083782459,
+      1.0131236249994948
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "baseline": 5,
+    "mean_speedup_at_equal_clock": 1.0111160914388166,
+    "bootstrap_image_95_percent_interval": [
+      1.009193083782459,
+      1.0131236249994948
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "baseline": 0,
+    "mean_speedup_at_equal_clock": 0.3256905374459303,
+    "bootstrap_image_95_percent_interval": [
+      0.32309158258701476,
+      0.3285328420566839
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "baseline": 1,
+    "mean_speedup_at_equal_clock": 2.9312148370133726,
+    "bootstrap_image_95_percent_interval": [
+      2.9078242432831325,
+      2.9567955785101554
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "baseline": 2,
+    "mean_speedup_at_equal_clock": 1.3927511238019847,
+    "bootstrap_image_95_percent_interval": [
+      1.3841691700897811,
+      1.4014365636653419
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "baseline": 4,
+    "mean_speedup_at_equal_clock": 1.1166350965480196,
+    "bootstrap_image_95_percent_interval": [
+      1.113455439758096,
+      1.1196820376137995
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "baseline": 5,
+    "mean_speedup_at_equal_clock": 1.1166350965480196,
+    "bootstrap_image_95_percent_interval": [
+      1.113455439758096,
+      1.1196820376137995
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "baseline": 0,
+    "mean_speedup_at_equal_clock": 0.15326893909156222,
+    "bootstrap_image_95_percent_interval": [
+      0.15186669479012865,
+      0.1546973196540796
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "baseline": 1,
+    "mean_speedup_at_equal_clock": 1.37942045182406,
+    "bootstrap_image_95_percent_interval": [
+      1.366800253111158,
+      1.3922758768867165
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "baseline": 2,
+    "mean_speedup_at_equal_clock": 1.1458449748543147,
+    "bootstrap_image_95_percent_interval": [
+      1.1386729914988627,
+      1.1529072124214557
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "baseline": 4,
+    "mean_speedup_at_equal_clock": 1.0679598733402518,
+    "bootstrap_image_95_percent_interval": [
+      1.0647424504361827,
+      1.0712686329031733
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "baseline": 5,
+    "mean_speedup_at_equal_clock": 1.0679598733402518,
+    "bootstrap_image_95_percent_interval": [
+      1.0647424504361827,
+      1.0712686329031733
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "baseline": 0,
+    "mean_speedup_at_equal_clock": 0.1282450906176248,
+    "bootstrap_image_95_percent_interval": [
+      0.12788632326820604,
+      0.1286347409892615
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "baseline": 1,
+    "mean_speedup_at_equal_clock": 1.1542058155586232,
+    "bootstrap_image_95_percent_interval": [
+      1.1509769094138542,
+      1.1577126689033537
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "baseline": 2,
+    "mean_speedup_at_equal_clock": 1.025782606759585,
+    "bootstrap_image_95_percent_interval": [
+      1.0229987510014094,
+      1.0288075998594142
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "baseline": 4,
+    "mean_speedup_at_equal_clock": 1.0225764794941445,
+    "bootstrap_image_95_percent_interval": [
+      1.0204170404006954,
+      1.0248136742982104
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "baseline": 5,
+    "mean_speedup_at_equal_clock": 1.0225764794941445,
+    "bootstrap_image_95_percent_interval": [
+      1.0204170404006954,
+      1.0248136742982104
+    ],
+    "seed": 991,
+    "resamples": 4000,
+    "scope": "finite-image sampling uncertainty under fixed checkpoint/data split; analytical for N!=4, independent exact RTL cross-check for N=4; not hardware timing or training uncertainty"
+  }
+]

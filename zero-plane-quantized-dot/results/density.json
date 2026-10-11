@@ -1,0 +1,602 @@
+[
+  {
+    "width": 4,
+    "lanes": 1,
+    "mode": 1,
+    "split": "validation",
+    "groups": 23040,
+    "mean_planes": 4.0,
+    "modeled_cycles_per_image_class": 320.0,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "mode": 2,
+    "split": "validation",
+    "groups": 23040,
+    "mean_planes": 1.2292100694444446,
+    "modeled_cycles_per_image_class": 142.66944444444445,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "mode": 3,
+    "split": "validation",
+    "groups": 23040,
+    "mean_planes": 0.90546875,
+    "modeled_cycles_per_image_class": 121.95,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "mode": 4,
+    "split": "validation",
+    "groups": 23040,
+    "mean_planes": 0.9617621527777778,
+    "modeled_cycles_per_image_class": 125.55277777777778,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "mode": 1,
+    "split": "validation",
+    "groups": 5760,
+    "mean_planes": 4.0,
+    "modeled_cycles_per_image_class": 80.0,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "mode": 2,
+    "split": "validation",
+    "groups": 5760,
+    "mean_planes": 2.670486111111111,
+    "modeled_cycles_per_image_class": 58.727777777777774,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "mode": 3,
+    "split": "validation",
+    "groups": 5760,
+    "mean_planes": 2.337326388888889,
+    "modeled_cycles_per_image_class": 53.397222222222226,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "mode": 4,
+    "split": "validation",
+    "groups": 5760,
+    "mean_planes": 2.427604166666667,
+    "modeled_cycles_per_image_class": 54.84166666666667,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "mode": 1,
+    "split": "validation",
+    "groups": 2880,
+    "mean_planes": 4.0,
+    "modeled_cycles_per_image_class": 40.0,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "mode": 2,
+    "split": "validation",
+    "groups": 2880,
+    "mean_planes": 2.9989583333333334,
+    "modeled_cycles_per_image_class": 31.991666666666667,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "mode": 3,
+    "split": "validation",
+    "groups": 2880,
+    "mean_planes": 2.885763888888889,
+    "modeled_cycles_per_image_class": 31.086111111111112,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "mode": 4,
+    "split": "validation",
+    "groups": 2880,
+    "mean_planes": 2.9253472222222223,
+    "modeled_cycles_per_image_class": 31.40277777777778,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "mode": 1,
+    "split": "test",
+    "groups": 23040,
+    "mean_planes": 4.0,
+    "modeled_cycles_per_image_class": 320.0,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "mode": 2,
+    "split": "test",
+    "groups": 23040,
+    "mean_planes": 1.225954861111111,
+    "modeled_cycles_per_image_class": 142.4611111111111,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "mode": 3,
+    "split": "test",
+    "groups": 23040,
+    "mean_planes": 0.8974392361111111,
+    "modeled_cycles_per_image_class": 121.43611111111112,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "mode": 4,
+    "split": "test",
+    "groups": 23040,
+    "mean_planes": 0.9528211805555555,
+    "modeled_cycles_per_image_class": 124.98055555555555,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "mode": 1,
+    "split": "test",
+    "groups": 5760,
+    "mean_planes": 4.0,
+    "modeled_cycles_per_image_class": 80.0,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "mode": 2,
+    "split": "test",
+    "groups": 5760,
+    "mean_planes": 2.6850694444444443,
+    "modeled_cycles_per_image_class": 58.96111111111111,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "mode": 3,
+    "split": "test",
+    "groups": 5760,
+    "mean_planes": 2.3319444444444444,
+    "modeled_cycles_per_image_class": 53.31111111111111,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "mode": 4,
+    "split": "test",
+    "groups": 5760,
+    "mean_planes": 2.426736111111111,
+    "modeled_cycles_per_image_class": 54.827777777777776,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "mode": 1,
+    "split": "test",
+    "groups": 2880,
+    "mean_planes": 4.0,
+    "modeled_cycles_per_image_class": 40.0,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "mode": 2,
+    "split": "test",
+    "groups": 2880,
+    "mean_planes": 2.998611111111111,
+    "modeled_cycles_per_image_class": 31.988888888888887,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "mode": 3,
+    "split": "test",
+    "groups": 2880,
+    "mean_planes": 2.873263888888889,
+    "modeled_cycles_per_image_class": 30.98611111111111,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "mode": 4,
+    "split": "test",
+    "groups": 2880,
+    "mean_planes": 2.9163194444444445,
+    "modeled_cycles_per_image_class": 31.330555555555556,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "mode": 1,
+    "split": "validation",
+    "groups": 23040,
+    "mean_planes": 8.0,
+    "modeled_cycles_per_image_class": 576.0,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "mode": 2,
+    "split": "validation",
+    "groups": 23040,
+    "mean_planes": 3.2859809027777778,
+    "modeled_cycles_per_image_class": 274.3027777777778,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "mode": 3,
+    "split": "validation",
+    "groups": 23040,
+    "mean_planes": 2.0782118055555556,
+    "modeled_cycles_per_image_class": 197.00555555555556,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "mode": 4,
+    "split": "validation",
+    "groups": 23040,
+    "mean_planes": 2.427864583333333,
+    "modeled_cycles_per_image_class": 219.38333333333333,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 1,
+    "split": "validation",
+    "groups": 5760,
+    "mean_planes": 8.0,
+    "modeled_cycles_per_image_class": 144.0,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 2,
+    "split": "validation",
+    "groups": 5760,
+    "mean_planes": 6.4586805555555555,
+    "modeled_cycles_per_image_class": 119.33888888888889,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 3,
+    "split": "validation",
+    "groups": 5760,
+    "mean_planes": 5.506944444444445,
+    "modeled_cycles_per_image_class": 104.11111111111111,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 4,
+    "split": "validation",
+    "groups": 5760,
+    "mean_planes": 5.93125,
+    "modeled_cycles_per_image_class": 110.9,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "mode": 1,
+    "split": "validation",
+    "groups": 2880,
+    "mean_planes": 8.0,
+    "modeled_cycles_per_image_class": 72.0,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "mode": 2,
+    "split": "validation",
+    "groups": 2880,
+    "mean_planes": 6.998958333333333,
+    "modeled_cycles_per_image_class": 63.99166666666667,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "mode": 3,
+    "split": "validation",
+    "groups": 2880,
+    "mean_planes": 6.795833333333333,
+    "modeled_cycles_per_image_class": 62.36666666666667,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "mode": 4,
+    "split": "validation",
+    "groups": 2880,
+    "mean_planes": 6.961111111111111,
+    "modeled_cycles_per_image_class": 63.68888888888889,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "mode": 1,
+    "split": "test",
+    "groups": 23040,
+    "mean_planes": 8.0,
+    "modeled_cycles_per_image_class": 576.0,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "mode": 2,
+    "split": "test",
+    "groups": 23040,
+    "mean_planes": 3.2763020833333334,
+    "modeled_cycles_per_image_class": 273.68333333333334,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "mode": 3,
+    "split": "test",
+    "groups": 23040,
+    "mean_planes": 2.0703993055555556,
+    "modeled_cycles_per_image_class": 196.50555555555556,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "mode": 4,
+    "split": "test",
+    "groups": 23040,
+    "mean_planes": 2.428515625,
+    "modeled_cycles_per_image_class": 219.425,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 1,
+    "split": "test",
+    "groups": 5760,
+    "mean_planes": 8.0,
+    "modeled_cycles_per_image_class": 144.0,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 2,
+    "split": "test",
+    "groups": 5760,
+    "mean_planes": 6.476041666666666,
+    "modeled_cycles_per_image_class": 119.61666666666666,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 3,
+    "split": "test",
+    "groups": 5760,
+    "mean_planes": 5.524479166666667,
+    "modeled_cycles_per_image_class": 104.39166666666667,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 4,
+    "split": "test",
+    "groups": 5760,
+    "mean_planes": 5.967881944444445,
+    "modeled_cycles_per_image_class": 111.48611111111111,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "mode": 1,
+    "split": "test",
+    "groups": 2880,
+    "mean_planes": 8.0,
+    "modeled_cycles_per_image_class": 72.0,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "mode": 2,
+    "split": "test",
+    "groups": 2880,
+    "mean_planes": 6.998611111111111,
+    "modeled_cycles_per_image_class": 63.98888888888889,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "mode": 3,
+    "split": "test",
+    "groups": 2880,
+    "mean_planes": 6.797569444444444,
+    "modeled_cycles_per_image_class": 62.38055555555555,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "mode": 4,
+    "split": "test",
+    "groups": 2880,
+    "mean_planes": 6.973611111111111,
+    "modeled_cycles_per_image_class": 63.78888888888889,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "mode": 5,
+    "split": "validation",
+    "groups": 23040,
+    "mean_planes": 0.9617621527777778,
+    "modeled_cycles_per_image_class": 125.55277777777778,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "mode": 5,
+    "split": "validation",
+    "groups": 5760,
+    "mean_planes": 2.427604166666667,
+    "modeled_cycles_per_image_class": 54.84166666666667,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "mode": 5,
+    "split": "validation",
+    "groups": 2880,
+    "mean_planes": 2.9253472222222223,
+    "modeled_cycles_per_image_class": 31.40277777777778,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 1,
+    "mode": 5,
+    "split": "test",
+    "groups": 23040,
+    "mean_planes": 0.9528211805555555,
+    "modeled_cycles_per_image_class": 124.98055555555555,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "mode": 5,
+    "split": "test",
+    "groups": 5760,
+    "mean_planes": 2.426736111111111,
+    "modeled_cycles_per_image_class": 54.827777777777776,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 4,
+    "lanes": 8,
+    "mode": 5,
+    "split": "test",
+    "groups": 2880,
+    "mean_planes": 2.9163194444444445,
+    "modeled_cycles_per_image_class": 31.330555555555556,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "mode": 5,
+    "split": "validation",
+    "groups": 23040,
+    "mean_planes": 2.427864583333333,
+    "modeled_cycles_per_image_class": 219.38333333333333,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 5,
+    "split": "validation",
+    "groups": 5760,
+    "mean_planes": 5.93125,
+    "modeled_cycles_per_image_class": 110.9,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "mode": 5,
+    "split": "validation",
+    "groups": 2880,
+    "mean_planes": 6.961111111111111,
+    "modeled_cycles_per_image_class": 63.68888888888889,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 1,
+    "mode": 5,
+    "split": "test",
+    "groups": 23040,
+    "mean_planes": 2.428515625,
+    "modeled_cycles_per_image_class": 219.425,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "mode": 5,
+    "split": "test",
+    "groups": 5760,
+    "mean_planes": 5.967881944444445,
+    "modeled_cycles_per_image_class": 111.48611111111111,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "mode": 5,
+    "split": "test",
+    "groups": 2880,
+    "mean_planes": 6.973611111111111,
+    "modeled_cycles_per_image_class": 63.78888888888889,
+    "scope": "analytical from public quantized inputs; only N=4 test replayed in RTL"
+  }
+]

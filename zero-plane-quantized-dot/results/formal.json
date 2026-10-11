@@ -1,0 +1,56 @@
+[
+  {
+    "mode": 0,
+    "width": 3,
+    "lanes": 1,
+    "steps": 12,
+    "passed": true,
+    "commands": "read_verilog -formal -sv rtl/dot_engine.sv formal/numeric.sv\nchparam -set MODE 0 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "bounded numeric output/tag and outstanding-work correctness; arbitrary reset, input and ready; zero initial state"
+  },
+  {
+    "mode": 1,
+    "width": 3,
+    "lanes": 1,
+    "steps": 12,
+    "passed": true,
+    "commands": "read_verilog -formal -sv rtl/dot_engine.sv formal/numeric.sv\nchparam -set MODE 1 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "bounded numeric output/tag and outstanding-work correctness; arbitrary reset, input and ready; zero initial state"
+  },
+  {
+    "mode": 2,
+    "width": 3,
+    "lanes": 1,
+    "steps": 12,
+    "passed": true,
+    "commands": "read_verilog -formal -sv rtl/dot_engine.sv formal/numeric.sv\nchparam -set MODE 2 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "bounded numeric output/tag and outstanding-work correctness; arbitrary reset, input and ready; zero initial state"
+  },
+  {
+    "mode": 3,
+    "width": 3,
+    "lanes": 1,
+    "steps": 12,
+    "passed": true,
+    "commands": "read_verilog -formal -sv rtl/dot_engine.sv formal/numeric.sv\nchparam -set MODE 3 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "bounded numeric output/tag and outstanding-work correctness; arbitrary reset, input and ready; zero initial state"
+  },
+  {
+    "mode": 4,
+    "width": 3,
+    "lanes": 1,
+    "steps": 12,
+    "passed": true,
+    "commands": "read_verilog -formal -sv rtl/dot_engine.sv formal/numeric.sv\nchparam -set MODE 4 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "bounded numeric output/tag and outstanding-work correctness; arbitrary reset, input and ready; zero initial state"
+  },
+  {
+    "mode": 5,
+    "width": 3,
+    "lanes": 1,
+    "steps": 12,
+    "passed": true,
+    "commands": "read_verilog -formal -sv rtl/counter_engine.sv formal/numeric.sv\nchparam -set MODE 5 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "bounded numeric output/tag and outstanding-work correctness; arbitrary reset, input and ready; zero initial state"
+  }
+]

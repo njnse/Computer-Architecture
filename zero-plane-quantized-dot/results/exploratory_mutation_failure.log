@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 163, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 157, in main
+    if mode in ['all','sim']:simulations()
+                             ^^^^^^^^^^^^^
+  File "/workspace/computer-architecture-research/zero-plane-quantized-dot/reproduce.py", line 123, in simulations
+    else:raise RuntimeError('Mutation escaped detection')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Mutation escaped detection

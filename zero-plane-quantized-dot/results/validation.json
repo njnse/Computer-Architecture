@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "rtl_runs": 768,
+  "retained_netlists": 30,
+  "independent_netlist_readbacks": 30,
+  "synthesis_stdout": "partial at ABC/ABC9; retained without claiming complete logs",
+  "formal_checks": 6,
+  "python_tests": 8,
+  "raw_application_blocks": 57600,
+  "note": "Bounded formal and finite tests; no unbounded full-parameter proof or physical timing."
+}

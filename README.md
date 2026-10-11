@@ -11,5 +11,7 @@ Reproducible experimental projects with implementations, correctness tests, raw 
 | [Elastic streaming reduction](elastic-streaming-reduction/README.md) | SystemVerilog RTL; 96 simulations, bounded formal checks, and iCE40 synthesis | Both pipelines sustain one beat per cycle; splitting changes latency and LUT/FF/carry costs |
 | [Quota-coalesced streaming arbitration](quota-coalesced-stream-arbitration/README.md) | SystemVerilog RTL; 897 simulations, 46 synthesis flows, and bounded formal checks | Grouping reduces source changes but increases minority latency; mapped resource gains reverse across configurations |
 | [Pair-constrained sparse dot product](pair-constrained-sparse-dot/README.md) | SystemVerilog RTL; 150 simulations, 85 synthesis configurations, and quantized public-workload replay | Restricted patterns reduce accuracy; 4-bit LUT savings reverse when index validation is removed |
+| [Zero-plane quantized dot products](zero-plane-quantized-dot/README.md) | Signed RTL; 768 RTL/netlist runs, 30 synthesis configurations, six bounded numerical checks and public-input replay | Internal zero-plane skipping gains 6.80% equal-clock throughput over counter span on 8-bit digits; DSP-enabled parallel remains faster |
 
 Each report distinguishes model findings from simulation or hardware evidence. Thesis and conference directions are research objectives, not claims of completed publication-level validation.
+
