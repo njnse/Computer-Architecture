@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "rtl_and_netlist_runs": 484,
+  "python_tests": 10,
+  "formal_checks": 6,
+  "mutation_checks": 3,
+  "retained_and_readback_netlists": 33,
+  "raw_public_blocks": 57600,
+  "per_image_service_records": 38880,
+  "all_public_modes_bit_exact": true,
+  "scope": "Bounded formal, finite RTL and generic-netlist tests, logical FPGA synthesis; no UVM/Vivado/physical timing/board execution"
+}

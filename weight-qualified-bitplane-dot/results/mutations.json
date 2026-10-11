@@ -1,0 +1,20 @@
+[
+  {
+    "mutation": "wrong_sign",
+    "detected": true,
+    "diagnostic": "FATAL: tb/check.sv:61: score mismatch ordinal 0 got -65536 expected 65536 tag 0\n       Time: 85  Scope: check\n",
+    "returncode": 1
+  },
+  {
+    "mutation": "stalled_overwrite",
+    "detected": true,
+    "diagnostic": "FATAL: tb/check.sv:56: stalled output changed at 5\n       Time: 55  Scope: check\n",
+    "returncode": 1
+  },
+  {
+    "mutation": "inverted_weight_mask",
+    "detected": true,
+    "diagnostic": "FATAL: tb/check.sv:61: score mismatch ordinal 0 got 0 expected 65536 tag 0\n       Time: 85  Scope: check\n",
+    "returncode": 1
+  }
+]

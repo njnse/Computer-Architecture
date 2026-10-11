@@ -1,0 +1,1406 @@
+[
+  {
+    "width": 8,
+    "lanes": 4,
+    "policy": "dense",
+    "baseline": "bitmap",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 6.524479166666667,
+    "candidate_cycles_per_block": 6.5033506944444435,
+    "equal_clock_throughput_ratio": 1.0032488594287667,
+    "cycles_saved_percent": 0.3238338522125628,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.0030236554587957,
+      1.003471758022907
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 6.524479166666667,
+        "candidate_cycles": 6.5044965277777775,
+        "equal_clock_throughput_ratio": 1.0030721269207465
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 6.524479166666667,
+        "candidate_cycles": 6.486458333333333,
+        "equal_clock_throughput_ratio": 1.0058615705797334
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 6.524479166666667,
+        "candidate_cycles": 6.519097222222222,
+        "equal_clock_throughput_ratio": 1.0008255659121172
+      }
+    ],
+    "seed_ratio_range": [
+      1.0008255659121172,
+      1.0058615705797334
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 201,
+    "candidate_lut": 216,
+    "baseline_ff": 128,
+    "candidate_ff": 128,
+    "equal_clock_throughput_per_lut_ratio": 0.9335787997462135,
+    "break_even_candidate_over_baseline_frequency": 0.9967616614778744
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "policy": "dense",
+    "baseline": "counter",
+    "candidate": "qualified_counter",
+    "baseline_cycles_per_block": 6.9678819444444455,
+    "candidate_cycles_per_block": 6.949681712962963,
+    "equal_clock_throughput_ratio": 1.0026188582777156,
+    "cycles_saved_percent": 0.26120177733482963,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.002385025190878,
+      1.0028519715192417
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 6.967881944444445,
+        "candidate_cycles": 6.95125,
+        "equal_clock_throughput_ratio": 1.002392655197906
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 6.967881944444445,
+        "candidate_cycles": 6.933506944444445,
+        "equal_clock_throughput_ratio": 1.0049578085484638
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 6.967881944444445,
+        "candidate_cycles": 6.964288194444444,
+        "equal_clock_throughput_ratio": 1.000516025457256
+      }
+    ],
+    "seed_ratio_range": [
+      1.000516025457256,
+      1.0049578085484638
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 195,
+    "candidate_lut": 210,
+    "baseline_ff": 126,
+    "candidate_ff": 126,
+    "equal_clock_throughput_per_lut_ratio": 0.931003225543593,
+    "break_even_candidate_over_baseline_frequency": 0.9973879822266517
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "policy": "dense",
+    "baseline": "qualified_counter",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 6.949681712962963,
+    "candidate_cycles_per_block": 6.5033506944444435,
+    "equal_clock_throughput_ratio": 1.0686309318825142,
+    "cycles_saved_percent": 6.422323164613353,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.065300803439602,
+      1.071817837732082
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 6.95125,
+        "candidate_cycles": 6.5044965277777775,
+        "equal_clock_throughput_ratio": 1.0686837897928516
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 6.933506944444445,
+        "candidate_cycles": 6.486458333333333,
+        "equal_clock_throughput_ratio": 1.0689202933461808
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 6.964288194444444,
+        "candidate_cycles": 6.519097222222222,
+        "equal_clock_throughput_ratio": 1.0682902796271638
+      }
+    ],
+    "seed_ratio_range": [
+      1.0682902796271638,
+      1.0689202933461808
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 210,
+    "candidate_lut": 216,
+    "baseline_ff": 126,
+    "candidate_ff": 128,
+    "equal_clock_throughput_per_lut_ratio": 1.038946739330222,
+    "break_even_candidate_over_baseline_frequency": 0.9357767683538665
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "policy": "dense",
+    "baseline": "counter",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 6.9678819444444455,
+    "candidate_cycles_per_block": 6.5033506944444435,
+    "equal_clock_throughput_ratio": 1.0714295248442978,
+    "cycles_saved_percent": 6.66674971969603,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.0680470226244874,
+      1.0746946105789208
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 6.967881944444445,
+        "candidate_cycles": 6.5044965277777775,
+        "equal_clock_throughput_ratio": 1.0712407816174174
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 6.967881944444445,
+        "candidate_cycles": 6.486458333333333,
+        "equal_clock_throughput_ratio": 1.0742197955141588
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 6.967881944444445,
+        "candidate_cycles": 6.519097222222222,
+        "equal_clock_throughput_ratio": 1.0688415446071904
+      }
+    ],
+    "seed_ratio_range": [
+      1.0688415446071904,
+      1.0742197955141588
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 195,
+    "candidate_lut": 216,
+    "baseline_ff": 126,
+    "candidate_ff": 128,
+    "equal_clock_throughput_per_lut_ratio": 0.9672627654844355,
+    "break_even_candidate_over_baseline_frequency": 0.9333325028030397
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "policy": "dense",
+    "baseline": "parallel",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 1.0,
+    "candidate_cycles_per_block": 6.5033506944444435,
+    "equal_clock_throughput_ratio": 0.15376688832946692,
+    "cycles_saved_percent": -550.3350694444445,
+    "fixed_checkpoint_image_bootstrap_95": [
+      0.15234353149108257,
+      0.15523458917712024
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 6.5044965277777775,
+        "equal_clock_throughput_ratio": 0.1537398007254597
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 6.486458333333333,
+        "equal_clock_throughput_ratio": 0.15416733579572828
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 6.519097222222222,
+        "equal_clock_throughput_ratio": 0.15339547270306259
+      }
+    ],
+    "seed_ratio_range": [
+      0.15339547270306259,
+      0.15416733579572828
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval"
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "policy": "index",
+    "baseline": "bitmap",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 6.524479166666667,
+    "candidate_cycles_per_block": 5.699872685185185,
+    "equal_clock_throughput_ratio": 1.1446710351311453,
+    "cycles_saved_percent": 12.638656058469266,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.1403557955669599,
+      1.149214343469625
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 6.524479166666667,
+        "candidate_cycles": 5.713454861111111,
+        "equal_clock_throughput_ratio": 1.1419498928880718
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 6.524479166666667,
+        "candidate_cycles": 5.693263888888889,
+        "equal_clock_throughput_ratio": 1.1459997804422868
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 6.524479166666667,
+        "candidate_cycles": 5.692899305555556,
+        "equal_clock_throughput_ratio": 1.1460731722937016
+      }
+    ],
+    "seed_ratio_range": [
+      1.1419498928880718,
+      1.1460731722937016
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 201,
+    "candidate_lut": 216,
+    "baseline_ff": 128,
+    "candidate_ff": 128,
+    "equal_clock_throughput_per_lut_ratio": 1.0651799910248156,
+    "break_even_candidate_over_baseline_frequency": 0.8736134394153073
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "policy": "index",
+    "baseline": "counter",
+    "candidate": "qualified_counter",
+    "baseline_cycles_per_block": 6.9678819444444455,
+    "candidate_cycles_per_block": 6.229224537037037,
+    "equal_clock_throughput_ratio": 1.1185793517340046,
+    "cycles_saved_percent": 10.600888667414132,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.1140775405422683,
+      1.123400524726875
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 6.967881944444445,
+        "candidate_cycles": 6.243194444444445,
+        "equal_clock_throughput_ratio": 1.1160763942960112
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 6.967881944444445,
+        "candidate_cycles": 6.22234375,
+        "equal_clock_throughput_ratio": 1.1198162982307822
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 6.967881944444445,
+        "candidate_cycles": 6.222135416666666,
+        "equal_clock_throughput_ratio": 1.1198537926031336
+      }
+    ],
+    "seed_ratio_range": [
+      1.1160763942960112,
+      1.1198537926031336
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 195,
+    "candidate_lut": 210,
+    "baseline_ff": 126,
+    "candidate_ff": 126,
+    "equal_clock_throughput_per_lut_ratio": 1.038680826610147,
+    "break_even_candidate_over_baseline_frequency": 0.8939911133258587
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "policy": "index",
+    "baseline": "qualified_counter",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 6.229224537037037,
+    "candidate_cycles_per_block": 5.699872685185185,
+    "equal_clock_throughput_ratio": 1.0928708202952877,
+    "cycles_saved_percent": 8.497877202924542,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.0894374131666122,
+      1.096126732417505
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 6.243194444444445,
+        "candidate_cycles": 5.713454861111111,
+        "equal_clock_throughput_ratio": 1.0927179082027987
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 6.22234375,
+        "candidate_cycles": 5.693263888888889,
+        "equal_clock_throughput_ratio": 1.0929308515179976
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 6.222135416666666,
+        "candidate_cycles": 5.692899305555556,
+        "equal_clock_throughput_ratio": 1.0929642494457337
+      }
+    ],
+    "seed_ratio_range": [
+      1.0927179082027987,
+      1.0929642494457337
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 210,
+    "candidate_lut": 216,
+    "baseline_ff": 126,
+    "candidate_ff": 128,
+    "equal_clock_throughput_per_lut_ratio": 1.0625132975093075,
+    "break_even_candidate_over_baseline_frequency": 0.9150212279707546
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "policy": "index",
+    "baseline": "counter",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 6.9678819444444455,
+    "candidate_cycles_per_block": 5.699872685185185,
+    "equal_clock_throughput_ratio": 1.2224627336949128,
+    "cycles_saved_percent": 18.19791536896308,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.2156714346489867,
+      1.2297097923463227
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 6.967881944444445,
+        "candidate_cycles": 5.713454861111111,
+        "equal_clock_throughput_ratio": 1.2195566629696593
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 6.967881944444445,
+        "candidate_cycles": 5.693263888888889,
+        "equal_clock_throughput_ratio": 1.223881780369101
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 6.967881944444445,
+        "candidate_cycles": 5.692899305555556,
+        "equal_clock_throughput_ratio": 1.223960159921442
+      }
+    ],
+    "seed_ratio_range": [
+      1.2195566629696593,
+      1.223960159921442
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 195,
+    "candidate_lut": 216,
+    "baseline_ff": 126,
+    "candidate_ff": 128,
+    "equal_clock_throughput_per_lut_ratio": 1.1036121901412406,
+    "break_even_candidate_over_baseline_frequency": 0.8180208463103692
+  },
+  {
+    "width": 8,
+    "lanes": 4,
+    "policy": "index",
+    "baseline": "parallel",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 1.0,
+    "candidate_cycles_per_block": 5.699872685185185,
+    "equal_clock_throughput_ratio": 0.175442515163391,
+    "cycles_saved_percent": -469.98726851851853,
+    "fixed_checkpoint_image_bootstrap_95": [
+      0.17381426708632294,
+      0.17707767423028234
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 5.713454861111111,
+        "equal_clock_throughput_ratio": 0.17502544857867788
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 5.693263888888889,
+        "equal_clock_throughput_ratio": 0.17564617054755255
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 5.692899305555556,
+        "equal_clock_throughput_ratio": 0.17565741923875686
+      }
+    ],
+    "seed_ratio_range": [
+      0.17502544857867788,
+      0.17565741923875686
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "policy": "dense",
+    "baseline": "bitmap",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 3.3319444444444444,
+    "candidate_cycles_per_block": 3.1344386574074075,
+    "equal_clock_throughput_ratio": 1.0630115336825257,
+    "cycles_saved_percent": 5.927643462553855,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.0613904113998252,
+      1.064684794825135
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 3.3319444444444444,
+        "candidate_cycles": 3.140972222222222,
+        "equal_clock_throughput_ratio": 1.0608003537475128
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 3.3319444444444444,
+        "candidate_cycles": 3.1343055555555557,
+        "equal_clock_throughput_ratio": 1.0630566756768733
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 3.3319444444444444,
+        "candidate_cycles": 3.1280381944444446,
+        "equal_clock_throughput_ratio": 1.0651866241154433
+      }
+    ],
+    "seed_ratio_range": [
+      1.0608003537475128,
+      1.0651866241154433
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 108,
+    "candidate_lut": 115,
+    "baseline_ff": 76,
+    "candidate_ff": 76,
+    "equal_clock_throughput_per_lut_ratio": 0.998306483806198,
+    "break_even_candidate_over_baseline_frequency": 0.9407235653744614
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "policy": "dense",
+    "baseline": "counter",
+    "candidate": "qualified_counter",
+    "baseline_cycles_per_block": 3.426736111111111,
+    "candidate_cycles_per_block": 3.2320138888888885,
+    "equal_clock_throughput_ratio": 1.060247953417417,
+    "cycles_saved_percent": 5.682439963522146,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.058437780694035,
+      1.062046419822871
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 3.426736111111111,
+        "candidate_cycles": 3.2384375,
+        "equal_clock_throughput_ratio": 1.058144895836684
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 3.426736111111111,
+        "candidate_cycles": 3.2320659722222222,
+        "equal_clock_throughput_ratio": 1.0602308679841217
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 3.426736111111111,
+        "candidate_cycles": 3.2255381944444443,
+        "equal_clock_throughput_ratio": 1.0623765413825212
+      }
+    ],
+    "seed_ratio_range": [
+      1.058144895836684,
+      1.0623765413825212
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 108,
+    "candidate_lut": 115,
+    "baseline_ff": 76,
+    "candidate_ff": 76,
+    "equal_clock_throughput_per_lut_ratio": 0.9957111214702697,
+    "break_even_candidate_over_baseline_frequency": 0.9431756003647785
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "policy": "dense",
+    "baseline": "qualified_counter",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 3.2320138888888885,
+    "candidate_cycles_per_block": 3.1344386574074075,
+    "equal_clock_throughput_ratio": 1.031130049794048,
+    "cycles_saved_percent": 3.01902265386077,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.0288625323036893,
+      1.0334771910903207
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 3.2384375,
+        "candidate_cycles": 3.140972222222222,
+        "equal_clock_throughput_ratio": 1.0310302896307761
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 3.2320659722222222,
+        "candidate_cycles": 3.1343055555555557,
+        "equal_clock_throughput_ratio": 1.0311904550892896
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 3.2255381944444443,
+        "candidate_cycles": 3.1280381944444446,
+        "equal_clock_throughput_ratio": 1.0311696961287635
+      }
+    ],
+    "seed_ratio_range": [
+      1.0310302896307761,
+      1.0311904550892896
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 115,
+    "candidate_lut": 115,
+    "baseline_ff": 76,
+    "candidate_ff": 76,
+    "equal_clock_throughput_per_lut_ratio": 1.031130049794048,
+    "break_even_candidate_over_baseline_frequency": 0.9698097734613923
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "policy": "dense",
+    "baseline": "counter",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 3.426736111111111,
+    "candidate_cycles_per_block": 3.1344386574074075,
+    "equal_clock_throughput_ratio": 1.0932535250013387,
+    "cycles_saved_percent": 8.52990846759213,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.0899623058935062,
+      1.0966622752641744
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 3.426736111111111,
+        "candidate_cycles": 3.140972222222222,
+        "equal_clock_throughput_ratio": 1.0909794384258236
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 3.426736111111111,
+        "candidate_cycles": 3.1343055555555557,
+        "equal_clock_throughput_ratio": 1.0932999512562591
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 3.426736111111111,
+        "candidate_cycles": 3.1280381944444446,
+        "equal_clock_throughput_ratio": 1.0954904953517413
+      }
+    ],
+    "seed_ratio_range": [
+      1.0909794384258236,
+      1.0954904953517413
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 108,
+    "candidate_lut": 115,
+    "baseline_ff": 76,
+    "candidate_ff": 76,
+    "equal_clock_throughput_per_lut_ratio": 1.0267076582621266,
+    "break_even_candidate_over_baseline_frequency": 0.9147009153240787
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "policy": "dense",
+    "baseline": "parallel",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 1.0,
+    "candidate_cycles_per_block": 3.1344386574074075,
+    "equal_clock_throughput_ratio": 0.3190363919347305,
+    "cycles_saved_percent": -213.4438657407407,
+    "fixed_checkpoint_image_bootstrap_95": [
+      0.31665733004368285,
+      0.3213216435234499
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 3.140972222222222,
+        "equal_clock_throughput_ratio": 0.31837276144152116
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 3.1343055555555557,
+        "equal_clock_throughput_ratio": 0.3190499401781362
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 3.1280381944444446,
+        "equal_clock_throughput_ratio": 0.3196891910642431
+      }
+    ],
+    "seed_ratio_range": [
+      0.31837276144152116,
+      0.3196891910642431
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval"
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "policy": "index",
+    "baseline": "bitmap",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 3.3319444444444444,
+    "candidate_cycles_per_block": 2.94484375,
+    "equal_clock_throughput_ratio": 1.1314503339759348,
+    "cycles_saved_percent": 11.617861609003743,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.127874524484065,
+      1.1351631887433118
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 3.3319444444444444,
+        "candidate_cycles": 2.9473090277777776,
+        "equal_clock_throughput_ratio": 1.1305039319058698
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 3.3319444444444444,
+        "candidate_cycles": 2.9438368055555557,
+        "equal_clock_throughput_ratio": 1.131837348509421
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 3.3319444444444444,
+        "candidate_cycles": 2.9433854166666666,
+        "equal_clock_throughput_ratio": 1.1320109237402602
+      }
+    ],
+    "seed_ratio_range": [
+      1.1305039319058698,
+      1.1320109237402602
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 108,
+    "candidate_lut": 115,
+    "baseline_ff": 76,
+    "candidate_ff": 76,
+    "equal_clock_throughput_per_lut_ratio": 1.0625794440817473,
+    "break_even_candidate_over_baseline_frequency": 0.8838213839099626
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "policy": "index",
+    "baseline": "counter",
+    "candidate": "qualified_counter",
+    "baseline_cycles_per_block": 3.426736111111111,
+    "candidate_cycles_per_block": 3.0461863425925926,
+    "equal_clock_throughput_ratio": 1.124926621591585,
+    "cycles_saved_percent": 11.105312932752398,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.1211120759162105,
+      1.128838183927273
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 3.426736111111111,
+        "candidate_cycles": 3.0487326388888887,
+        "equal_clock_throughput_ratio": 1.123987084797303
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 3.426736111111111,
+        "candidate_cycles": 3.045121527777778,
+        "equal_clock_throughput_ratio": 1.1253199847205513
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 3.426736111111111,
+        "candidate_cycles": 3.044704861111111,
+        "equal_clock_throughput_ratio": 1.1254739843193158
+      }
+    ],
+    "seed_ratio_range": [
+      1.123987084797303,
+      1.1254739843193158
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 108,
+    "candidate_lut": 115,
+    "baseline_ff": 76,
+    "candidate_ff": 76,
+    "equal_clock_throughput_per_lut_ratio": 1.0564528272338363,
+    "break_even_candidate_over_baseline_frequency": 0.888946870672476
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "policy": "index",
+    "baseline": "qualified_counter",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 3.0461863425925926,
+    "candidate_cycles_per_block": 2.94484375,
+    "equal_clock_throughput_ratio": 1.0344135720588203,
+    "cycles_saved_percent": 3.326867801079414,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.032186199415303,
+      1.0367403404792117
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 3.0487326388888887,
+        "candidate_cycles": 2.9473090277777776,
+        "equal_clock_throughput_ratio": 1.0344122757930079
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 3.045121527777778,
+        "candidate_cycles": 2.9438368055555557,
+        "equal_clock_throughput_ratio": 1.0344056851354937
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 3.044704861111111,
+        "candidate_cycles": 2.9433854166666666,
+        "equal_clock_throughput_ratio": 1.0344227581854324
+      }
+    ],
+    "seed_ratio_range": [
+      1.0344056851354937,
+      1.0344227581854324
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 115,
+    "candidate_lut": 115,
+    "baseline_ff": 76,
+    "candidate_ff": 76,
+    "equal_clock_throughput_per_lut_ratio": 1.0344135720588203,
+    "break_even_candidate_over_baseline_frequency": 0.9667313219892059
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "policy": "index",
+    "baseline": "counter",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 3.426736111111111,
+    "candidate_cycles_per_block": 2.94484375,
+    "equal_clock_throughput_ratio": 1.1636393649446122,
+    "cycles_saved_percent": 14.062721653662969,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.1587642258182835,
+      1.1686616256201834
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 3.426736111111111,
+        "candidate_cycles": 2.9473090277777776,
+        "equal_clock_throughput_ratio": 1.162666038347127
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 3.426736111111111,
+        "candidate_cycles": 2.9438368055555557,
+        "equal_clock_throughput_ratio": 1.1640373897915253
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 3.426736111111111,
+        "candidate_cycles": 2.9433854166666666,
+        "equal_clock_throughput_ratio": 1.1642159031255346
+      }
+    ],
+    "seed_ratio_range": [
+      1.162666038347127,
+      1.1642159031255346
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 108,
+    "candidate_lut": 115,
+    "baseline_ff": 76,
+    "candidate_ff": 76,
+    "equal_clock_throughput_per_lut_ratio": 1.0928091427305924,
+    "break_even_candidate_over_baseline_frequency": 0.8593727834633703
+  },
+  {
+    "width": 4,
+    "lanes": 4,
+    "policy": "index",
+    "baseline": "parallel",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 1.0,
+    "candidate_cycles_per_block": 2.94484375,
+    "equal_clock_throughput_ratio": 0.33957659043879657,
+    "cycles_saved_percent": -194.48437500000006,
+    "fixed_checkpoint_image_bootstrap_95": [
+      0.33699981530719225,
+      0.3420596822883159
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 2.9473090277777776,
+        "equal_clock_throughput_ratio": 0.3392925514682061
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 2.9438368055555557,
+        "equal_clock_throughput_ratio": 0.3396927431958246
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 2.9433854166666666,
+        "equal_clock_throughput_ratio": 0.33974483747102435
+      }
+    ],
+    "seed_ratio_range": [
+      0.3392925514682061,
+      0.33974483747102435
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "policy": "dense",
+    "baseline": "bitmap",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 7.797569444444444,
+    "candidate_cycles_per_block": 7.78869212962963,
+    "equal_clock_throughput_ratio": 1.001139769638736,
+    "cycles_saved_percent": 0.11384720428671002,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.00095556206692,
+      1.0013387175828294
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 7.797569444444444,
+        "candidate_cycles": 7.789965277777778,
+        "equal_clock_throughput_ratio": 1.000976148980838
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 7.797569444444444,
+        "candidate_cycles": 7.780486111111111,
+        "equal_clock_throughput_ratio": 1.0021956640098537
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 7.797569444444444,
+        "candidate_cycles": 7.795625,
+        "equal_clock_throughput_ratio": 1.0002494276526184
+      }
+    ],
+    "seed_ratio_range": [
+      1.0002494276526184,
+      1.0021956640098537
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 299,
+    "candidate_lut": 331,
+    "baseline_ff": 194,
+    "candidate_ff": 194,
+    "equal_clock_throughput_per_lut_ratio": 0.904352843268828,
+    "break_even_candidate_over_baseline_frequency": 0.9988615279571329
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "policy": "dense",
+    "baseline": "counter",
+    "candidate": "qualified_counter",
+    "baseline_cycles_per_block": 7.973611111111111,
+    "candidate_cycles_per_block": 7.9679166666666665,
+    "equal_clock_throughput_ratio": 1.0007146716867994,
+    "cycles_saved_percent": 0.07141612959413735,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.0005512406173582,
+      1.0008960570223802
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 7.973611111111111,
+        "candidate_cycles": 7.969236111111111,
+        "equal_clock_throughput_ratio": 1.000548986118494
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 7.973611111111111,
+        "candidate_cycles": 7.961979166666667,
+        "equal_clock_throughput_ratio": 1.001460936307538
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 7.973611111111111,
+        "candidate_cycles": 7.972534722222222,
+        "equal_clock_throughput_ratio": 1.0001350121293155
+      }
+    ],
+    "seed_ratio_range": [
+      1.0001350121293155,
+      1.001460936307538
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 299,
+    "candidate_lut": 331,
+    "baseline_ff": 192,
+    "candidate_ff": 192,
+    "equal_clock_throughput_per_lut_ratio": 0.9039688423998581,
+    "break_even_candidate_over_baseline_frequency": 0.9992858387040586
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "policy": "dense",
+    "baseline": "qualified_counter",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 7.9679166666666665,
+    "candidate_cycles_per_block": 7.78869212962963,
+    "equal_clock_throughput_ratio": 1.023010864218812,
+    "cycles_saved_percent": 2.2493274532703555,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.0208298521706813,
+      1.0251898618487891
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 7.969236111111111,
+        "candidate_cycles": 7.789965277777778,
+        "equal_clock_throughput_ratio": 1.0230130465208533
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 7.961979166666667,
+        "candidate_cycles": 7.780486111111111,
+        "equal_clock_throughput_ratio": 1.023326698738832
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 7.972534722222222,
+        "candidate_cycles": 7.795625,
+        "equal_clock_throughput_ratio": 1.0226934623230621
+      }
+    ],
+    "seed_ratio_range": [
+      1.0226934623230621,
+      1.023326698738832
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 331,
+    "candidate_lut": 331,
+    "baseline_ff": 192,
+    "candidate_ff": 194,
+    "equal_clock_throughput_per_lut_ratio": 1.023010864218812,
+    "break_even_candidate_over_baseline_frequency": 0.9775067254672964
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "policy": "dense",
+    "baseline": "counter",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 7.973611111111111,
+    "candidate_cycles_per_block": 7.78869212962963,
+    "equal_clock_throughput_ratio": 1.0237419811187574,
+    "cycles_saved_percent": 2.319137200255461,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.021541498365171,
+      1.0259266017206636
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 7.973611111111111,
+        "candidate_cycles": 7.789965277777778,
+        "equal_clock_throughput_ratio": 1.0235746664824315
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 7.973611111111111,
+        "candidate_cycles": 7.780486111111111,
+        "equal_clock_throughput_ratio": 1.0248217138674927
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 7.973611111111111,
+        "candidate_cycles": 7.795625,
+        "equal_clock_throughput_ratio": 1.0228315383450475
+      }
+    ],
+    "seed_ratio_range": [
+      1.0228315383450475,
+      1.0248217138674927
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 299,
+    "candidate_lut": 331,
+    "baseline_ff": 192,
+    "candidate_ff": 194,
+    "equal_clock_throughput_per_lut_ratio": 0.9247699466903578,
+    "break_even_candidate_over_baseline_frequency": 0.9768086279974454
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "policy": "dense",
+    "baseline": "parallel",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 1.0,
+    "candidate_cycles_per_block": 7.78869212962963,
+    "equal_clock_throughput_ratio": 0.12839126047822771,
+    "cycles_saved_percent": -678.8692129629629,
+    "fixed_checkpoint_image_bootstrap_95": [
+      0.12802122307397917,
+      0.12877305805354664
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 7.789965277777778,
+        "equal_clock_throughput_ratio": 0.12837027693212866
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 7.780486111111111,
+        "equal_clock_throughput_ratio": 0.12852667374753435
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 7.795625,
+        "equal_clock_throughput_ratio": 0.1282770784895374
+      }
+    ],
+    "seed_ratio_range": [
+      0.1282770784895374,
+      0.12852667374753435
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval"
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "policy": "index",
+    "baseline": "bitmap",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 7.797569444444444,
+    "candidate_cycles_per_block": 7.307638888888889,
+    "equal_clock_throughput_ratio": 1.067043618739903,
+    "cycles_saved_percent": 6.28311884935655,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.06333334974296,
+      1.0708141391505563
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 7.797569444444444,
+        "candidate_cycles": 7.313541666666667,
+        "equal_clock_throughput_ratio": 1.066182405165456
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 7.797569444444444,
+        "candidate_cycles": 7.304756944444445,
+        "equal_clock_throughput_ratio": 1.06746459926703
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 7.797569444444444,
+        "candidate_cycles": 7.304618055555555,
+        "equal_clock_throughput_ratio": 1.0674848958754213
+      }
+    ],
+    "seed_ratio_range": [
+      1.066182405165456,
+      1.0674848958754213
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 299,
+    "candidate_lut": 331,
+    "baseline_ff": 194,
+    "candidate_ff": 194,
+    "equal_clock_throughput_per_lut_ratio": 0.9638853232726013,
+    "break_even_candidate_over_baseline_frequency": 0.9371688115064345
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "policy": "index",
+    "baseline": "counter",
+    "candidate": "qualified_counter",
+    "baseline_cycles_per_block": 7.973611111111111,
+    "candidate_cycles_per_block": 7.628368055555556,
+    "equal_clock_throughput_ratio": 1.045257786860995,
+    "cycles_saved_percent": 4.329820588747602,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.0417656557410486,
+      1.0487515933024292
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 7.973611111111111,
+        "candidate_cycles": 7.632743055555555,
+        "equal_clock_throughput_ratio": 1.0446586571923775
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 7.973611111111111,
+        "candidate_cycles": 7.626180555555556,
+        "equal_clock_throughput_ratio": 1.0455576094775854
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 7.973611111111111,
+        "candidate_cycles": 7.626180555555556,
+        "equal_clock_throughput_ratio": 1.0455576094775854
+      }
+    ],
+    "seed_ratio_range": [
+      1.0446586571923775,
+      1.0455576094775854
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 299,
+    "candidate_lut": 331,
+    "baseline_ff": 192,
+    "candidate_ff": 192,
+    "equal_clock_throughput_per_lut_ratio": 0.9442056745360649,
+    "break_even_candidate_over_baseline_frequency": 0.956701794112524
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "policy": "index",
+    "baseline": "qualified_counter",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 7.628368055555556,
+    "candidate_cycles_per_block": 7.307638888888889,
+    "equal_clock_throughput_ratio": 1.0438895752161932,
+    "cycles_saved_percent": 4.204427006285938,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.0412790449264786,
+      1.0464201213206468
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 7.632743055555555,
+        "candidate_cycles": 7.313541666666667,
+        "equal_clock_throughput_ratio": 1.0436452547120543
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 7.626180555555556,
+        "candidate_cycles": 7.304756944444445,
+        "equal_clock_throughput_ratio": 1.0440019583889875
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 7.626180555555556,
+        "candidate_cycles": 7.304618055555555,
+        "equal_clock_throughput_ratio": 1.0440218088823185
+      }
+    ],
+    "seed_ratio_range": [
+      1.0436452547120543,
+      1.0440218088823185
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 331,
+    "candidate_lut": 331,
+    "baseline_ff": 192,
+    "candidate_ff": 194,
+    "equal_clock_throughput_per_lut_ratio": 1.0438895752161932,
+    "break_even_candidate_over_baseline_frequency": 0.9579557299371406
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "policy": "index",
+    "baseline": "counter",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 7.973611111111111,
+    "candidate_cycles_per_block": 7.307638888888889,
+    "equal_clock_throughput_ratio": 1.091133707117742,
+    "cycles_saved_percent": 8.352203448876494,
+    "fixed_checkpoint_image_bootstrap_95": [
+      1.0862008662285683,
+      1.0959679868321333
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 7.973611111111111,
+        "candidate_cycles": 7.313541666666667,
+        "equal_clock_throughput_ratio": 1.0902530503726915
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 7.973611111111111,
+        "candidate_cycles": 7.304756944444445,
+        "equal_clock_throughput_ratio": 1.0915641919031074
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 7.973611111111111,
+        "candidate_cycles": 7.304618055555555,
+        "equal_clock_throughput_ratio": 1.0915849467374616
+      }
+    ],
+    "seed_ratio_range": [
+      1.0902530503726915,
+      1.0915849467374616
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+    "baseline_lut": 299,
+    "candidate_lut": 331,
+    "baseline_ff": 192,
+    "candidate_ff": 194,
+    "equal_clock_throughput_per_lut_ratio": 0.9856464605081717,
+    "break_even_candidate_over_baseline_frequency": 0.9164779655112351
+  },
+  {
+    "width": 8,
+    "lanes": 8,
+    "policy": "index",
+    "baseline": "parallel",
+    "candidate": "qualified_bitmap",
+    "baseline_cycles_per_block": 1.0,
+    "candidate_cycles_per_block": 7.307638888888889,
+    "equal_clock_throughput_ratio": 0.13684310557825716,
+    "cycles_saved_percent": -630.7638888888889,
+    "fixed_checkpoint_image_bootstrap_95": [
+      0.13616870514555018,
+      0.13752336026884127
+    ],
+    "seed_results": [
+      {
+        "model_seed": 7,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 7.313541666666667,
+        "equal_clock_throughput_ratio": 0.13673265916536106
+      },
+      {
+        "model_seed": 31,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 7.304756944444445,
+        "equal_clock_throughput_ratio": 0.13689709426410682
+      },
+      {
+        "model_seed": 97,
+        "baseline_cycles": 1.0,
+        "candidate_cycles": 7.304618055555555,
+        "equal_clock_throughput_ratio": 0.13689969720448916
+      }
+    ],
+    "seed_ratio_range": [
+      0.13673265916536106,
+      0.13689969720448916
+    ],
+    "bootstrap_seed": 991,
+    "resamples": 4000,
+    "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval"
+  }
+]

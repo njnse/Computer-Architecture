@@ -1,0 +1,134 @@
+[
+  {
+    "configuration": "w4_n4_parallel_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 0 -set MASK_WEIGHTS 0 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w4_n4_parallel_generic.json\nwrite_verilog -noattr build/w4_n4_parallel_generic.v\n"
+  },
+  {
+    "configuration": "w4_n4_parallel_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 0 -set MASK_WEIGHTS 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w4_n4_parallel_xcup_nodsp.json\nwrite_verilog -noattr build/w4_n4_parallel_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w4_n4_fixed_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 1 -set MASK_WEIGHTS 0 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w4_n4_fixed_generic.json\nwrite_verilog -noattr build/w4_n4_fixed_generic.v\n"
+  },
+  {
+    "configuration": "w4_n4_fixed_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 1 -set MASK_WEIGHTS 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w4_n4_fixed_xcup_nodsp.json\nwrite_verilog -noattr build/w4_n4_fixed_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w4_n4_bitmap_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 3 -set MASK_WEIGHTS 0 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w4_n4_bitmap_generic.json\nwrite_verilog -noattr build/w4_n4_bitmap_generic.v\n"
+  },
+  {
+    "configuration": "w4_n4_bitmap_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 3 -set MASK_WEIGHTS 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w4_n4_bitmap_xcup_nodsp.json\nwrite_verilog -noattr build/w4_n4_bitmap_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w4_n4_qualified_bitmap_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 3 -set MASK_WEIGHTS 1 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w4_n4_qualified_bitmap_generic.json\nwrite_verilog -noattr build/w4_n4_qualified_bitmap_generic.v\n"
+  },
+  {
+    "configuration": "w4_n4_qualified_bitmap_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 4 -set N 4 -set MODE 3 -set MASK_WEIGHTS 1 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w4_n4_qualified_bitmap_xcup_nodsp.json\nwrite_verilog -noattr build/w4_n4_qualified_bitmap_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w4_n4_counter_generic",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 4 -set N 4 -set MODE 5 -set MASK_WEIGHTS 0 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w4_n4_counter_generic.json\nwrite_verilog -noattr build/w4_n4_counter_generic.v\n"
+  },
+  {
+    "configuration": "w4_n4_counter_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 4 -set N 4 -set MODE 5 -set MASK_WEIGHTS 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w4_n4_counter_xcup_nodsp.json\nwrite_verilog -noattr build/w4_n4_counter_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w4_n4_qualified_counter_generic",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 4 -set N 4 -set MODE 5 -set MASK_WEIGHTS 1 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w4_n4_qualified_counter_generic.json\nwrite_verilog -noattr build/w4_n4_qualified_counter_generic.v\n"
+  },
+  {
+    "configuration": "w4_n4_qualified_counter_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 4 -set N 4 -set MODE 5 -set MASK_WEIGHTS 1 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w4_n4_qualified_counter_xcup_nodsp.json\nwrite_verilog -noattr build/w4_n4_qualified_counter_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_parallel_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 0 -set MASK_WEIGHTS 0 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w8_n4_parallel_generic.json\nwrite_verilog -noattr build/w8_n4_parallel_generic.v\n"
+  },
+  {
+    "configuration": "w8_n4_parallel_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 0 -set MASK_WEIGHTS 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w8_n4_parallel_xcup_nodsp.json\nwrite_verilog -noattr build/w8_n4_parallel_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_fixed_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 1 -set MASK_WEIGHTS 0 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w8_n4_fixed_generic.json\nwrite_verilog -noattr build/w8_n4_fixed_generic.v\n"
+  },
+  {
+    "configuration": "w8_n4_fixed_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 1 -set MASK_WEIGHTS 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w8_n4_fixed_xcup_nodsp.json\nwrite_verilog -noattr build/w8_n4_fixed_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_bitmap_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 3 -set MASK_WEIGHTS 0 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w8_n4_bitmap_generic.json\nwrite_verilog -noattr build/w8_n4_bitmap_generic.v\n"
+  },
+  {
+    "configuration": "w8_n4_bitmap_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 3 -set MASK_WEIGHTS 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w8_n4_bitmap_xcup_nodsp.json\nwrite_verilog -noattr build/w8_n4_bitmap_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_qualified_bitmap_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 3 -set MASK_WEIGHTS 1 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w8_n4_qualified_bitmap_generic.json\nwrite_verilog -noattr build/w8_n4_qualified_bitmap_generic.v\n"
+  },
+  {
+    "configuration": "w8_n4_qualified_bitmap_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 3 -set MASK_WEIGHTS 1 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w8_n4_qualified_bitmap_xcup_nodsp.json\nwrite_verilog -noattr build/w8_n4_qualified_bitmap_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_counter_generic",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 8 -set N 4 -set MODE 5 -set MASK_WEIGHTS 0 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w8_n4_counter_generic.json\nwrite_verilog -noattr build/w8_n4_counter_generic.v\n"
+  },
+  {
+    "configuration": "w8_n4_counter_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 8 -set N 4 -set MODE 5 -set MASK_WEIGHTS 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w8_n4_counter_xcup_nodsp.json\nwrite_verilog -noattr build/w8_n4_counter_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_qualified_counter_generic",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 8 -set N 4 -set MODE 5 -set MASK_WEIGHTS 1 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w8_n4_qualified_counter_generic.json\nwrite_verilog -noattr build/w8_n4_qualified_counter_generic.v\n"
+  },
+  {
+    "configuration": "w8_n4_qualified_counter_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 8 -set N 4 -set MODE 5 -set MASK_WEIGHTS 1 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w8_n4_qualified_counter_xcup_nodsp.json\nwrite_verilog -noattr build/w8_n4_qualified_counter_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n8_bitmap_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 8 -set MODE 3 -set MASK_WEIGHTS 0 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w8_n8_bitmap_generic.json\nwrite_verilog -noattr build/w8_n8_bitmap_generic.v\n"
+  },
+  {
+    "configuration": "w8_n8_bitmap_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 8 -set MODE 3 -set MASK_WEIGHTS 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w8_n8_bitmap_xcup_nodsp.json\nwrite_verilog -noattr build/w8_n8_bitmap_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n8_qualified_bitmap_generic",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 8 -set MODE 3 -set MASK_WEIGHTS 1 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w8_n8_qualified_bitmap_generic.json\nwrite_verilog -noattr build/w8_n8_qualified_bitmap_generic.v\n"
+  },
+  {
+    "configuration": "w8_n8_qualified_bitmap_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 8 -set MODE 3 -set MASK_WEIGHTS 1 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w8_n8_qualified_bitmap_xcup_nodsp.json\nwrite_verilog -noattr build/w8_n8_qualified_bitmap_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n8_counter_generic",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 8 -set N 8 -set MODE 5 -set MASK_WEIGHTS 0 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w8_n8_counter_generic.json\nwrite_verilog -noattr build/w8_n8_counter_generic.v\n"
+  },
+  {
+    "configuration": "w8_n8_counter_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 8 -set N 8 -set MODE 5 -set MASK_WEIGHTS 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w8_n8_counter_xcup_nodsp.json\nwrite_verilog -noattr build/w8_n8_counter_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n8_qualified_counter_generic",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 8 -set N 8 -set MODE 5 -set MASK_WEIGHTS 1 dot_engine\nsynth -top dot_engine -flatten\ncheck -assert\nstat\nwrite_json build/w8_n8_qualified_counter_generic.json\nwrite_verilog -noattr build/w8_n8_qualified_counter_generic.v\n"
+  },
+  {
+    "configuration": "w8_n8_qualified_counter_xcup_nodsp",
+    "commands": "read_verilog -sv rtl/counter_engine.sv\nchparam -set W 8 -set N 8 -set MODE 5 -set MASK_WEIGHTS 1 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad -nodsp\ncheck -assert\nstat\nwrite_json build/w8_n8_qualified_counter_xcup_nodsp.json\nwrite_verilog -noattr build/w8_n8_qualified_counter_xcup_nodsp.v\n"
+  },
+  {
+    "configuration": "w8_n4_parallel_xcup_dsp",
+    "commands": "read_verilog -sv rtl/dot_engine.sv\nchparam -set W 8 -set N 4 -set MODE 0 -set MASK_WEIGHTS 0 dot_engine\nsynth_xilinx -top dot_engine -family xcup -flatten -noiopad\ncheck -assert\nstat\nwrite_json build/w8_n4_parallel_xcup_dsp.json\nwrite_verilog -noattr build/w8_n4_parallel_xcup_dsp.v\n"
+  }
+]

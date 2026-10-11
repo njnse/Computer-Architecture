@@ -1,0 +1,259 @@
+{
+  "simulation_runs": 484,
+  "checked_outputs": 5419264,
+  "checked_cycles": 27620254,
+  "reset_canceled": 256,
+  "synthesis_configurations": 33,
+  "generic_netlist_replays": 16,
+  "application_runs": 108,
+  "application_outputs": 5184000,
+  "coverage": {
+    "busyreset": 90,
+    "outputreset": 166,
+    "outstalls": 99035,
+    "installs": 22187058,
+    "zero_groups": 247828,
+    "negative_groups": 145272,
+    "zero_weights": 9179292,
+    "excluded_nonzero": 2649126,
+    "qualified_zero": 472890,
+    "reduced_planes": 962032
+  },
+  "primary": [
+    {
+      "width": 8,
+      "lanes": 4,
+      "policy": "index",
+      "baseline": "bitmap",
+      "candidate": "qualified_bitmap",
+      "baseline_cycles_per_block": 6.524479166666667,
+      "candidate_cycles_per_block": 5.699872685185185,
+      "equal_clock_throughput_ratio": 1.1446710351311453,
+      "cycles_saved_percent": 12.638656058469266,
+      "fixed_checkpoint_image_bootstrap_95": [
+        1.1403557955669599,
+        1.149214343469625
+      ],
+      "seed_results": [
+        {
+          "model_seed": 7,
+          "baseline_cycles": 6.524479166666667,
+          "candidate_cycles": 5.713454861111111,
+          "equal_clock_throughput_ratio": 1.1419498928880718
+        },
+        {
+          "model_seed": 31,
+          "baseline_cycles": 6.524479166666667,
+          "candidate_cycles": 5.693263888888889,
+          "equal_clock_throughput_ratio": 1.1459997804422868
+        },
+        {
+          "model_seed": 97,
+          "baseline_cycles": 6.524479166666667,
+          "candidate_cycles": 5.692899305555556,
+          "equal_clock_throughput_ratio": 1.1460731722937016
+        }
+      ],
+      "seed_ratio_range": [
+        1.1419498928880718,
+        1.1460731722937016
+      ],
+      "bootstrap_seed": 991,
+      "resamples": 4000,
+      "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+      "baseline_lut": 201,
+      "candidate_lut": 216,
+      "baseline_ff": 128,
+      "candidate_ff": 128,
+      "equal_clock_throughput_per_lut_ratio": 1.0651799910248156,
+      "break_even_candidate_over_baseline_frequency": 0.8736134394153073
+    },
+    {
+      "width": 8,
+      "lanes": 4,
+      "policy": "index",
+      "baseline": "counter",
+      "candidate": "qualified_counter",
+      "baseline_cycles_per_block": 6.9678819444444455,
+      "candidate_cycles_per_block": 6.229224537037037,
+      "equal_clock_throughput_ratio": 1.1185793517340046,
+      "cycles_saved_percent": 10.600888667414132,
+      "fixed_checkpoint_image_bootstrap_95": [
+        1.1140775405422683,
+        1.123400524726875
+      ],
+      "seed_results": [
+        {
+          "model_seed": 7,
+          "baseline_cycles": 6.967881944444445,
+          "candidate_cycles": 6.243194444444445,
+          "equal_clock_throughput_ratio": 1.1160763942960112
+        },
+        {
+          "model_seed": 31,
+          "baseline_cycles": 6.967881944444445,
+          "candidate_cycles": 6.22234375,
+          "equal_clock_throughput_ratio": 1.1198162982307822
+        },
+        {
+          "model_seed": 97,
+          "baseline_cycles": 6.967881944444445,
+          "candidate_cycles": 6.222135416666666,
+          "equal_clock_throughput_ratio": 1.1198537926031336
+        }
+      ],
+      "seed_ratio_range": [
+        1.1160763942960112,
+        1.1198537926031336
+      ],
+      "bootstrap_seed": 991,
+      "resamples": 4000,
+      "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+      "baseline_lut": 195,
+      "candidate_lut": 210,
+      "baseline_ff": 126,
+      "candidate_ff": 126,
+      "equal_clock_throughput_per_lut_ratio": 1.038680826610147,
+      "break_even_candidate_over_baseline_frequency": 0.8939911133258587
+    },
+    {
+      "width": 8,
+      "lanes": 4,
+      "policy": "index",
+      "baseline": "qualified_counter",
+      "candidate": "qualified_bitmap",
+      "baseline_cycles_per_block": 6.229224537037037,
+      "candidate_cycles_per_block": 5.699872685185185,
+      "equal_clock_throughput_ratio": 1.0928708202952877,
+      "cycles_saved_percent": 8.497877202924542,
+      "fixed_checkpoint_image_bootstrap_95": [
+        1.0894374131666122,
+        1.096126732417505
+      ],
+      "seed_results": [
+        {
+          "model_seed": 7,
+          "baseline_cycles": 6.243194444444445,
+          "candidate_cycles": 5.713454861111111,
+          "equal_clock_throughput_ratio": 1.0927179082027987
+        },
+        {
+          "model_seed": 31,
+          "baseline_cycles": 6.22234375,
+          "candidate_cycles": 5.693263888888889,
+          "equal_clock_throughput_ratio": 1.0929308515179976
+        },
+        {
+          "model_seed": 97,
+          "baseline_cycles": 6.222135416666666,
+          "candidate_cycles": 5.692899305555556,
+          "equal_clock_throughput_ratio": 1.0929642494457337
+        }
+      ],
+      "seed_ratio_range": [
+        1.0927179082027987,
+        1.0929642494457337
+      ],
+      "bootstrap_seed": 991,
+      "resamples": 4000,
+      "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+      "baseline_lut": 210,
+      "candidate_lut": 216,
+      "baseline_ff": 126,
+      "candidate_ff": 128,
+      "equal_clock_throughput_per_lut_ratio": 1.0625132975093075,
+      "break_even_candidate_over_baseline_frequency": 0.9150212279707546
+    },
+    {
+      "width": 8,
+      "lanes": 4,
+      "policy": "index",
+      "baseline": "counter",
+      "candidate": "qualified_bitmap",
+      "baseline_cycles_per_block": 6.9678819444444455,
+      "candidate_cycles_per_block": 5.699872685185185,
+      "equal_clock_throughput_ratio": 1.2224627336949128,
+      "cycles_saved_percent": 18.19791536896308,
+      "fixed_checkpoint_image_bootstrap_95": [
+        1.2156714346489867,
+        1.2297097923463227
+      ],
+      "seed_results": [
+        {
+          "model_seed": 7,
+          "baseline_cycles": 6.967881944444445,
+          "candidate_cycles": 5.713454861111111,
+          "equal_clock_throughput_ratio": 1.2195566629696593
+        },
+        {
+          "model_seed": 31,
+          "baseline_cycles": 6.967881944444445,
+          "candidate_cycles": 5.693263888888889,
+          "equal_clock_throughput_ratio": 1.223881780369101
+        },
+        {
+          "model_seed": 97,
+          "baseline_cycles": 6.967881944444445,
+          "candidate_cycles": 5.692899305555556,
+          "equal_clock_throughput_ratio": 1.223960159921442
+        }
+      ],
+      "seed_ratio_range": [
+        1.2195566629696593,
+        1.223960159921442
+      ],
+      "bootstrap_seed": 991,
+      "resamples": 4000,
+      "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval",
+      "baseline_lut": 195,
+      "candidate_lut": 216,
+      "baseline_ff": 126,
+      "candidate_ff": 128,
+      "equal_clock_throughput_per_lut_ratio": 1.1036121901412406,
+      "break_even_candidate_over_baseline_frequency": 0.8180208463103692
+    },
+    {
+      "width": 8,
+      "lanes": 4,
+      "policy": "index",
+      "baseline": "parallel",
+      "candidate": "qualified_bitmap",
+      "baseline_cycles_per_block": 1.0,
+      "candidate_cycles_per_block": 5.699872685185185,
+      "equal_clock_throughput_ratio": 0.175442515163391,
+      "cycles_saved_percent": -469.98726851851853,
+      "fixed_checkpoint_image_bootstrap_95": [
+        0.17381426708632294,
+        0.17707767423028234
+      ],
+      "seed_results": [
+        {
+          "model_seed": 7,
+          "baseline_cycles": 1.0,
+          "candidate_cycles": 5.713454861111111,
+          "equal_clock_throughput_ratio": 0.17502544857867788
+        },
+        {
+          "model_seed": 31,
+          "baseline_cycles": 1.0,
+          "candidate_cycles": 5.693263888888889,
+          "equal_clock_throughput_ratio": 0.17564617054755255
+        },
+        {
+          "model_seed": 97,
+          "baseline_cycles": 1.0,
+          "candidate_cycles": 5.692899305555556,
+          "equal_clock_throughput_ratio": 0.17565741923875686
+        }
+      ],
+      "seed_ratio_range": [
+        0.17502544857867788,
+        0.17565741923875686
+      ],
+      "bootstrap_seed": 991,
+      "resamples": 4000,
+      "uncertainty_scope": "Paired image resampling, all three checkpoints fixed; not a writer-independent, training-population or board-timing confidence interval"
+    }
+  ],
+  "claims": "Exact signed block-dot RTL evidence and logical mapping; no end-to-end FPGA inference, timing, power, or new training results"
+}

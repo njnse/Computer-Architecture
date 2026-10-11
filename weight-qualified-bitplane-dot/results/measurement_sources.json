@@ -1,0 +1,19 @@
+{
+  "rtl/dot_engine.sv": "224924b8a1f32ff8f79fc21a7261d9ea4646a63537549a5b8b705e5e8118df00",
+  "rtl/counter_engine.sv": "fad3306db0f2e10d8e93ba66968b899f9dcaa30add55a0ddbb4e78e99007c788",
+  "tb/check.sv": "dec09b9b61bbe5d6ca6a53c86f3524be73ca9aa75c1bb2556c71ec9b09309c55",
+  "reference.py": "551aa469ea2067a3226b169eaad5fca11ac531f95a5ce3d6704a2cc8acfc4c42",
+  "reproduce.py": "2f88a8b044b5c8b13c69801e0fa574ac7a3179da202054d470e74133fb769acc",
+  "formal/numeric.sv": "449d4801b661090f9ea07d51ce127fe2e460b6d54cdd449083e8f100337a7869",
+  "fixtures/checkpoints.json": "57800a9aeee796ebc9bd98ae0544cae73a08697f0c2fbc5c88755ae775e7f605",
+  "fixtures/provenance.json": "24c3540c0bb8476165a53353425b84cb576980e0de9fa1ec991567061f968fe5",
+  "SPEC.md": "7cd17ff66c5aa5d86be0e52a2f9f16725bf29835f88f0cfe4ab5aefdd6c58e82",
+  "analyze.py": "8a39fbf7d142a3a5153f84e99b4ec6e77b6036b95d0871125840b759002a1a03",
+  "verify_results.py": "adcc605af9e17a60925859fb1a9795b6ea0e2436615a3f1d4dee7377d5b95c5e",
+  "preflight.py": "19c1971ec9ba72b07a178fb2230c2f4aedde37697e49bd2616dcd986e6f5c2aa",
+  "run_project.py": "2903a7fbaa3b97e47249420e7018f61ba93f7125721655e957571af281229f39",
+  "write_report.py": "64d56e68a6e68db1de2d0a19b6946911a952099d8199301ae3650be0da5c83e8",
+  "requirements.txt": "a30a5d8d44da6b0a9235fb5dc88c976f97e2f15ecdbd46c74ca5111caa89796b",
+  "tools/requirements.txt": "eb86ec1260d94bd12de2e4d11384890d83b1a55cbca792000b9859f7a278641a",
+  "tools/setup.py": "56bc40421a1a76676f364329d6eea130ac616e0577e03e6a2a8e7d709314f867"
+}

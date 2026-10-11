@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "observed": {
+    "click": "8.5.0",
+    "platformdirs": "4.12.3",
+    "wasmtime": "47.0.1",
+    "yowasp-runtime": "1.96",
+    "yowasp-yosys": "0.69.0.0.post1233"
+  },
+  "icarus_package_sha256": "febe027d2d3f5a7e570844d55758339ab5490acc09f404f214a8719d89d07056"
+}
