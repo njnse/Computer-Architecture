@@ -1,0 +1,784 @@
+[
+  {
+    "configuration": "w4_n4_parallel_generic",
+    "passed": true,
+    "commands": "read_json build/w4_n4_parallel_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 3,
+      "$_AND_": 77,
+      "$_XOR_": 139,
+      "$_NAND_": 230,
+      "$_XNOR_": 39,
+      "$_ANDNOT_": 14,
+      "$_MUX_": 12,
+      "$_ORNOT_": 6,
+      "$_OR_": 26,
+      "$_NOR_": 3,
+      "$_SDFFE_PP0P_": 19
+    }
+  },
+  {
+    "configuration": "w4_n4_parallel_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w4_n4_parallel_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT2": 28,
+      "LUT6": 38,
+      "LUT3": 26,
+      "LUT4": 41,
+      "LUT5": 48,
+      "BUFG": 1,
+      "FDRE": 20,
+      "CARRY4": 3
+    }
+  },
+  {
+    "configuration": "w4_n4_tc_fixed_generic",
+    "passed": true,
+    "commands": "read_json build/w4_n4_tc_fixed_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 7,
+      "$_ORNOT_": 10,
+      "$_NOR_": 2,
+      "$_ANDNOT_": 12,
+      "$_NAND_": 52,
+      "$_OR_": 17,
+      "$_MUX_": 38,
+      "$_AND_": 43,
+      "$_XNOR_": 23,
+      "$_XOR_": 25,
+      "$_SDFFE_PP0P_": 74,
+      "$_SDFF_PP0_": 2
+    }
+  },
+  {
+    "configuration": "w4_n4_tc_fixed_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w4_n4_tc_fixed_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT4": 35,
+      "LUT6": 7,
+      "LUT5": 11,
+      "LUT2": 16,
+      "LUT3": 13,
+      "CARRY4": 12,
+      "BUFG": 1,
+      "FDRE": 76
+    }
+  },
+  {
+    "configuration": "w4_n4_tc_bitmap_generic",
+    "passed": true,
+    "commands": "read_json build/w4_n4_tc_bitmap_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_ANDNOT_": 15,
+      "$_NOR_": 15,
+      "$_AND_": 50,
+      "$_NAND_": 93,
+      "$_NOT_": 5,
+      "$_ORNOT_": 22,
+      "$_OR_": 16,
+      "$_MUX_": 56,
+      "$_XNOR_": 21,
+      "$_XOR_": 28,
+      "$_SDFFE_PP0P_": 55,
+      "$_SDFF_PP0_": 21
+    }
+  },
+  {
+    "configuration": "w4_n4_tc_bitmap_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w4_n4_tc_bitmap_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT4": 57,
+      "LUT2": 17,
+      "LUT5": 29,
+      "LUT6": 8,
+      "LUT3": 4,
+      "CARRY4": 12,
+      "BUFG": 1,
+      "FDRE": 76
+    }
+  },
+  {
+    "configuration": "w4_n4_tc_counter_generic",
+    "passed": true,
+    "commands": "read_json build/w4_n4_tc_counter_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 7,
+      "$_XNOR_": 25,
+      "$_AND_": 75,
+      "$_ANDNOT_": 15,
+      "$_NAND_": 100,
+      "$_NOR_": 14,
+      "$_MUX_": 50,
+      "$_ORNOT_": 14,
+      "$_OR_": 24,
+      "$_XOR_": 21,
+      "$_SDFFE_PP0P_": 53,
+      "$_SDFF_PP0_": 23
+    }
+  },
+  {
+    "configuration": "w4_n4_tc_counter_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w4_n4_tc_counter_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT5": 29,
+      "LUT2": 22,
+      "LUT4": 43,
+      "LUT6": 9,
+      "LUT3": 14,
+      "CARRY4": 12,
+      "BUFG": 1,
+      "FDRE": 76
+    }
+  },
+  {
+    "configuration": "w4_n4_sm_bitmap_generic",
+    "passed": true,
+    "commands": "read_json build/w4_n4_sm_bitmap_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 12,
+      "$_ORNOT_": 30,
+      "$_NOR_": 9,
+      "$_ANDNOT_": 8,
+      "$_NAND_": 103,
+      "$_AND_": 66,
+      "$_OR_": 36,
+      "$_MUX_": 73,
+      "$_XNOR_": 32,
+      "$_XOR_": 29,
+      "$_SDFF_PP0_": 21,
+      "$_SDFFE_PP0P_": 59
+    }
+  },
+  {
+    "configuration": "w4_n4_sm_bitmap_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w4_n4_sm_bitmap_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT5": 28,
+      "LUT2": 19,
+      "LUT6": 25,
+      "LUT4": 52,
+      "LUT3": 13,
+      "INV": 24,
+      "CARRY4": 21,
+      "BUFG": 1,
+      "FDRE": 80
+    }
+  },
+  {
+    "configuration": "w4_n4_sm_counter_generic",
+    "passed": true,
+    "commands": "read_json build/w4_n4_sm_counter_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 10,
+      "$_XNOR_": 34,
+      "$_AND_": 64,
+      "$_MUX_": 65,
+      "$_NAND_": 119,
+      "$_OR_": 46,
+      "$_NOR_": 10,
+      "$_ANDNOT_": 6,
+      "$_ORNOT_": 33,
+      "$_XOR_": 26,
+      "$_SDFFE_PP0P_": 57,
+      "$_SDFF_PP0_": 23
+    }
+  },
+  {
+    "configuration": "w4_n4_sm_counter_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w4_n4_sm_counter_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT6": 24,
+      "LUT2": 19,
+      "LUT3": 21,
+      "LUT4": 45,
+      "LUT5": 25,
+      "INV": 24,
+      "CARRY4": 21,
+      "BUFG": 1,
+      "FDRE": 80
+    }
+  },
+  {
+    "configuration": "w4_n4_booth_bitmap_generic",
+    "passed": true,
+    "commands": "read_json build/w4_n4_booth_bitmap_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 4,
+      "$_ANDNOT_": 16,
+      "$_NAND_": 192,
+      "$_MUX_": 45,
+      "$_ORNOT_": 10,
+      "$_NOR_": 22,
+      "$_AND_": 99,
+      "$_XNOR_": 19,
+      "$_XOR_": 44,
+      "$_OR_": 23,
+      "$_SDFFE_PP0P_": 57,
+      "$_SDFF_PP0_": 21
+    }
+  },
+  {
+    "configuration": "w4_n4_booth_bitmap_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w4_n4_booth_bitmap_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT4": 63,
+      "LUT5": 55,
+      "LUT2": 17,
+      "LUT6": 8,
+      "LUT3": 17,
+      "INV": 15,
+      "CARRY4": 14,
+      "BUFG": 1,
+      "FDRE": 78
+    }
+  },
+  {
+    "configuration": "w4_n4_booth_counter_generic",
+    "passed": true,
+    "commands": "read_json build/w4_n4_booth_counter_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 7,
+      "$_NOR_": 21,
+      "$_ANDNOT_": 9,
+      "$_MUX_": 47,
+      "$_AND_": 110,
+      "$_NAND_": 188,
+      "$_ORNOT_": 5,
+      "$_XNOR_": 19,
+      "$_XOR_": 42,
+      "$_OR_": 24,
+      "$_SDFFE_PP0P_": 57,
+      "$_SDFF_PP0_": 21
+    }
+  },
+  {
+    "configuration": "w4_n4_booth_counter_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w4_n4_booth_counter_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT6": 6,
+      "LUT5": 49,
+      "LUT4": 63,
+      "LUT2": 18,
+      "LUT3": 21,
+      "INV": 16,
+      "CARRY4": 16,
+      "BUFG": 1,
+      "FDRE": 78
+    }
+  },
+  {
+    "configuration": "w8_n4_parallel_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n4_parallel_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_AND_": 300,
+      "$_XOR_": 623,
+      "$_NAND_": 923,
+      "$_XNOR_": 93,
+      "$_OR_": 32,
+      "$_ANDNOT_": 35,
+      "$_ORNOT_": 34,
+      "$_MUX_": 17,
+      "$_NOT_": 1,
+      "$_SDFFE_PP0P_": 27
+    }
+  },
+  {
+    "configuration": "w8_n4_parallel_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n4_parallel_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT6": 74,
+      "LUT4": 143,
+      "LUT3": 157,
+      "LUT2": 129,
+      "LUT5": 224,
+      "BUFG": 1,
+      "FDRE": 28,
+      "CARRY4": 5
+    }
+  },
+  {
+    "configuration": "w8_n4_tc_fixed_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n4_tc_fixed_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 6,
+      "$_ORNOT_": 17,
+      "$_NOR_": 7,
+      "$_AND_": 71,
+      "$_NAND_": 113,
+      "$_ANDNOT_": 10,
+      "$_OR_": 39,
+      "$_MUX_": 83,
+      "$_XNOR_": 41,
+      "$_XOR_": 52,
+      "$_SDFFE_PP0P_": 126,
+      "$_SDFF_PP0_": 2
+    }
+  },
+  {
+    "configuration": "w8_n4_tc_fixed_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n4_tc_fixed_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT2": 29,
+      "LUT4": 57,
+      "LUT3": 29,
+      "LUT5": 30,
+      "LUT6": 17,
+      "MUXF7": 1,
+      "INV": 1,
+      "CARRY4": 19,
+      "BUFG": 1,
+      "FDRE": 128
+    }
+  },
+  {
+    "configuration": "w8_n4_tc_bitmap_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n4_tc_bitmap_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 4,
+      "$_ORNOT_": 29,
+      "$_AND_": 119,
+      "$_NOR_": 25,
+      "$_NAND_": 171,
+      "$_OR_": 36,
+      "$_ANDNOT_": 20,
+      "$_MUX_": 112,
+      "$_XNOR_": 42,
+      "$_XOR_": 52,
+      "$_SDFFE_PP0P_": 99,
+      "$_SDFF_PP0_": 29
+    }
+  },
+  {
+    "configuration": "w8_n4_tc_bitmap_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n4_tc_bitmap_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT2": 30,
+      "LUT4": 87,
+      "LUT3": 27,
+      "LUT5": 55,
+      "LUT6": 18,
+      "MUXF7": 1,
+      "CARRY4": 19,
+      "BUFG": 1,
+      "FDRE": 128
+    }
+  },
+  {
+    "configuration": "w8_n4_tc_counter_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n4_tc_counter_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 14,
+      "$_XNOR_": 44,
+      "$_AND_": 134,
+      "$_ANDNOT_": 19,
+      "$_NOR_": 20,
+      "$_NAND_": 226,
+      "$_MUX_": 83,
+      "$_ORNOT_": 29,
+      "$_OR_": 32,
+      "$_XOR_": 48,
+      "$_SDFFE_PP0P_": 94,
+      "$_SDFF_PP0_": 32
+    }
+  },
+  {
+    "configuration": "w8_n4_tc_counter_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n4_tc_counter_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT3": 23,
+      "LUT5": 50,
+      "LUT4": 82,
+      "LUT6": 20,
+      "LUT2": 37,
+      "MUXF7": 1,
+      "INV": 1,
+      "CARRY4": 21,
+      "BUFG": 1,
+      "FDRE": 126
+    }
+  },
+  {
+    "configuration": "w8_n4_sm_bitmap_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n4_sm_bitmap_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_ORNOT_": 40,
+      "$_OR_": 84,
+      "$_NOR_": 28,
+      "$_NAND_": 186,
+      "$_AND_": 119,
+      "$_ANDNOT_": 42,
+      "$_NOT_": 12,
+      "$_MUX_": 128,
+      "$_XNOR_": 69,
+      "$_XOR_": 52,
+      "$_SDFF_PP0_": 29,
+      "$_SDFFE_PP0P_": 103
+    }
+  },
+  {
+    "configuration": "w8_n4_sm_bitmap_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n4_sm_bitmap_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT5": 53,
+      "LUT2": 25,
+      "LUT3": 48,
+      "LUT4": 73,
+      "LUT6": 58,
+      "INV": 56,
+      "CARRY4": 34,
+      "BUFG": 1,
+      "FDRE": 132
+    }
+  },
+  {
+    "configuration": "w8_n4_sm_counter_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n4_sm_counter_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 14,
+      "$_XNOR_": 69,
+      "$_AND_": 134,
+      "$_MUX_": 106,
+      "$_ORNOT_": 44,
+      "$_NAND_": 225,
+      "$_ANDNOT_": 31,
+      "$_OR_": 80,
+      "$_XOR_": 58,
+      "$_NOR_": 21,
+      "$_SDFFE_PP0P_": 98,
+      "$_SDFF_PP0_": 32
+    }
+  },
+  {
+    "configuration": "w8_n4_sm_counter_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n4_sm_counter_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT3": 49,
+      "LUT2": 29,
+      "LUT5": 46,
+      "LUT6": 50,
+      "LUT4": 84,
+      "INV": 57,
+      "CARRY4": 36,
+      "BUFG": 1,
+      "FDRE": 130
+    }
+  },
+  {
+    "configuration": "w8_n4_booth_bitmap_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n4_booth_bitmap_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_ORNOT_": 11,
+      "$_NOR_": 32,
+      "$_ANDNOT_": 41,
+      "$_NAND_": 352,
+      "$_NOT_": 3,
+      "$_AND_": 222,
+      "$_MUX_": 105,
+      "$_OR_": 57,
+      "$_XNOR_": 46,
+      "$_XOR_": 82,
+      "$_SDFFE_PP0P_": 107,
+      "$_SDFF_PP0_": 29
+    }
+  },
+  {
+    "configuration": "w8_n4_booth_bitmap_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n4_booth_bitmap_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT5": 119,
+      "LUT4": 68,
+      "LUT6": 59,
+      "LUT2": 41,
+      "LUT3": 19,
+      "MUXF7": 5,
+      "INV": 31,
+      "CARRY4": 24,
+      "BUFG": 1,
+      "FDRE": 136
+    }
+  },
+  {
+    "configuration": "w8_n4_booth_counter_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n4_booth_counter_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_XOR_": 76,
+      "$_AND_": 218,
+      "$_NAND_": 374,
+      "$_ORNOT_": 23,
+      "$_NOR_": 33,
+      "$_XNOR_": 55,
+      "$_MUX_": 79,
+      "$_OR_": 34,
+      "$_NOT_": 8,
+      "$_ANDNOT_": 30,
+      "$_SDFFE_PP0P_": 107,
+      "$_SDFF_PP0_": 29
+    }
+  },
+  {
+    "configuration": "w8_n4_booth_counter_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n4_booth_counter_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT6": 48,
+      "LUT4": 66,
+      "LUT5": 114,
+      "LUT2": 37,
+      "LUT3": 28,
+      "INV": 32,
+      "CARRY4": 28,
+      "BUFG": 1,
+      "FDRE": 136
+    }
+  },
+  {
+    "configuration": "w8_n8_tc_bitmap_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n8_tc_bitmap_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 10,
+      "$_ORNOT_": 34,
+      "$_AND_": 178,
+      "$_NOR_": 41,
+      "$_NAND_": 301,
+      "$_OR_": 46,
+      "$_ANDNOT_": 25,
+      "$_MUX_": 189,
+      "$_XNOR_": 73,
+      "$_XOR_": 97,
+      "$_SDFFE_PP0P_": 164,
+      "$_SDFF_PP0_": 30
+    }
+  },
+  {
+    "configuration": "w8_n8_tc_bitmap_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n8_tc_bitmap_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT4": 118,
+      "LUT6": 48,
+      "LUT3": 53,
+      "LUT2": 43,
+      "LUT5": 70,
+      "CARRY4": 31,
+      "BUFG": 1,
+      "FDRE": 194
+    }
+  },
+  {
+    "configuration": "w8_n8_sm_bitmap_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n8_sm_bitmap_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_ANDNOT_": 76,
+      "$_NOR_": 47,
+      "$_AND_": 166,
+      "$_OR_": 147,
+      "$_NAND_": 354,
+      "$_XNOR_": 142,
+      "$_ORNOT_": 77,
+      "$_XOR_": 109,
+      "$_NOT_": 14,
+      "$_MUX_": 202,
+      "$_SDFF_PP0_": 30,
+      "$_SDFFE_PP0P_": 172
+    }
+  },
+  {
+    "configuration": "w8_n8_sm_bitmap_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n8_sm_bitmap_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT5": 67,
+      "LUT2": 43,
+      "LUT3": 95,
+      "LUT6": 111,
+      "LUT4": 115,
+      "INV": 112,
+      "CARRY4": 66,
+      "BUFG": 1,
+      "FDRE": 202
+    }
+  },
+  {
+    "configuration": "w8_n8_tc_counter_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n8_tc_counter_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 19,
+      "$_XNOR_": 70,
+      "$_AND_": 227,
+      "$_NAND_": 382,
+      "$_MUX_": 144,
+      "$_ORNOT_": 43,
+      "$_ANDNOT_": 19,
+      "$_OR_": 50,
+      "$_XOR_": 90,
+      "$_NOR_": 36,
+      "$_SDFFE_PP0P_": 159,
+      "$_SDFF_PP0_": 33
+    }
+  },
+  {
+    "configuration": "w8_n8_tc_counter_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n8_tc_counter_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT4": 122,
+      "LUT2": 46,
+      "LUT3": 56,
+      "LUT5": 62,
+      "LUT6": 46,
+      "INV": 1,
+      "CARRY4": 33,
+      "BUFG": 1,
+      "FDRE": 192
+    }
+  },
+  {
+    "configuration": "w8_n8_sm_counter_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n8_sm_counter_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_NOT_": 15,
+      "$_XNOR_": 139,
+      "$_AND_": 206,
+      "$_MUX_": 159,
+      "$_ORNOT_": 93,
+      "$_NAND_": 415,
+      "$_ANDNOT_": 59,
+      "$_OR_": 146,
+      "$_XOR_": 119,
+      "$_NOR_": 40,
+      "$_SDFFE_PP0P_": 167,
+      "$_SDFF_PP0_": 33
+    }
+  },
+  {
+    "configuration": "w8_n8_sm_counter_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n8_sm_counter_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT5": 50,
+      "LUT4": 127,
+      "LUT2": 47,
+      "LUT3": 108,
+      "LUT6": 105,
+      "INV": 113,
+      "CARRY4": 68,
+      "BUFG": 1,
+      "FDRE": 200
+    }
+  },
+  {
+    "configuration": "w8_n8_booth_bitmap_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n8_booth_bitmap_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_ANDNOT_": 78,
+      "$_NOR_": 59,
+      "$_AND_": 346,
+      "$_NAND_": 714,
+      "$_OR_": 108,
+      "$_MUX_": 126,
+      "$_NOT_": 9,
+      "$_ORNOT_": 42,
+      "$_XNOR_": 92,
+      "$_XOR_": 165,
+      "$_SDFFE_PP0P_": 184,
+      "$_SDFF_PP0_": 30
+    }
+  },
+  {
+    "configuration": "w8_n8_booth_bitmap_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n8_booth_bitmap_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT5": 229,
+      "LUT3": 58,
+      "LUT6": 64,
+      "LUT2": 74,
+      "LUT4": 132,
+      "MUXF7": 4,
+      "LUT1": 1,
+      "INV": 60,
+      "CARRY4": 38,
+      "BUFG": 1,
+      "FDRE": 214
+    }
+  },
+  {
+    "configuration": "w8_n8_booth_counter_generic",
+    "passed": true,
+    "commands": "read_json build/w8_n8_booth_counter_generic_read.json\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "$_XNOR_": 106,
+      "$_AND_": 356,
+      "$_ANDNOT_": 59,
+      "$_NOR_": 61,
+      "$_NAND_": 735,
+      "$_OR_": 49,
+      "$_MUX_": 97,
+      "$_ORNOT_": 44,
+      "$_NOT_": 9,
+      "$_XOR_": 163,
+      "$_SDFFE_PP0P_": 184,
+      "$_SDFF_PP0_": 30
+    }
+  },
+  {
+    "configuration": "w8_n8_booth_counter_xcup_nodsp",
+    "passed": true,
+    "commands": "read_json build/w8_n8_booth_counter_xcup_nodsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT4": 114,
+      "LUT6": 79,
+      "LUT5": 241,
+      "LUT2": 55,
+      "LUT3": 53,
+      "INV": 64,
+      "CARRY4": 50,
+      "BUFG": 1,
+      "FDRE": 214
+    }
+  },
+  {
+    "configuration": "w8_n4_parallel_xcup_dsp",
+    "passed": true,
+    "commands": "read_json build/w8_n4_parallel_xcup_dsp_read.json\nread_verilog -lib -overwrite +/xilinx/cells_sim.v +/xilinx/cells_xtra.v\nhierarchy -top dot_engine\ncheck -assert\nstat\n",
+    "printed_cell_types": {
+      "LUT5": 15,
+      "LUT4": 8,
+      "LUT3": 10,
+      "LUT2": 14,
+      "LUT6": 10,
+      "BUFG": 1,
+      "FDRE": 28,
+      "CARRY4": 5,
+      "DSP48E2": 4
+    }
+  }
+]

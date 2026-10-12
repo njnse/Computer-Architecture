@@ -13,7 +13,9 @@ Reproducible experimental projects with implementations, correctness tests, raw 
 | [Pair-constrained sparse dot product](pair-constrained-sparse-dot/README.md) | SystemVerilog RTL; 150 simulations, 85 synthesis configurations, and quantized public-workload replay | Restricted patterns reduce accuracy; 4-bit LUT savings reverse when index validation is removed |
 | [Zero-plane quantized dot products](zero-plane-quantized-dot/README.md) | Signed RTL; 768 RTL/netlist runs, 30 synthesis configurations, six bounded numerical checks and public-input replay | Internal zero-plane skipping gains 6.80% equal-clock throughput over counter span on 8-bit digits; DSP-enabled parallel remains faster |
 | [Weight-qualified bit-plane dot products](weight-qualified-bitplane-dot/README.md) | Signed RTL; 484 RTL/netlist runs, 33 synthesis/readback configurations and six bounded checks | Zero-weight qualification improves W8/N4 sparse bitmap throughput by 14.47% at equal clock; N8 throughput per LUT regresses despite fewer cycles |
+| [Exact signed-digit dot-product recoding](signed-digit-dot-recoding/README.md) | Signed RTL, newly trained Tanh/ReLU MLPs; 726 RTL/netlist runs, 45 synthesis/readback flows and eight bounded checks | W8/N4 Tanh magnitude gains 10.88% equal-clock throughput vs TC but loses 6.37% throughput/LUT; radix-4 Booth remains faster |
 
 Each report distinguishes model findings from simulation or hardware evidence. Thesis and conference directions are research objectives, not claims of completed publication-level validation.
+
 
 

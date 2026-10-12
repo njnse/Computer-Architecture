@@ -1,0 +1,32 @@
+[
+  {
+    "mutation": "sm_sign_plane",
+    "detected": true,
+    "diagnostic": "FATAL: tb/check.sv:61: score mismatch ordinal 0 got -65536 expected 65536 tag 0\n       Time: 85  Scope: check\n",
+    "returncode": 1
+  },
+  {
+    "mutation": "sm_narrow_weight",
+    "detected": true,
+    "diagnostic": "FATAL: tb/check.sv:61: score mismatch ordinal 0 got -65536 expected 65536 tag 0\n       Time: 85  Scope: check\n",
+    "returncode": 1
+  },
+  {
+    "mutation": "stalled_overwrite",
+    "detected": true,
+    "diagnostic": "FATAL: tb/check.sv:56: stalled output changed at 6\n       Time: 65  Scope: check\n",
+    "returncode": 1
+  },
+  {
+    "mutation": "booth_double_digit",
+    "detected": true,
+    "diagnostic": "FATAL: tb/check.sv:61: score mismatch ordinal 2 got 252 expected 508 tag 2\n       Time: 245  Scope: check\n",
+    "returncode": 1
+  },
+  {
+    "mutation": "booth_top_extension",
+    "detected": true,
+    "diagnostic": "FATAL: tb/check.sv:61: score mismatch ordinal 0 got -32 expected 32 tag 0\n       Time: 85  Scope: check\n",
+    "returncode": 1
+  }
+]

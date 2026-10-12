@@ -1,0 +1,74 @@
+[
+  {
+    "variant": "parallel",
+    "passed": true,
+    "width": 3,
+    "lanes": 2,
+    "steps": 12,
+    "commands": "read_verilog -formal -sv rtl/dot_engine.sv formal/numeric.sv\nchparam -set MODE 0 -set MAGNITUDE 0 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "Bounded arbitrary inputs, tags, reset and sink readiness; zero-initialized state; no unbounded or full-parameter proof"
+  },
+  {
+    "variant": "tc_fixed",
+    "passed": true,
+    "width": 3,
+    "lanes": 2,
+    "steps": 12,
+    "commands": "read_verilog -formal -sv rtl/dot_engine.sv formal/numeric.sv\nchparam -set MODE 1 -set MAGNITUDE 0 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "Bounded arbitrary inputs, tags, reset and sink readiness; zero-initialized state; no unbounded or full-parameter proof"
+  },
+  {
+    "variant": "tc_bitmap",
+    "passed": true,
+    "width": 3,
+    "lanes": 2,
+    "steps": 12,
+    "commands": "read_verilog -formal -sv rtl/dot_engine.sv formal/numeric.sv\nchparam -set MODE 3 -set MAGNITUDE 0 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "Bounded arbitrary inputs, tags, reset and sink readiness; zero-initialized state; no unbounded or full-parameter proof"
+  },
+  {
+    "variant": "tc_counter",
+    "passed": true,
+    "width": 3,
+    "lanes": 2,
+    "steps": 12,
+    "commands": "read_verilog -formal -sv rtl/counter_engine.sv formal/numeric.sv\nchparam -set MODE 5 -set MAGNITUDE 0 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "Bounded arbitrary inputs, tags, reset and sink readiness; zero-initialized state; no unbounded or full-parameter proof"
+  },
+  {
+    "variant": "sm_bitmap",
+    "passed": true,
+    "width": 3,
+    "lanes": 2,
+    "steps": 12,
+    "commands": "read_verilog -formal -sv rtl/dot_engine.sv formal/numeric.sv\nchparam -set MODE 3 -set MAGNITUDE 1 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "Bounded arbitrary inputs, tags, reset and sink readiness; zero-initialized state; no unbounded or full-parameter proof"
+  },
+  {
+    "variant": "sm_counter",
+    "passed": true,
+    "width": 3,
+    "lanes": 2,
+    "steps": 12,
+    "commands": "read_verilog -formal -sv rtl/counter_engine.sv formal/numeric.sv\nchparam -set MODE 5 -set MAGNITUDE 1 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "Bounded arbitrary inputs, tags, reset and sink readiness; zero-initialized state; no unbounded or full-parameter proof"
+  },
+  {
+    "variant": "booth_bitmap",
+    "passed": true,
+    "width": 3,
+    "lanes": 2,
+    "steps": 12,
+    "commands": "read_verilog -formal -sv rtl/booth_engine.sv formal/numeric.sv\nchparam -set MODE 3 -set MAGNITUDE 0 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "Bounded arbitrary inputs, tags, reset and sink readiness; zero-initialized state; no unbounded or full-parameter proof"
+  },
+  {
+    "variant": "booth_counter",
+    "passed": true,
+    "width": 3,
+    "lanes": 2,
+    "steps": 12,
+    "commands": "read_verilog -formal -sv rtl/booth_engine.sv formal/numeric.sv\nchparam -set MODE 5 -set MAGNITUDE 0 proof\nprep -top proof -flatten\nasync2sync\nchformal -lower\ndffunmap\nsat -seq 12 -set-init-zero -prove-asserts -verify\n",
+    "scope": "Bounded arbitrary inputs, tags, reset and sink readiness; zero-initialized state; no unbounded or full-parameter proof"
+  }
+]

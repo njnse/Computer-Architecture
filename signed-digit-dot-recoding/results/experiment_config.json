@@ -1,0 +1,64 @@
+{
+  "primary": {
+    "width": 8,
+    "lanes": 4,
+    "activation": "tanh",
+    "model_seeds": [
+      7,
+      31,
+      97
+    ]
+  },
+  "public_cases": [
+    [
+      8,
+      4
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      8,
+      8
+    ]
+  ],
+  "activation_controls": [
+    "tanh",
+    "relu"
+  ],
+  "synthetic": {
+    "magnitude_limits": [
+      3,
+      31,
+      127
+    ],
+    "negative_sign_probability": [
+      0,
+      0.5,
+      1
+    ],
+    "zero_weight_probability": [
+      0,
+      0.5
+    ],
+    "stimulus_seeds": [
+      7,
+      31,
+      97
+    ],
+    "groups": 256
+  },
+  "seed_roles": {
+    "simulation_seed_field": "SV readiness-driver seed; distinct from workload/model generation",
+    "default_driver_seed": 7,
+    "stress_stimulus_and_driver": 4242,
+    "odd_width_stimulus": 313,
+    "startup_drain_stimulus": 2718,
+    "generic_netlist_stimulus_and_driver": 97,
+    "gradient_test": 119,
+    "image_bootstrap": 991
+  },
+  "confidence": "Paired image bootstrap, 4000 resamples, all three checkpoints fixed",
+  "all_mapped_bram_cells": 0
+}

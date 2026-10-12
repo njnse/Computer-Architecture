@@ -1,0 +1,20 @@
+{
+  "rtl/dot_engine.sv": "e0ac989d0dd25dc37c7e914b323d33868482de2d1e9c1de45afb7113a2070b8c",
+  "rtl/counter_engine.sv": "15114c6542c28e268529fd5d82f4d163d77b11a0738a400b060eb5ff9a5ee3cc",
+  "rtl/booth_engine.sv": "60d1bbe436fd0a7103015afbc3fb5f8a97c12c2253f81ea42f09205f887df12e",
+  "tb/check.sv": "d628cfd6612bf1e772782c7930ee3f621bde96988a62c8a43c93cc8490ab51d0",
+  "reference.py": "39143b14326946783231cb16d5d766977c18243659483e87dbf9d29fcd0a91ef",
+  "reproduce.py": "6138231ddcb134520edc3f2f6b85b63a91ea1cf1926fd0eeecdf526323a8dfcb",
+  "train_models.py": "42891b66863ced6bf53d7c64048fa7fda97bedefcaf2c0c6ddfa40e3e68b0a3b",
+  "formal/numeric.sv": "8aa39fc78742fe693a502af6da7d57358cb6cef0d410335660c9b5b4bd34484e",
+  "fixtures/provenance.json": "34fb86181369f2dd1ebd27ceceddfbd211b7f137eda7ab21eb23afe1f044d7dc",
+  "SPEC.md": "7d07ae813412fef1917b9c2880ee21daf9532de52018e9c5e8211f14e595ea32",
+  "analyze.py": "863ed162e8309a1f1a13b980ced957bbd0e6509037c6c087022b0188a89b0d52",
+  "verify_results.py": "8c1f84a4eb268f5160a6f54abb803f7f6ce4ba5c6a4fb6eefdd21ff703dfae30",
+  "preflight.py": "8b769bf1d6100ba7f578a941ba4c6a4ae733779e16f86e3b4c48b39b668aa20e",
+  "run_project.py": "ff22faa48d13421791ef7064433158119900b3f7fabf45acce494fc49c8f056b",
+  "write_report.py": "6e8e15b894685413501018f04b3d09c165eb88b21f5a895d2806ad7e4cbf7b02",
+  "requirements.txt": "a30a5d8d44da6b0a9235fb5dc88c976f97e2f15ecdbd46c74ca5111caa89796b",
+  "tools/requirements.txt": "eb86ec1260d94bd12de2e4d11384890d83b1a55cbca792000b9859f7a278641a",
+  "tools/setup.py": "56bc40421a1a76676f364329d6eea130ac616e0577e03e6a2a8e7d709314f867"
+}

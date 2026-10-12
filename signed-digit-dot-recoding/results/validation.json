@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "rtl_and_netlist_runs": 726,
+  "python_tests": 11,
+  "formal_checks": 8,
+  "detected_mutations": 5,
+  "retained_and_readback_netlists": 45,
+  "generic_netlist_replays": 22,
+  "raw_public_blocks": 28800,
+  "per_image_records": 51840,
+  "trained_checkpoints": 6,
+  "training_epochs_per_checkpoint": 120,
+  "validation_selection_audited": true,
+  "bit_exact_all_public_variants": true,
+  "relu_tc_sm_identical_service_cycles": true,
+  "scope": "Actual signed/relu MLP traces, RTL and logical synthesis; no UVM, physical timing, GPU training or board execution"
+}

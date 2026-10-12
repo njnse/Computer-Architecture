@@ -1,0 +1,6 @@
+{
+  "pilot_models_sha256": "86c3fb6b76d11a4cdef71870c336d487a97925c865c13b26276f3ddb2e640ce8",
+  "scope": "One planned deterministic retraining check; repeated same-seed training is not an independent model sample.",
+  "regenerated_models_sha256": "86c3fb6b76d11a4cdef71870c336d487a97925c865c13b26276f3ddb2e640ce8",
+  "equal": true
+}
